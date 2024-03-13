@@ -43,8 +43,8 @@
             "nullable": true
         },
         {
-            "metadata": {},
-            "name": "caseStage",
+            "metadata":{},
+            "name": "CaseStage",
             "type": "string",
             "nullable": true
         },
