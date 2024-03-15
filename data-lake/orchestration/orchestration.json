@@ -1275,7 +1275,7 @@
       "Source_Filename_Format": "AIEDocumentData.csv",
       "Source_Filename_Start": "AIEDocumentData",
       "Expected_Within_Weekdays": 1,
-      "Standardised_Path": "",
+      "Standardised_Path": "AIEDocumentData",
       "Standardised_Table_Name": "aie_document_data",
       "Standardised_Table_Definition": "standardised_table_definitions/AIEDocumentData.json"
     }
