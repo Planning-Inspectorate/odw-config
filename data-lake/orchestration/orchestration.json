@@ -1245,7 +1245,7 @@
       "Standardised_Path": "NSIP",
       "Standardised_Table_Name": "nsip_s51_advice",
       "Standardised_Table_Definition": "standardised_table_definitions/NSIP/nsip_s51_advice.json",
-      "Harmonised_Table_Nmae": "casework_nsip_advice_dim",
+      "Harmonised_Table_Name": "casework_nsip_advice_dim",
       "Harmonised_Incremental_Key": "NSIPAdviceID",
       "Entity_Primary_Key": "AdviceNodeID",
       "Std_To_Hrm_Mapping": {
