@@ -1254,6 +1254,7 @@
         "CaseReference": "casereference",
         "AdviceReference": "advicereference",
         "AdviceStatus": "status",
+        "RedactionStatus": "redactionstatus",
         "Section51Advice": "Yes",
         "Enquirer": "from",
         "EnquirerOrganisation": "agent",
