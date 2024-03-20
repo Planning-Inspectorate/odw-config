@@ -84,6 +84,12 @@
       "name": "message_type",
       "type": "string",
       "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "message_enqueued_time_utc",
+      "type": "string",
+      "nullable": true
     }
   ]
 }
