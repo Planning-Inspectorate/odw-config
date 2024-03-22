@@ -38,6 +38,12 @@
         },
         {
             "metadata": {},
+            "name": "RedactionStatus",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
             "name": "Section51Advice",
             "type": "string",
             "nullable": true

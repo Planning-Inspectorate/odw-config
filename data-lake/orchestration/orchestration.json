@@ -1222,7 +1222,21 @@
       "Expected_Within_Weekdays": 1,
       "Standardised_Path": "NSIP",
       "Standardised_Table_Name": "nsip_exam_timetable",
-      "Standardised_Table_Definition": "standardised_table_definitions/NSIP/nsip_exam_timetable.json"
+      "Standardised_Table_Definition": "standardised_table_definitions/NSIP/nsip_exam_timetable.json",
+      "Harmonised_Table_Name": "casework_nsip_examination_timetable_dim",
+      "Harmonised_Incremental_Key": "NSIPExaminationTimetableID",
+      "Entity_Primary_Key": "ID",
+      "Std_To_Hrm_Mapping": {
+        "ID": "eventid",
+        "CaseReference": "casereference",
+        "TypeOfExamination": "typeofexamination",
+        "Name": "name",
+        "Description": "description",
+        "DeadlineStartDateTime": "deadlinestartdatetime",
+        "Date": "date",
+        "Location": "location",
+        "EventLineItems": "eventlineitems"
+      }
     },
     {
       "Source_ID": 112,
@@ -1247,13 +1261,14 @@
       "Standardised_Table_Definition": "standardised_table_definitions/NSIP/nsip_s51_advice.json",
       "Harmonised_Table_Name": "casework_nsip_advice_dim",
       "Harmonised_Incremental_Key": "NSIPAdviceID",
-      "Entity_Primary_Key": "AdviceNodeID",
+      "Entity_Primary_Key": "CaseNodeID",
       "Std_To_Hrm_Mapping": {
         "AdviceNodeID": "caseid",
         "AdviceTitle": "title",
         "CaseReference": "casereference",
         "AdviceReference": "advicereference",
         "AdviceStatus": "status",
+        "RedactionStatus": "redactionstatus",
         "Section51Advice": "Yes",
         "Enquirer": "from",
         "EnquirerOrganisation": "agent",
