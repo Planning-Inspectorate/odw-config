@@ -1321,6 +1321,54 @@
       "Standardised_Path": "AIEDocumentData",
       "Standardised_Table_Name": "aie_document_data",
       "Standardised_Table_Definition": "standardised_table_definitions/AIEDocumentData.json"
+    },
+    {
+      "Source_ID": 117,
+      "Source_Folder": "ServiceBus",
+      "Source_Frequency_Folder": "folder",
+      "Source_Filename_Format": "folder.csv",
+      "Source_Filename_Start": "folder",
+      "Expected_Within_Weekdays": 1,
+      "Standardised_Path": "NSIP",
+      "Standardised_Table_Name": "folder",
+      "Standardised_Table_Definition": "standardised_table_definitions/Horizon/DocumentMetaData.json",
+      "Harmonised_Table_Name": "folder",
+      "Harmonised_Incremental_Key": "HorizonFolderID",
+      "Entity_Primary_Key": "ID",
+      "Std_To_Hrm_Mapping": {
+        "ID": "id",
+        "CaseReference": "caseReference",
+        "DisplayNameEnglish": "displayNameEnglish",
+        "DisplayNameWelsh": "displayNameWelsh",
+        "ParentFolderID": "parentFolderId",
+        "CaseStage": "caseStage"
+      }
+    },
+    {
+      "Source_ID": 118,
+      "Source_Folder": "ServiceBus",
+      "Source_Frequency_Folder": "nsip-project-update",
+      "Source_Filename_Format": "nsip-project-update.csv",
+      "Source_Filename_Start": "nsip-project-update",
+      "Expected_Within_Weekdays": 1,
+      "Standardised_Path": "",
+      "Standardised_Table_Name": "nsip_project_update",
+      "Harmonised_Table_Name": "nsip_project_update",
+      "Harmonised_Incremental_Key": "NSIPProjectUpdateID",
+      "Entity_Primary_Key": "id"
+    },
+    {
+      "Source_ID": 119,
+      "Source_Folder": "ServiceBus",
+      "Source_Frequency_Folder": "nsip-subscription",
+      "Source_Filename_Format": "nsip-subscription.csv",
+      "Source_Filename_Start": "nsip-subscription",
+      "Expected_Within_Weekdays": 1,
+      "Standardised_Path": "",
+      "Standardised_Table_Name": "nsip_subscription",
+      "Harmonised_Table_Name": "nsip_subscription",
+      "Harmonised_Incremental_Key": "NSIPSubscriptionID",
+      "Entity_Primary_Key": "subscriptionId"
     }
   ]
 }
