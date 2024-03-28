@@ -1369,6 +1369,19 @@
       "Harmonised_Table_Name": "nsip_subscription",
       "Harmonised_Incremental_Key": "NSIPSubscriptionID",
       "Entity_Primary_Key": "subscriptionId"
+    },
+    {
+      "Source_ID": 120,
+      "Source_Folder": "ServiceBus",
+      "Source_Frequency_Folder": "nsip-document",
+      "Source_Filename_Format": "nsip-document.csv",
+      "Source_Filename_Start": "nsip-document",
+      "Expected_Within_Weekdays": 1,
+      "Standardised_Path": "",
+      "Standardised_Table_Name": "nsip_document",
+      "Harmonised_Table_Name": "nsip_document",
+      "Harmonised_Incremental_Key": "NSIPDocumentID",
+      "Entity_Primary_Key": "documentId"
     }
   ]
 }
