@@ -1230,9 +1230,9 @@
         "ID": "eventid",
         "TypeOfExamination": "type",
         "CaseReference": "casereference",
-        "Name": "eventTitle",
+        "Name": "eventtitle",
         "Description": "description",
-        "DeadlineStartDateTime": "eventDeadlineStartDate",
+        "DeadlineStartDateTime": "eventdeadlinestartdate",
         "Date": "date",
         "EventLineItems": "eventlineitems"
       }

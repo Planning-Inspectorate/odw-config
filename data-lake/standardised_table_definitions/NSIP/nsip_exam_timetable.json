@@ -24,6 +24,12 @@
       "type": "string",
       "nullable": true
     },
+    {
+      "metadata": {},
+      "name": "eventdeadlinestartdate",
+      "type": "string",
+      "nullable": true
+    },
     { "metadata": {}, "name": "date", "type": "string", "nullable": true },
     {
       "metadata": {},
