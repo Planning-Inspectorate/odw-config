@@ -1228,13 +1228,12 @@
       "Entity_Primary_Key": "ID",
       "Std_To_Hrm_Mapping": {
         "ID": "eventid",
+        "TypeOfExamination": "type",
         "CaseReference": "casereference",
-        "TypeOfExamination": "typeofexamination",
-        "Name": "name",
+        "Name": "eventTitle",
         "Description": "description",
-        "DeadlineStartDateTime": "deadlinestartdatetime",
+        "DeadlineStartDateTime": "eventDeadlineStartDate",
         "Date": "date",
-        "Location": "location",
         "EventLineItems": "eventlineitems"
       }
     },
