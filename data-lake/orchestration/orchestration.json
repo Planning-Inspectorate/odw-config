@@ -1211,7 +1211,6 @@
         "Northing": "northing",
         "Transboundary": "transboundary",
         "WelshLanguage": "welshlanguage",
-        "ExASize": null,
         "MapZoomLevel": "mapzoomlevel",
         "ProjectDescription": "projectdescription",
         "SoS": "secretaryOfState",
