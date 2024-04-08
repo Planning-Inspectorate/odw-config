@@ -1247,7 +1247,7 @@
         "ApplicantID": "applicantid",
         "OperationsLeadID": "operationsLeadId",
         "OperationsManagerID": "operationsManagerId",
-        "CaseManagerID": "EmployeeID",
+        "CaseManagerID": "caseManagerId",
         "NSIPOfficerID": "nsipofficerids",
         "NSIPAdministrationOfficerID": "nsipadministrationofficerids",
         "LeadInspectorID": "leadInspectorId",
