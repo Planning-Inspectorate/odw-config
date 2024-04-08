@@ -1259,6 +1259,8 @@
         "NotificationDateForPMAndEventsDirectlyFollowingPM": "notificationdateforpmandeventsdirectlyfollowingpm",
         "NotificationDateForEventsDeveloper": "notificationdateforeventsdeveloper",
         "Rule8LetterPublishDate": "rule8letterpublishdate",
+        "DateOfReOpenRelevantRepresentationStart": "dateOfReOpenRelevantRepresentationStart",
+        "DateOfReOpenRelevantRepresentationClose": "dateOfReOpenRelevantRepresentationClose",
         "IngestionDate": "expected_from"
       }
     },
