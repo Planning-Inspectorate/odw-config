@@ -470,6 +470,18 @@
     },
     {
       "metadata": {},
+      "name": "DateOfReOpenRelevantRepresentationStart",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "DateOfReOpenRelevantRepresentationClose",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
       "name": "Migrated",
       "type": "string",
       "nullable": false
