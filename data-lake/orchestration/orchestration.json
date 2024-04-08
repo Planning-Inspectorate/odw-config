@@ -1194,7 +1194,6 @@
       "Harmonised_Incremental_Key": "NSIPProjectInfoInternalID",
       "Entity_Primary_Key": "caseId",
       "Std_To_Hrm_Mapping": {
-        "CaseCreatedDate": "casecreateddate",
         "ProjectName": "projectname",
         "Decision": "decision",
         "ExamTimetablePublishStatus": "publishstatus",
