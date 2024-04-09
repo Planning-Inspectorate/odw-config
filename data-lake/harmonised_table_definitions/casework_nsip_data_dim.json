@@ -470,6 +470,36 @@
     },
     {
       "metadata": {},
+      "name": "OperationsLeadID",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "OperationsManagerID",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "CaseManagerID",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "LeadInspectorID",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "LegalOfficerID",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
       "name": "DateOfReOpenRelevantRepresentationStart",
       "type": "string",
       "nullable": true
