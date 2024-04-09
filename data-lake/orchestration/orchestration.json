@@ -1176,9 +1176,11 @@
       "Source_Filename_Format": "service-user.csv",
       "Source_Filename_Start": "service-user",
       "Expected_Within_Weekdays": 1,
-      "Standardised_Path": "Horizon",
+      "Standardised_Path": "",
       "Standardised_Table_Name": "service_user",
-      "Standardised_Table_Definition": "standardised_table_definitions/Horizon/ServiceUser.json"
+      "Harmonised_Table_Name": "service_user",
+      "Harmonised_Incremental_Key": "ServiceUserID",
+      "Entity_Primary_Key": "id"
     },
     {
       "Source_ID": 108,
