@@ -1194,7 +1194,7 @@
       "Standardised_Table_Definition": "standardised_table_definitions/NSIP/NSIPProject.json",
       "Harmonised_Table_Name": "casework_nsip_data_dim",
       "Harmonised_Incremental_Key": "NSIPProjectInfoInternalID",
-      "Entity_Primary_Key": "caseId",
+      "Entity_Primary_Key": "CaseID",
       "Std_To_Hrm_Mapping": {
         "CaseID":"caseid",
         "CaseReference":"casereference",
