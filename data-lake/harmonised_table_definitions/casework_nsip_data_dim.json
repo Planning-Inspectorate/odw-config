@@ -500,6 +500,12 @@
     },
     {
       "metadata": {},
+      "name": "EnvironmentalServicesOfficerId",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
       "name": "DateOfReOpenRelevantRepresentationStart",
       "type": "string",
       "nullable": true
