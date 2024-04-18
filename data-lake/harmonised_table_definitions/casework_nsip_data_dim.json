@@ -9,7 +9,7 @@
     {
       "metadata": {},
       "name": "CaseCreatedDate",
-      "type": "timestamp",
+      "type": "string",
       "nullable": true
     },
     {
@@ -153,19 +153,19 @@
     {
       "metadata": {},
       "name": "DateProjectAppearsOnWebsite",
-      "type": "timestamp",
+      "type": "string",
       "nullable": true
     },
     {
       "metadata": {},
       "name": "DateOfDCOAcceptance",
-      "type": "timestamp",
+      "type": "string",
       "nullable": true
     },
     {
       "metadata": {},
       "name": "AnticipatedDateOfSubmission",
-      "type": "timestamp",
+      "type": "string",
       "nullable": true
     },
     {
@@ -177,163 +177,163 @@
     {
       "metadata": {},
       "name": "DateOfDCOSubmission",
-      "type": "timestamp",
+      "type": "string",
       "nullable": true
     },
     {
       "metadata": {},
       "name": "DateOfRepresentationPeriodOpen",
-      "type": "timestamp",
+      "type": "string",
       "nullable": true
     },
     {
       "metadata": {},
       "name": "DateOfRelevantRepresentationClose",
-      "type": "timestamp",
+      "type": "string",
       "nullable": true
     },
     {
       "metadata": {},
       "name": "DateRRepAppearOnWebsite",
-      "type": "timestamp",
+      "type": "string",
       "nullable": true
     },
     {
       "metadata": {},
       "name": "DateIAPIDue",
-      "type": "timestamp",
+      "type": "string",
       "nullable": true
     },
     {
       "metadata": {},
       "name": "ConfirmedStartOfExamination",
-      "type": "timestamp",
+      "type": "string",
       "nullable": true
     },
     {
       "metadata": {},
       "name": "DateTimeExaminationEnds",
-      "type": "timestamp",
+      "type": "string",
       "nullable": true
     },
     {
       "metadata": {},
       "name": "Stage4ExtensionToExamCloseDate",
-      "type": "timestamp",
+      "type": "string",
       "nullable": true
     },
     {
       "metadata": {},
       "name": "Stage5ExtensionToRecommendationDeadline",
-      "type": "timestamp",
+      "type": "string",
       "nullable": true
     },
     {
       "metadata": {},
       "name": "DateOfRecommendations",
-      "type": "timestamp",
+      "type": "string",
       "nullable": true
     },
     {
       "metadata": {},
       "name": "ConfirmedDateOfDecision",
-      "type": "timestamp",
+      "type": "string",
       "nullable": true
     },
     {
       "metadata": {},
       "name": "Stage5ExtensionToDecisionDeadline",
-      "type": "timestamp",
+      "type": "string",
       "nullable": true
     },
     {
       "metadata": {},
       "name": "DateProjectWithdrawn",
-      "type": "timestamp",
+      "type": "string",
       "nullable": true
     },
     {
       "metadata": {},
       "name": "Section46Notification",
-      "type": "timestamp",
+      "type": "string",
       "nullable": true
     },
     {
       "metadata": {},
       "name": "DatePINSFirstNotifiedOfProject",
-      "type": "timestamp",
+      "type": "string",
       "nullable": true
     },
     {
       "metadata": {},
       "name": "ScreeningOpinionSought",
-      "type": "timestamp",
+      "type": "string",
       "nullable": true
     },
     {
       "metadata": {},
       "name": "ScreeningOpinionIssued",
-      "type": "timestamp",
+      "type": "string",
       "nullable": true
     },
     {
       "metadata": {},
       "name": "ScopingOpinionSought",
-      "type": "timestamp",
+      "type": "string",
       "nullable": true
     },
     {
       "metadata": {},
       "name": "ScopingOpinionIssued",
-      "type": "timestamp",
+      "type": "string",
       "nullable": true
     },
     {
       "metadata": {},
       "name": "DeadlineForAcceptanceDecision",
-      "type": "timestamp",
+      "type": "string",
       "nullable": true
     },
     {
       "metadata": {},
       "name": "DateSection58NoticeReceived",
-      "type": "timestamp",
+      "type": "string",
       "nullable": true
     },
     {
       "metadata": {},
       "name": "PreliminaryMeetingStartDate",
-      "type": "timestamp",
+      "type": "string",
       "nullable": true
     },
     {
       "metadata": {},
       "name": "DeadlineForCloseOfExamination",
-      "type": "timestamp",
+      "type": "string",
       "nullable": true
     },
     {
       "metadata": {},
       "name": "DeadlineForSubmissionOfRecommendation",
-      "type": "timestamp",
+      "type": "string",
       "nullable": true
     },
     {
       "metadata": {},
       "name": "DeadlineForDecision",
-      "type": "timestamp",
+      "type": "string",
       "nullable": true
     },
     {
       "metadata": {},
       "name": "JRPeriodEndDate",
-      "type": "timestamp",
+      "type": "string",
       "nullable": true
     },
     {
       "metadata": {},
       "name": "ExtensionToDateRelevantRepresentationsClose",
-      "type": "timestamp",
+      "type": "string",
       "nullable": true
     },
     {
@@ -543,7 +543,7 @@
     {
       "metadata": {},
       "name": "ValidTo",
-      "type": "timestamp",
+      "type": "string",
       "nullable": true
     },
     {
