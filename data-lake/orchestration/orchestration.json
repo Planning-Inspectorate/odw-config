@@ -1406,7 +1406,7 @@
       "Expected_Within_Weekdays": 1,
       "Standardised_Path": "NSIP",
       "Standardised_Table_Name": "folder",
-      "Standardised_Table_Definition": "standardised_table_definitions/Horizon/DocumentMetaData.json",
+      "Standardised_Table_Definition": "standardised_table_definitions/Horizon/Folder.json",
       "Harmonised_Table_Name": "folder",
       "Harmonised_Incremental_Key": "HorizonFolderID",
       "Entity_Primary_Key": "ID",
