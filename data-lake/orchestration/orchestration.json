@@ -1409,15 +1409,7 @@
       "Standardised_Table_Definition": "standardised_table_definitions/Horizon/Folder.json",
       "Harmonised_Table_Name": "folder",
       "Harmonised_Incremental_Key": "HorizonFolderID",
-      "Entity_Primary_Key": "ID",
-      "Std_To_Hrm_Mapping": {
-        "ID": "id",
-        "CaseReference": "caseReference",
-        "DisplayNameEnglish": "displayNameEnglish",
-        "DisplayNameWelsh": "displayNameWelsh",
-        "ParentFolderID": "parentFolderId",
-        "CaseStage": "caseStage"
-      }
+      "Entity_Primary_Key": "ID"
     },
     {
       "Source_ID": 118,
