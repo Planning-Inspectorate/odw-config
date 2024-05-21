@@ -1310,7 +1310,8 @@
         "Description": "description",
         "DeadlineStartDateTime": "eventdeadlinestartdate",
         "Date": "date",
-        "EventLineItems": "eventlineitems"
+        "EventLineItems": "eventlineitems",
+        "Published": "published"
       }
     },
     {

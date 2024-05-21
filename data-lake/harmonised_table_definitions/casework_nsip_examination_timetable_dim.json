@@ -61,6 +61,12 @@
             "nullable": true
         },
         {
+            "metadata": {},
+            "name": "Published",
+            "type": "string",
+            "nullable": true
+        },
+        {
           "metadata": {},
           "name": "Migrated",
           "type": "string",
