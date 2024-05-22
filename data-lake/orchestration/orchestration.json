@@ -1463,6 +1463,15 @@
       "Harmonised_Table_Name": "nsip_representation",
       "Harmonised_Incremental_Key": "NSIPRepresentaionID",
       "Entity_Primary_Key": "representationId"
+    },
+    {
+      "Source_ID": 122,
+      "Source_Folder": "ServiceBus",
+      "Source_Frequency_Folder": "appeal-document",
+      "Standardised_Table_Name": "appeal_document",
+      "Harmonised_Table_Name": "appeal_document",
+      "Harmonised_Incremental_Key": "appealDocumentId",
+      "Entity_Primary_Key": "documentId"
     }
   ]
 }
