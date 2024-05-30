@@ -1476,6 +1476,28 @@
       "Harmonised_Table_Name": "appeal_document",
       "Harmonised_Incremental_Key": "appealDocumentId",
       "Entity_Primary_Key": "documentId"
+    },
+    {
+      "Source_ID": 123,
+      "Source_Folder": "Horizon",
+      "Source_Frequency_Folder": "",
+      "Source_Filename_Format": "HorizonAppealsDocumentMetadata.csv",
+      "Source_Filename_Start": "HorizonAppealsDocumentMetadata",
+      "Expected_Within_Weekdays": 1,
+      "Standardised_Path": "Horizon",
+      "Standardised_Table_Name": "horizon_appeals_document_metadata",
+      "Standardised_Table_Definition": "standardised_table_definitions/Horizon/HorizonAppealsDocumentMetadata.json"
+    },
+    {
+      "Source_ID": 124,
+      "Source_Folder": "Horizon",
+      "Source_Frequency_Folder": "",
+      "Source_Filename_Format": "HorizonAppealsFolder.csv",
+      "Source_Filename_Start": "HorizonAppealsFolder",
+      "Expected_Within_Weekdays": 1,
+      "Standardised_Path": "Horizon",
+      "Standardised_Table_Name": "horizon_appeals_folder",
+      "Standardised_Table_Definition": "standardised_table_definitions/Horizon/HorizonAppealsFolder.json"
     }
   ]
 }
