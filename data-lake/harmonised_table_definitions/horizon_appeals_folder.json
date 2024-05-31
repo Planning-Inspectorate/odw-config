@@ -1,0 +1,52 @@
+{
+    "fields": [
+        {
+            "metadata": {},
+            "name": "HorizonAppealFolderId",
+            "type": "string",
+            "nullable": false
+        },
+        {
+            "metadata": {},
+            "name": "id",
+            "type": "string",
+            "nullable": false
+        },
+        {
+            "metadata": {},
+            "name": "CaseReference",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "DisplayNameEnglish",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "DisplayNameWelsh",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "ParentFolderID",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "CaseNodeId",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "CaseStage",
+            "type": "string",
+            "nullable": true
+        }
+    ]
+}
