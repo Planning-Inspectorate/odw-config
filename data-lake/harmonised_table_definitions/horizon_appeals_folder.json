@@ -8,7 +8,7 @@
         },
         {
             "metadata": {},
-            "name": "id",
+            "name": "Id",
             "type": "string",
             "nullable": false
         },
