@@ -1504,6 +1504,20 @@
       "Harmonised_Table_Name": "horizon_appeals_folder",
       "Harmonised_Incremental_Key": "HorizonAppealFolderId",
       "Entity_Primary_Key": "Id"
+    },
+    {
+      "Source_ID": 125,
+      "Source_Folder": "Horizon",
+      "Source_Frequency_Folder": "",
+      "Source_Filename_Format": "HorizonAppealsEvent.csv",
+      "Source_Filename_Start": "HorizonAppealsEvent",
+      "Expected_Within_Weekdays": 1,
+      "Standardised_Path": "Horizon",
+      "Standardised_Table_Name": "horizon_appeals_event",
+      "Standardised_Table_Definition": "standardised_table_definitions/Horizon/HorizonAppealsEvent.json",
+      "Harmonised_Table_Name": "horizon_appeals_event",
+      "Harmonised_Incremental_Key": "HorizonAppealEventId",
+      "Entity_Primary_Key": "Id"
     }
   ]
 }
