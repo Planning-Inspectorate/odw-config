@@ -1,0 +1,132 @@
+{
+    "fields": [
+        {
+            "metadata": {},
+            "name": "ingested_datetime",
+            "type": "timestamp",
+            "nullable": false
+        },
+        {
+            "metadata": {},
+            "name": "expected_from",
+            "type": "timestamp",
+            "nullable": false
+        },
+        {
+            "metadata": {},
+            "name": "expected_to",
+            "type": "timestamp",
+            "nullable": false
+        },
+        {
+            "metadata": {},
+            "name": "id",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "caseNumber",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "caseReference",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "eventType",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "eventName",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "eventStatus",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "IsUrgent",
+            "type": "boolean",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "eventPublished",
+            "type": "boolean",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "eventStartDateTime",
+            "type": "timestamp",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "eventEndDateTime",
+            "type": "timestamp",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "notificationOfSiteVisit",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "dateEventRequested",
+            "type": "timestamp",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "actualDuration",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "AddressLine1",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "AddressLine2",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "AddressTown",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "AddressCounty",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "AddressPostcode",
+            "type": "string",
+            "nullable": true
+        }
+        
+
+    ]
+}
