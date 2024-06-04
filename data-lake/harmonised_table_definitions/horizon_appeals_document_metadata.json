@@ -200,6 +200,18 @@
         },
         {
             "metadata":{},
+            "name": "Migrated",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata":{},
+            "name": "ODTSourceSystem",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata":{},
             "name": "SourceSystemID",
             "type": "string",
             "nullable": true
