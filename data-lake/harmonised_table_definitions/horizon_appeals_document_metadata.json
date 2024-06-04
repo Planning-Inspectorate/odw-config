@@ -1,0 +1,244 @@
+{
+    "fields": [
+        {
+            "metadata": {},
+            "name": "AppealsDocumentMetadataID",
+            "type": "string",
+            "nullable": false
+        },
+        {
+            "metadata": {},
+            "name": "documentId",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "caseId",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "caseReference",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "casenumber",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "caseType",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "caseworktypegroup",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "caseworktypeabbreviation",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "version",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "virusCheckStatus",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "redactedStatus",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "filename",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "versionfilename",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "documentType",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "description",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "size",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "incomingoutgoingexternal",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "dateCreated",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "lastModified",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "datePublished",
+            "type": "timestamp",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "publishedstatus",
+            "type": "timestamp",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "sourceSystem",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "horizonFolderId",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "originalFilename",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "mime",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "documentURI",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "publishedDocumentURI",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "fileMD5",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "dateReceived",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "origin",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "owner",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "author",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "caseStage",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata":{},
+            "name": "Migrated",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata":{},
+            "name": "ODTSourceSystem",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata":{},
+            "name": "SourceSystemID",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata":{},
+            "name": "IngestionDate",
+            "type": "timestamp",
+            "nullable": true
+        },
+        {
+            "metadata":{},
+            "name": "ValidTo",
+            "type": "timestamp",
+            "nullable": true
+        },
+        {
+            "metadata":{},
+            "name": "RowID",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata":{},
+            "name": "IsActive",
+            "type": "string",
+            "nullable": true
+        }
+    ]
+}
