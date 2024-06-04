@@ -1501,7 +1501,7 @@
       "Standardised_Path": "Horizon",
       "Standardised_Table_Name": "horizon_appeals_folder",
       "Standardised_Table_Definition": "standardised_table_definitions/Horizon/HorizonAppealsFolder.json",
-      "Harmonised_Table_Name": "horizon_appeals_folder",
+      "Harmonised_Table_Name": "appeals_folder",
       "Harmonised_Incremental_Key": "HorizonAppealFolderId",
       "Entity_Primary_Key": "Id"
     },
