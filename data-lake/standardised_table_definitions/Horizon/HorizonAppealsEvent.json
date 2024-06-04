@@ -28,19 +28,19 @@
             "metadata": {},
             "name": "caseNumber",
             "type": "string",
-            "nullable": false
+            "nullable": true
         },
         {
             "metadata": {},
             "name": "caseReference",
             "type": "string",
-            "nullable": false
+            "nullable": true
         },
         {
             "metadata": {},
             "name": "eventType",
             "type": "string",
-            "nullable": false
+            "nullable": true
         },
         {
             "metadata": {},
@@ -52,13 +52,13 @@
             "metadata": {},
             "name": "eventStatus",
             "type": "string",
-            "nullable": false
+            "nullable": true
         },
         {
             "metadata": {},
             "name": "IsUrgent",
             "type": "boolean",
-            "nullable": false
+            "nullable": true
         },
         {
             "metadata": {},
@@ -81,7 +81,7 @@
         {
             "metadata": {},
             "name": "notificationOfSiteVisit",
-            "type": "timestamp",
+            "type": "string",
             "nullable": true
         },
         {
