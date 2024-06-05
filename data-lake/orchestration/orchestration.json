@@ -1474,7 +1474,7 @@
       "Standardised_Path": "",
       "Standardised_Table_Name": "appeal_document",
       "Harmonised_Table_Name": "appeal_document",
-      "Harmonised_Incremental_Key": "appealDocumentId",
+      "Harmonised_Incremental_Key": "AppealsDocumentMetadataID",
       "Entity_Primary_Key": "documentId"
     },
     {
