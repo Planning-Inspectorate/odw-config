@@ -1527,7 +1527,7 @@
       "Source_Filename_Start": "appeal-has",
       "Expected_Within_Weekdays": 1,
       "Standardised_Path": "",
-      "Standardised_Table_Name": "appeal-has",
+      "Standardised_Table_Name": "appeals_has",
       "Harmonised_Table_Name": "appeals_has",
       "Harmonised_Incremental_Key": "AppealsHasID",
       "Entity_Primary_Key": "caseId"
