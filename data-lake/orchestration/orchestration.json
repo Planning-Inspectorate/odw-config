@@ -1473,7 +1473,7 @@
       "Expected_Within_Weekdays": 1,
       "Standardised_Path": "",
       "Standardised_Table_Name": "appeal_document",
-      "Harmonised_Table_Name": "appeal_document",
+      "Harmonised_Table_Name": "appeals_document_metadata",
       "Harmonised_Incremental_Key": "AppealsDocumentMetadataID",
       "Entity_Primary_Key": "documentId"
     },
