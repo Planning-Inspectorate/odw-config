@@ -1527,9 +1527,9 @@
       "Source_Filename_Start": "appeal-event",
       "Expected_Within_Weekdays": 1,
       "Standardised_Path": "",
-      "Standardised_Table_Name": "appeal_event",
-      "Harmonised_Table_Name": "appeal_event",
-      "Harmonised_Incremental_Key": "eventId",
+      "Standardised_Table_Name": "appeals_event",
+      "Harmonised_Table_Name": "appeals_event",
+      "Harmonised_Incremental_Key": "AppealsEventId",
       "Entity_Primary_Key": "eventId"
     }
   ]
