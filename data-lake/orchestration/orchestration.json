@@ -1522,6 +1522,19 @@
     {
       "Source_ID": 126,
       "Source_Folder": "ServiceBus",
+      "Source_Frequency_Folder": "appeal-event",
+      "Source_Filename_Format": "appeal-event.csv",
+      "Source_Filename_Start": "appeal-event",
+      "Expected_Within_Weekdays": 1,
+      "Standardised_Path": "",
+      "Standardised_Table_Name": "appeals_event",
+      "Harmonised_Table_Name": "appeals_event",
+      "Harmonised_Incremental_Key": "AppealsEventId",
+      "Entity_Primary_Key": "eventId"
+      },
+    {
+      "Source_ID": 127,
+      "Source_Folder": "ServiceBus",
       "Source_Frequency_Folder": "appeal-has",
       "Source_Filename_Format": "appeal-has.csv",
       "Source_Filename_Start": "appeal-has",
