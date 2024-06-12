@@ -1472,7 +1472,7 @@
       "Source_Filename_Start": "appeal-document",
       "Expected_Within_Weekdays": 1,
       "Standardised_Path": "",
-      "Standardised_Table_Name": "appeal_document",
+      "Standardised_Table_Name": "sb_appeal_document",
       "Harmonised_Table_Name": "appeals_document_metadata",
       "Harmonised_Incremental_Key": "AppealsDocumentMetadataID",
       "Entity_Primary_Key": "documentId"
@@ -1527,8 +1527,8 @@
       "Source_Filename_Start": "appeal-event",
       "Expected_Within_Weekdays": 1,
       "Standardised_Path": "",
-      "Standardised_Table_Name": "appeals_event",
-      "Harmonised_Table_Name": "appeals_event",
+      "Standardised_Table_Name": "sb_appeal_event",
+      "Harmonised_Table_Name": "sb_appeal_event",
       "Harmonised_Incremental_Key": "AppealsEventId",
       "Entity_Primary_Key": "eventId"
       },
@@ -1540,8 +1540,8 @@
       "Source_Filename_Start": "appeal-has",
       "Expected_Within_Weekdays": 1,
       "Standardised_Path": "",
-      "Standardised_Table_Name": "appeals_has",
-      "Harmonised_Table_Name": "appeals_has",
+      "Standardised_Table_Name": "sb_appeal_has",
+      "Harmonised_Table_Name": "sb_appeal_has",
       "Harmonised_Incremental_Key": "AppealsHasID",
       "Entity_Primary_Key": "caseId"
     }
