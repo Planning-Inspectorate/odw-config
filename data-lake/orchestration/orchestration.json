@@ -1543,7 +1543,7 @@
       "Standardised_Table_Name": "sb_appeal_has",
       "Harmonised_Table_Name": "sb_appeal_has",
       "Harmonised_Incremental_Key": "AppealsHasID",
-      "Entity_Primary_Key": "caseId"
+      "Entity_Primary_Key": "caseReference"
     }
   ]
 }
