@@ -1190,9 +1190,9 @@
       "Source_Filename_Start": "nsip-project",
       "Expected_Within_Weekdays": 1,
       "Standardised_Path": "NSIP",
-      "Standardised_Table_Name": "nsip_project",
+      "Standardised_Table_Name": "sb_nsip_project",
       "Standardised_Table_Definition": "standardised_table_definitions/NSIP/NSIPProject.json",
-      "Harmonised_Table_Name": "casework_nsip_data_dim",
+      "Harmonised_Table_Name": "sb_nsip_project",
       "Harmonised_Incremental_Key": "NSIPProjectInfoInternalID",
       "Entity_Primary_Key": "CaseID",
       "Std_To_Hrm_Mapping": {
