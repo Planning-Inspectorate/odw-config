@@ -2,6 +2,42 @@
     "fields": [
         {
             "metadata": {},
+            "name": "EmployeeEntraId",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "employeeId",
+            "type": "string",
+            "nullable": false
+        },
+        {
+            "metadata": {},
+            "name": "givenName",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "id",
+            "type": "string",
+            "nullable": false
+        },
+        {
+            "metadata": {},
+            "name": "surname",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "userPrincipalName",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
             "name": "Migrated",
             "type": "string",
             "nullable": false
@@ -39,36 +75,6 @@
         {
             "metadata": {},
             "name": "IsActive",
-            "type": "string",
-            "nullable": true
-        },
-        {
-            "metadata": {},
-            "name": "employeeId",
-            "type": "string",
-            "nullable": false
-        },
-        {
-            "metadata": {},
-            "name": "givenName",
-            "type": "string",
-            "nullable": true
-        },
-        {
-            "metadata": {},
-            "name": "id",
-            "type": "string",
-            "nullable": false
-        },
-        {
-            "metadata": {},
-            "name": "surname",
-            "type": "string",
-            "nullable": true
-        },
-        {
-            "metadata": {},
-            "name": "userPrincipalName",
             "type": "string",
             "nullable": true
         }
