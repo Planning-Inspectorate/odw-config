@@ -1554,7 +1554,7 @@
       "Expected_Within_Weekdays": 1,
       "Standardised_Path": "entraid",
       "Standardised_Table_Name": "entraid",
-      "Standardised_Table_Definition": "standardised_table_definitions/EntraID/users.json",
+      "Standardised_Table_Definition": "standardised_table_definitions/EntraID/entraid_users.json",
       "Harmonised_Table_Name": "entraid",
       "Harmonised_Incremental_Key": "EmployeeEntraId",
       "Entity_Primary_Key": "Id"
