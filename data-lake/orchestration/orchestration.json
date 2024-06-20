@@ -1544,6 +1544,20 @@
       "Harmonised_Table_Name": "sb_appeal_has",
       "Harmonised_Incremental_Key": "AppealsHasID",
       "Entity_Primary_Key": "caseReference"
+    },
+    {
+      "Source_ID": 128,
+      "Source_Folder": "entraid",
+      "Source_Frequency_Folder": "",
+      "Source_Filename_Format": "users.json",
+      "Source_Filename_Start": "users",
+      "Expected_Within_Weekdays": 1,
+      "Standardised_Path": "entraid",
+      "Standardised_Table_Name": "entraid",
+      "Standardised_Table_Definition": "standardised_table_definitions/EntraID/entraid_users.json",
+      "Harmonised_Table_Name": "entraid",
+      "Harmonised_Incremental_Key": "EmployeeEntraId",
+      "Entity_Primary_Key": "Id"
     }
   ]
 }
