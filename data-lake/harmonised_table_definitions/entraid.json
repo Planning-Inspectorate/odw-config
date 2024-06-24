@@ -4,25 +4,25 @@
             "metadata": {},
             "name": "EmployeeEntraId",
             "type": "string",
+            "nullable": false
+        },
+        {
+            "metadata": {},
+            "name": "id",
+            "type": "string",
             "nullable": true
         },
         {
             "metadata": {},
             "name": "employeeId",
             "type": "string",
-            "nullable": false
+            "nullable": true
         },
         {
             "metadata": {},
             "name": "givenName",
             "type": "string",
             "nullable": true
-        },
-        {
-            "metadata": {},
-            "name": "id",
-            "type": "string",
-            "nullable": false
         },
         {
             "metadata": {},
@@ -33,12 +33,6 @@
         {
             "metadata": {},
             "name": "userPrincipalName",
-            "type": "string",
-            "nullable": true
-        },
-        {
-            "metadata": {},
-            "name": "Published",
             "type": "string",
             "nullable": true
         },
