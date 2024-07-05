@@ -1,0 +1,52 @@
+{
+    "fields": [
+        {
+            "metadata": {},
+            "name": "ingested_datetime",
+            "type": "timestamp",
+            "nullable": false
+        },
+        {
+            "metadata": {},
+            "name": "expected_from",
+            "type": "timestamp",
+            "nullable": false
+        },
+        {
+            "metadata": {},
+            "name": "expected_to",
+            "type": "timestamp",
+            "nullable": false
+        },
+        {
+            "metadata": {},
+            "name": "employeeId",
+            "type": "string",
+            "nullable": false
+        },
+        {
+            "metadata": {},
+            "name": "givenName",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "id",
+            "type": "string",
+            "nullable": false
+        },
+        {
+            "metadata": {},
+            "name": "surname",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "userPrincipalName",
+            "type": "string",
+            "nullable": true
+        }
+    ]
+}
