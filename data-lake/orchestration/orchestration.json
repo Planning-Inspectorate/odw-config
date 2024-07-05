@@ -1487,6 +1487,76 @@
       "Harmonised_Table_Name": "entraid",
       "Harmonised_Incremental_Key": "EmployeeEntraId",
       "Entity_Primary_Key": "Id"
+    },
+    {
+      "Source_ID": 129,
+      "Source_Folder": "Horizon",
+      "Source_Frequency_Folder": "",
+      "Source_Filename_Format": "S62AViewCases.csv",
+      "Source_Filename_Start": "S62AViewCases",
+      "Expected_Within_Weekdays": 1,
+      "Standardised_Path": "Horizon",
+      "Standardised_Table_Name": "horizon_s62a_view_cases",
+      "Standardised_Table_Definition": "standardised_table_definitions/Horizon/HorizonS62AViewCases.json",
+      "Harmonised_Table_Name": "s62a_view_cases_dim",
+      "Harmonised_Incremental_Key": "S62AViewCasesId",
+      "Entity_Primary_Key": "CaseReference"
+    },
+    {
+      "Source_ID": 130,
+      "Source_Folder": "Horizon",
+      "Source_Frequency_Folder": "",
+      "Source_Filename_Format": "S62AViewCaseBasicData.csv",
+      "Source_Filename_Start": "S62AViewCasesBasicData",
+      "Expected_Within_Weekdays": 1,
+      "Standardised_Path": "Horizon",
+      "Standardised_Table_Name": "horizon_s62a_view_case_basic_data",
+      "Standardised_Table_Definition": "standardised_table_definitions/Horizon/HorizonS62AViewCaseBasicData.json",
+      "Harmonised_Table_Name": "s62a_view_case_basic_data_dim",
+      "Harmonised_Incremental_Key": "S62AViewCaseBasicDataId",
+      "Entity_Primary_Key": "CaseDataId"
+    },
+    {
+      "Source_ID": 131,
+      "Source_Folder": "Horizon",
+      "Source_Frequency_Folder": "",
+      "Source_Filename_Format": "S62AViewCaseExtendedData.csv",
+      "Source_Filename_Start": "S62AViewCaseExtendedData",
+      "Expected_Within_Weekdays": 1,
+      "Standardised_Path": "Horizon",
+      "Standardised_Table_Name": "horizon_s62a_view_case_extended_data",
+      "Standardised_Table_Definition": "standardised_table_definitions/Horizon/HorizonS62AViewCaseExtendedData.json",
+      "Harmonised_Table_Name": "s62a_view_case_extended_data_dim",
+      "Harmonised_Incremental_Key": "S62AViewCaseExtendedDataId",
+      "Entity_Primary_Key": "CaseDataId"
+    },
+    {
+      "Source_ID": 132,
+      "Source_Folder": "Horizon",
+      "Source_Frequency_Folder": "",
+      "Source_Filename_Format": "S62AViewCaseDates.csv",
+      "Source_Filename_Start": "S62AViewCaseDates",
+      "Expected_Within_Weekdays": 1,
+      "Standardised_Path": "Horizon",
+      "Standardised_Table_Name": "horizon_s62a_view_case_dates",
+      "Standardised_Table_Definition": "standardised_table_definitions/Horizon/HorizonS62AViewCaseDates.json",
+      "Harmonised_Table_Name": "s62a_view_case_dates_dim",
+      "Harmonised_Incremental_Key": "S62AViewCaseDatesId",
+      "Entity_Primary_Key": "CaseDataId"
+    },
+    {
+      "Source_ID": 133,
+      "Source_Folder": "Horizon",
+      "Source_Frequency_Folder": "",
+      "Source_Filename_Format": "S62AViewCaseOfficers.csv",
+      "Source_Filename_Start": "S62AViewCaseOfficers",
+      "Expected_Within_Weekdays": 1,
+      "Standardised_Path": "Horizon",
+      "Standardised_Table_Name": "horizon_s62a_view_case_officers",
+      "Standardised_Table_Definition": "standardised_table_definitions/Horizon/HorizonS62AViewCaseOfficers.json",
+      "Harmonised_Table_Name": "s62a_view_case_officers_dim",
+      "Harmonised_Incremental_Key": "S62AViewCaseOfficersId",
+      "Entity_Primary_Key": "CaseDataId"
     }
   ]
 }
