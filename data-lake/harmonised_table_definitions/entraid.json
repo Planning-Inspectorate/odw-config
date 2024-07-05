@@ -1,0 +1,82 @@
+{
+    "fields": [
+        {
+            "metadata": {},
+            "name": "EmployeeEntraId",
+            "type": "string",
+            "nullable": false
+        },
+        {
+            "metadata": {},
+            "name": "id",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "employeeId",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "givenName",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "surname",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "userPrincipalName",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "Migrated",
+            "type": "string",
+            "nullable": false
+        },
+        {
+            "metadata": {},
+            "name": "ODTSourceSystem",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "SourceSystemID",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "IngestionDate",
+            "type": "timestamp",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "ValidTo",
+            "type": "timestamp",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "RowID",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "IsActive",
+            "type": "string",
+            "nullable": true
+        }
+    ]
+}
