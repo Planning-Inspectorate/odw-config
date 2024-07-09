@@ -1,0 +1,70 @@
+{
+    "fields": [
+        {
+            "metadata": {},
+            "name": "ingested_datetime",
+            "type": "timestamp",
+            "nullable": false
+        },
+        {
+            "metadata": {},
+            "name": "expected_from",
+            "type": "timestamp",
+            "nullable": false
+        },
+        {
+            "metadata": {},
+            "name": "expected_to",
+            "type": "timestamp",
+            "nullable": false
+        },
+        {
+            "metadata": {},
+            "name": "CaseDataID",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "Description",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "LPA",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "PermissionSought",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "ApplicationType",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "ApplicationValidated",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "ProcedureType",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "Status",
+            "type": "string",
+            "nullable": true
+        }
+    ]
+}

@@ -1,0 +1,70 @@
+{
+    "fields": [
+        {
+            "metadata": {},
+            "name": "ingested_datetime",
+            "type": "timestamp",
+            "nullable": false
+        },
+        {
+            "metadata": {},
+            "name": "expected_from",
+            "type": "timestamp",
+            "nullable": false
+        },
+        {
+            "metadata": {},
+            "name": "expected_to",
+            "type": "timestamp",
+            "nullable": false
+        },
+        {
+            "metadata": {},
+            "name": "CaseDataID",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "DateReceived",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "DateValid",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "ConsultationStartDate",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "ConsultationEndDate",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "TargetDecisionDate",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "DecisionDate",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "DecisionType",
+            "type": "string",
+            "nullable": true
+        }
+    ]
+}
