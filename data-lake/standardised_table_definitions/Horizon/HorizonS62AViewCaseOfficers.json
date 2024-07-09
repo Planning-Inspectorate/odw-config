@@ -1,0 +1,64 @@
+{
+    "fields": [
+        {
+            "metadata": {},
+            "name": "ingested_datetime",
+            "type": "timestamp",
+            "nullable": false
+        },
+        {
+            "metadata": {},
+            "name": "expected_from",
+            "type": "timestamp",
+            "nullable": false
+        },
+        {
+            "metadata": {},
+            "name": "expected_to",
+            "type": "timestamp",
+            "nullable": false
+        },
+        {
+            "metadata": {},
+            "name": "CaseDataID",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "CaseLeader",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "CaseAdministrator",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "LegalOfficer",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "EIAOfficer",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "CaseOfficer",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "AppointedPerson",
+            "type": "string",
+            "nullable": true
+        }
+    ]
+}
