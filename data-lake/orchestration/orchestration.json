@@ -1507,7 +1507,7 @@
       "Source_Folder": "Horizon",
       "Source_Frequency_Folder": "",
       "Source_Filename_Format": "S62AViewCaseBasicData.csv",
-      "Source_Filename_Start": "S62AViewCasesBasicData",
+      "Source_Filename_Start": "S62AViewCaseBasicData",
       "Expected_Within_Weekdays": 1,
       "Standardised_Path": "Horizon",
       "Standardised_Table_Name": "horizon_s62a_view_case_basic_data",
