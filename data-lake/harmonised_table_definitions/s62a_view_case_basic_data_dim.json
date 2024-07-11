@@ -1,0 +1,100 @@
+{
+    "fields": [
+        {
+            "metadata": {},
+            "name": "S62AViewCaseBasicDataId",
+            "type": "string",
+            "nullable": false
+        },
+        {
+            "metadata": {},
+            "name": "CaseDataID",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "Description",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "LPA",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "PermissionSought",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "ApplicationType",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "ApplicationValidated",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "ProcedureType",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "Status",
+            "type": "string",
+            "nullable": true
+        },
+        {
+          "metadata": {},
+          "name": "Migrated",
+          "type": "string",
+          "nullable": false
+        },
+        {
+          "metadata": {},
+          "name": "ODTSourceSystem",
+          "type": "string",
+          "nullable": true
+        },
+        {
+            "metadata":{},
+            "name": "SourceSystemID",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata":{},
+            "name": "IngestionDate",
+            "type": "timestamp",
+            "nullable": true
+        },
+        {
+            "metadata":{},
+            "name": "ValidTo",
+            "type": "timestamp",
+            "nullable": true
+        },
+        {
+            "metadata":{},
+            "name": "RowID",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata":{},
+            "name": "IsActive",
+            "type": "string",
+            "nullable": true
+        }
+    ]
+}

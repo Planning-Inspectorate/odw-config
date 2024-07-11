@@ -1,0 +1,82 @@
+{
+    "fields": [
+        {
+            "metadata": {},
+            "name": "S62AViewCasesId",
+            "type": "string",
+            "nullable": false
+        },,
+        {
+            "metadata": {},
+            "name": "Name",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "CaseReference",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "CommentsDataID",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "CaseDataID",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "Description",
+            "type": "string",
+            "nullable": true
+        },
+        {
+          "metadata": {},
+          "name": "Migrated",
+          "type": "string",
+          "nullable": false
+        },
+        {
+          "metadata": {},
+          "name": "ODTSourceSystem",
+          "type": "string",
+          "nullable": true
+        },
+        {
+            "metadata":{},
+            "name": "SourceSystemID",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata":{},
+            "name": "IngestionDate",
+            "type": "timestamp",
+            "nullable": true
+        },
+        {
+            "metadata":{},
+            "name": "ValidTo",
+            "type": "timestamp",
+            "nullable": true
+        },
+        {
+            "metadata":{},
+            "name": "RowID",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata":{},
+            "name": "IsActive",
+            "type": "string",
+            "nullable": true
+        }
+    ]
+}

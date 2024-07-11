@@ -1,0 +1,94 @@
+{
+    "fields": [
+        {
+            "metadata": {},
+            "name": "S62AViewCaseExtendedDataId",
+            "type": "string",
+            "nullable": false
+        },
+        {
+            "metadata": {},
+            "name": "CaseDataID",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "ApplicantName",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "AgentName",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "AgentAddress",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "SiteAddress",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "SitePostcode",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "SiteGridReference",
+            "type": "string",
+            "nullable": true
+        },
+        {
+          "metadata": {},
+          "name": "Migrated",
+          "type": "string",
+          "nullable": false
+        },
+        {
+          "metadata": {},
+          "name": "ODTSourceSystem",
+          "type": "string",
+          "nullable": true
+        },
+        {
+            "metadata":{},
+            "name": "SourceSystemID",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata":{},
+            "name": "IngestionDate",
+            "type": "timestamp",
+            "nullable": true
+        },
+        {
+            "metadata":{},
+            "name": "ValidTo",
+            "type": "timestamp",
+            "nullable": true
+        },
+        {
+            "metadata":{},
+            "name": "RowID",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata":{},
+            "name": "IsActive",
+            "type": "string",
+            "nullable": true
+        }
+    ]
+}
