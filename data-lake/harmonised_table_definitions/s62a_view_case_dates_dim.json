@@ -1,0 +1,100 @@
+{
+    "fields": [
+        {
+            "metadata": {},
+            "name": "S62AViewCaseDatesId",
+            "type": "string",
+            "nullable": false
+        },
+        {
+            "metadata": {},
+            "name": "CaseDataID",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "DateReceived",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "DateValid",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "ConsultationStartDate",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "ConsultationEndDate",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "TargetDecisionDate",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "DecisionDate",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "DecisionType",
+            "type": "string",
+            "nullable": true
+        },
+        {
+          "metadata": {},
+          "name": "Migrated",
+          "type": "string",
+          "nullable": false
+        },
+        {
+          "metadata": {},
+          "name": "ODTSourceSystem",
+          "type": "string",
+          "nullable": true
+        },
+        {
+            "metadata":{},
+            "name": "SourceSystemID",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata":{},
+            "name": "IngestionDate",
+            "type": "timestamp",
+            "nullable": true
+        },
+        {
+            "metadata":{},
+            "name": "ValidTo",
+            "type": "timestamp",
+            "nullable": true
+        },
+        {
+            "metadata":{},
+            "name": "RowID",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata":{},
+            "name": "IsActive",
+            "type": "string",
+            "nullable": true
+        }
+    ]
+}
