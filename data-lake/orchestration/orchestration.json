@@ -1500,7 +1500,7 @@
       "Standardised_Table_Definition": "standardised_table_definitions/Horizon/HorizonS62AViewCases.json",
       "Harmonised_Table_Name": "s62a_view_cases_dim",
       "Harmonised_Incremental_Key": "S62AViewCasesId",
-      "Entity_Primary_Key": "CaseReference"
+      "Entity_Primary_Key": "CaseDataId"
     },
     {
       "Source_ID": 130,
