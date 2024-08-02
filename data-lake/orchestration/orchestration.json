@@ -1230,7 +1230,7 @@
       "Standardised_Table_Definition": "standardised_table_definitions/NSIP/nsip_exam_timetable.json",
       "Harmonised_Table_Name": "sb_nsip_exam_timetable",
       "Harmonised_Incremental_Key": "NSIPExaminationTimetableID",
-      "Entity_Primary_Key": "ID",
+      "Entity_Primary_Key": "message_id",
       "Std_To_Hrm_Mapping": {
         "ID": "eventid",
         "TypeOfExamination": "type",
