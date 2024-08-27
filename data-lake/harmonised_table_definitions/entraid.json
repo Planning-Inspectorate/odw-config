@@ -8,13 +8,13 @@
         },
         {
             "metadata": {},
-            "name": "id",
+            "name": "employeeId",
             "type": "string",
             "nullable": true
         },
         {
             "metadata": {},
-            "name": "employeeId",
+            "name": "id",
             "type": "string",
             "nullable": true
         },
