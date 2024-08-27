@@ -26,15 +26,15 @@
         },
         {
             "metadata": {},
-            "name": "givenName",
-            "type": "string",
-            "nullable": true
-        },
-        {
-            "metadata": {},
             "name": "id",
             "type": "string",
             "nullable": false
+        },
+        {
+            "metadata": {},
+            "name": "givenName",
+            "type": "string",
+            "nullable": true
         },
         {
             "metadata": {},
