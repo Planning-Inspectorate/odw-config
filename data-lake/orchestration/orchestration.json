@@ -1460,7 +1460,7 @@
       "Standardised_Table_Definition": "standardised_table_definitions/EntraID/entraid_users.json",
       "Harmonised_Table_Name": "entraid",
       "Harmonised_Incremental_Key": "EmployeeEntraId",
-      "Entity_Primary_Key": "Id"
+      "Entity_Primary_Key": "id"
     },
     {
       "Source_ID": 129,
