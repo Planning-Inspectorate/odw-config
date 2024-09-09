@@ -5,7 +5,7 @@
             "name": "S62AViewCasesId",
             "type": "string",
             "nullable": false
-        },,
+        },
         {
             "metadata": {},
             "name": "Name",
