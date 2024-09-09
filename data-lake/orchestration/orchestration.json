@@ -1257,13 +1257,12 @@
     {
       "Source_ID": 113,
       "Source_Folder": "ServiceBus",
-      "Source_Frequency_Folder": "nsip-s51-advice",
-      "Source_Filename_Format": "nsip-s51-advice.csv",
-      "Source_Filename_Start": "nsip-s51-advice",
+      "Source_Frequency_Folder": "s51-advice",
+      "Source_Filename_Format": "s51-advice.csv",
+      "Source_Filename_Start": "s51-advice",
       "Expected_Within_Weekdays": 1,
       "Standardised_Path": "NSIP",
       "Standardised_Table_Name": "sb_s51_advice",
-      "Standardised_Table_Definition": "standardised_table_definitions/NSIP/nsip_s51_advice.json",
       "Harmonised_Table_Name": "sb_s51_advice",
       "Harmonised_Incremental_Key": "NSIPAdviceID",
       "Entity_Primary_Key": "adviceId"
