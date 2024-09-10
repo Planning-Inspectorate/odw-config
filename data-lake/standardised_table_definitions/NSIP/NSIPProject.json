@@ -227,6 +227,12 @@
     },
     {
       "metadata": {},
+      "name": "projectDescriptionWelsh",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
       "name": "projectemailaddress",
       "type": "string",
       "nullable": true
@@ -239,7 +245,19 @@
     },
     {
       "metadata": {},
+      "name": "projectLocationWelsh",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
       "name": "projectname",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "projectNameWelsh",
       "type": "string",
       "nullable": true
     },
