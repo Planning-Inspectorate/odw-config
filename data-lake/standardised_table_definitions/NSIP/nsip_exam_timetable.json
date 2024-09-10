@@ -37,6 +37,12 @@
       "type": "string",
       "nullable": true
     },
+    {
+      "metadata": {},
+      "name": "descriptionWelsh",
+      "type": "string",
+      "nullable": true
+    },
     { "metadata": {}, "name": "eventid", "type": "string", "nullable": true },
     {
       "metadata": {},
@@ -47,6 +53,12 @@
     {
       "metadata": {},
       "name": "eventtitle",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "eventTitleWelsh",
       "type": "string",
       "nullable": true
     },
