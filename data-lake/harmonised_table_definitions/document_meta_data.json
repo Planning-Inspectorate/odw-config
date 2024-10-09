@@ -104,6 +104,12 @@
         },
         {
             "metadata": {},
+            "name": "AuthorWelsh",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
             "name": "Representative",
             "type": "string",
             "nullable": true
@@ -111,6 +117,12 @@
         {
             "metadata": {},
             "name": "DocumentDescription",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "DocumentDescriptionWelsh",
             "type": "string",
             "nullable": true
         },
@@ -126,6 +138,12 @@
             "type": "string",
             "nullable": true
         },
+        {
+            "metadata": {},
+            "name": "Filter1Welsh",
+            "type": "string",
+            "nullable": true
+        },        
         {
             "metadata": {},
             "name": "Filter2",
