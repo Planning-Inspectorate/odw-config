@@ -26,6 +26,12 @@
         },
         {
             "metadata":{},
+            "name": "MessageID",
+            "type": "string",
+            "nullable": false
+        },
+        {
+            "metadata":{},
             "name": "ValidTo",
             "type": "timestamp",
             "nullable": true
