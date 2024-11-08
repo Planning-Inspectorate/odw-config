@@ -1312,7 +1312,7 @@
       "Standardised_Table_Definition": "standardised_table_definitions/Horizon/Folder.json",
       "Harmonised_Table_Name": "sb_folder",
       "Harmonised_Incremental_Key": "HorizonFolderID",
-      "Entity_Primary_Key": "ID"
+      "Entity_Primary_Key": "id"
     },
     {
       "Source_ID": 118,

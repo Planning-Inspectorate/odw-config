@@ -26,9 +26,9 @@
         },
         {
             "metadata":{},
-            "name": "MessageID",
+            "name": "message_id",
             "type": "string",
-            "nullable": false
+            "nullable": true
         },
         {
             "metadata":{},
