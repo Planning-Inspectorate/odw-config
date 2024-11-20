@@ -1160,7 +1160,7 @@
     },
     {
       "Source_ID": 106,
-      "Source_Folder": "ListedBuildings_outline",
+      "Source_Folder": "ListedBuildings",
       "Source_Frequency_Folder": "",
       "Source_Filename_Format": "listed_building_outline.json",
       "Source_Filename_Start": "listed_building_outline",
