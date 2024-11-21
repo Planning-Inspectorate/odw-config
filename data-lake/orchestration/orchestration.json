@@ -1535,13 +1535,13 @@
       "Source_ID": 134,
       "Source_Folder": "ServiceBus",
       "Source_Frequency_Folder": "appeal-s78",
-      "Source_Filename_Format": "appeal-s78.csv",
+      "Source_Filename_Format": "",
       "Source_Filename_Start": "appeal-s78",
       "Expected_Within_Weekdays": 1,
       "Standardised_Path": "",
       "Standardised_Table_Name": "sb_appeal_s78",
       "Harmonised_Table_Name": "sb_appeal_s78",
-      "Harmonised_Incremental_Key": "Appeals78ID",
+      "Harmonised_Incremental_Key": "AppealS78ID",
       "Entity_Primary_Key": "caseId"
     }
   ]
