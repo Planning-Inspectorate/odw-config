@@ -1,0 +1,106 @@
+{
+    "fields": [
+        {
+            "metadata": {},
+            "name": "ingested_datetime",
+            "type": "timestamp",
+            "nullable": false
+        },
+        {
+            "metadata": {},
+            "name": "expected_from",
+            "type": "timestamp",
+            "nullable": false
+        },
+        {
+            "metadata": {},
+            "name": "expected_to",
+            "type": "timestamp",
+            "nullable": false
+        },
+        {
+            "metadata": {},
+            "name": "ID",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "lpaName",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "organisationType",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "pinsLpaCode",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "poBox",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "address1",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "address2",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "city",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "county",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "postcode",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "country",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "telephoneNumber",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "fax",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "emailAddress",
+            "type": "string",
+            "nullable": true
+        }
+    ]
+}
