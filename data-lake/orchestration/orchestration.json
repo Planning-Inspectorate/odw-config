@@ -1543,6 +1543,20 @@
       "Harmonised_Table_Name": "sb_appeal_s78",
       "Harmonised_Incremental_Key": "AppealS78ID",
       "Entity_Primary_Key": "caseReference"
+    },
+    {
+      "Source_ID": 135,
+      "Source_Folder": "Horizon",
+      "Source_Frequency_Folder": "",
+      "Source_Filename_Format": "DaRT_LPA.csv",
+      "Source_Filename_Start": "DaRT_LPA",
+      "Expected_Within_Weekdays": 1,
+      "Standardised_Path": "Horizon",
+      "Standardised_Table_Name": "pins_lpa",
+      "Standardised_Table_Definition": "standardised_table_definitions/Horizon/DaRT_LPA.json",
+      "Harmonised_Table_Name": "pins_lpa",
+      "Harmonised_Incremental_Key": "LPAId",
+      "Entity_Primary_Key": "ID"
     }
   ]
 }
