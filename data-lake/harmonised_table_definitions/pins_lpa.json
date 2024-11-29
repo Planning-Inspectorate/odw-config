@@ -8,12 +8,6 @@
         },
         {
             "metadata": {},
-            "name": "ID",
-            "type": "string",
-            "nullable": true
-        },
-        {
-            "metadata": {},
             "name": "lpaName",
             "type": "string",
             "nullable": true
