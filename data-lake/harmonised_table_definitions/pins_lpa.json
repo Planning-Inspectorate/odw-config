@@ -98,6 +98,12 @@
         },
         {
             "metadata": {},
+            "name": "SourceSystemID",
+            "type": "string",
+            "nullable": true
+        },        
+        {
+            "metadata": {},
             "name": "IngestionDate",
             "type": "timestamp",
             "nullable": true
