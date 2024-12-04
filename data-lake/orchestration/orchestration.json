@@ -1156,7 +1156,8 @@
       "Expected_Within_Weekdays": 1,
       "Standardised_Path": "ListedBuildings",
       "Standardised_Table_Name": "listed_building",
-      "Standardised_Table_Definition": "standardised_table_definitions/ListedBuildings/listed_building.json"
+      "Standardised_Table_Definition": "standardised_table_definitions/ListedBuildings/listed_building.json",
+      "Entity_Primary_Key": "entity"
     },
     {
       "Source_ID": 106,
@@ -1167,7 +1168,8 @@
       "Expected_Within_Weekdays": 1,
       "Standardised_Path": "ListedBuildings",
       "Standardised_Table_Name": "listed_building_outline",
-      "Standardised_Table_Definition": "standardised_table_definitions/ListedBuildings/listed_building_outline.json"
+      "Standardised_Table_Definition": "standardised_table_definitions/ListedBuildings/listed_building_outline.json",
+      "Entity_Primary_Key": "entity"
     },
     {
       "Source_ID": 107,
