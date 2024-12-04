@@ -2,30 +2,6 @@
     "fields": [
         {
             "metadata": {},
-            "name": "ingested_datetime",
-            "type": "timestamp",
-            "nullable": false
-        },
-        {
-            "metadata": {},
-            "name": "expected_from",
-            "type": "timestamp",
-            "nullable": false
-        },
-        {
-            "metadata": {},
-            "name": "expected_to",
-            "type": "timestamp",
-            "nullable": false
-        },
-        {
-            "metadata": {},
-            "name": "ID",
-            "type": "string",
-            "nullable": true
-        },
-        {
-            "metadata": {},
             "name": "lpaName",
             "type": "string",
             "nullable": true
@@ -101,6 +77,24 @@
             "name": "emailAddress",
             "type": "string",
             "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "ingested_datetime",
+            "type": "timestamp",
+            "nullable": false
+        },
+        {
+            "metadata": {},
+            "name": "expected_from",
+            "type": "timestamp",
+            "nullable": false
+        },
+        {
+            "metadata": {},
+            "name": "expected_to",
+            "type": "timestamp",
+            "nullable": false
         }
     ]
 }
