@@ -1,0 +1,124 @@
+{
+    "fields": [
+        {
+            "metadata": {},
+            "name": "LPAId",
+            "type": "string",
+            "nullable": false
+        },
+        {
+            "metadata": {},
+            "name": "lpaName",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "organisationType",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "pinsLpaCode",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "poBox",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "address1",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "address2",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "city",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "county",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "postcode",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "country",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "telephoneNumber",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "fax",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "emailAddress",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "Migrated",
+            "type": "string",
+            "nullable": false
+        },
+        {
+            "metadata": {},
+            "name": "ODTSourceSystem",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "IngestionDate",
+            "type": "timestamp",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "ValidTo",
+            "type": "timestamp",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "RowID",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "IsActive",
+            "type": "string",
+            "nullable": true
+        }
+    ]
+}
