@@ -8,6 +8,12 @@
         },
         {
             "metadata": {},
+            "name": "horizonId",
+            "type": "string",
+            "nullable": false
+        },
+        {
+            "metadata": {},
             "name": "firstName",
             "type": "string",
             "nullable": false
