@@ -1,0 +1,106 @@
+{
+    "fields": [
+        {
+            "metadata": {},
+            "name": "InspectorsId",
+            "type": "string",
+            "nullable": false
+        },
+        {
+            "metadata": {},
+            "name": "horizonId",
+            "type": "string",
+            "nullable": false
+        },
+        {
+            "metadata": {},
+            "name": "firstName",
+            "type": "string",
+            "nullable": false
+        },
+        {
+            "metadata": {},
+            "name": "lastName",
+            "type": "string",
+            "nullable": false
+        },
+        {
+            "metadata": {},
+            "name": "postName",
+            "type": "string",
+            "nullable": false
+        },
+        {
+            "metadata": {},
+            "name": "organisationName",
+            "type": "string",
+            "nullable": false
+        },
+        {
+            "metadata": {},
+            "name": "title",
+            "type": "string",
+            "nullable": false
+        },
+        {
+            "metadata": {},
+            "name": "salutation",
+            "type": "string",
+            "nullable": false
+        },
+        {
+            "metadata": {},
+            "name": "qualifications",
+            "type": "string",
+            "nullable": false
+        },
+        {
+            "metadata": {},
+            "name": "email",
+            "type": "string",
+            "nullable": false
+        },
+        {
+            "metadata": {},
+            "name": "Migrated",
+            "type": "string",
+            "nullable": false
+        },
+        {
+            "metadata": {},
+            "name": "ODTSourceSystem",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "SourceSystemID",
+            "type": "string",
+            "nullable": true
+        },           
+        {
+            "metadata": {},
+            "name": "IngestionDate",
+            "type": "timestamp",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "ValidTo",
+            "type": "timestamp",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "RowID",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
+            "name": "IsActive",
+            "type": "string",
+            "nullable": true
+        }
+    ]
+}
