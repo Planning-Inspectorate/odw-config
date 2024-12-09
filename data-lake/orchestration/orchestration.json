@@ -1557,6 +1557,20 @@
       "Harmonised_Table_Name": "pins_lpa",
       "Harmonised_Incremental_Key": "LPAId",
       "Entity_Primary_Key": "ID"
+    },
+    {
+      "Source_ID": 136,
+      "Source_Folder": "Horizon",
+      "Source_Frequency_Folder": "",
+      "Source_Filename_Format": "DaRT_Inspectors.csv",
+      "Source_Filename_Start": "DaRT_Inspectors",
+      "Expected_Within_Weekdays": 1,
+      "Standardised_Path": "Horizon",
+      "Standardised_Table_Name": "pins_inspectors",
+      "Standardised_Table_Definition": "standardised_table_definitions/Horizon/DaRT_Inspectors.json",
+      "Harmonised_Table_Name": "pins_inspectors",
+      "Harmonised_Incremental_Key": "InspectorsId",
+      "Entity_Primary_Key": "HorizonId"
     }
   ]
 }
