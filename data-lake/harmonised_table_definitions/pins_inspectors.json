@@ -2,87 +2,57 @@
     "fields": [
         {
             "metadata": {},
-            "name": "LPAId",
+            "name": "InspectorsId",
             "type": "string",
             "nullable": false
         },
         {
             "metadata": {},
-            "name": "lpaName",
+            "name": "firstName",
             "type": "string",
-            "nullable": true
+            "nullable": false
         },
         {
             "metadata": {},
-            "name": "organisationType",
+            "name": "lastName",
             "type": "string",
-            "nullable": true
+            "nullable": false
         },
         {
             "metadata": {},
-            "name": "pinsLpaCode",
+            "name": "postName",
             "type": "string",
-            "nullable": true
+            "nullable": false
         },
         {
             "metadata": {},
-            "name": "poBox",
+            "name": "organisationName",
             "type": "string",
-            "nullable": true
+            "nullable": false
         },
         {
             "metadata": {},
-            "name": "address1",
+            "name": "title",
             "type": "string",
-            "nullable": true
+            "nullable": false
         },
         {
             "metadata": {},
-            "name": "address2",
+            "name": "salutation",
             "type": "string",
-            "nullable": true
+            "nullable": false
         },
         {
             "metadata": {},
-            "name": "city",
+            "name": "qualifications",
             "type": "string",
-            "nullable": true
+            "nullable": false
         },
         {
             "metadata": {},
-            "name": "county",
+            "name": "email",
             "type": "string",
-            "nullable": true
-        },
-        {
-            "metadata": {},
-            "name": "postcode",
-            "type": "string",
-            "nullable": true
-        },
-        {
-            "metadata": {},
-            "name": "country",
-            "type": "string",
-            "nullable": true
-        },
-        {
-            "metadata": {},
-            "name": "telephoneNumber",
-            "type": "string",
-            "nullable": true
-        },
-        {
-            "metadata": {},
-            "name": "fax",
-            "type": "string",
-            "nullable": true
-        },
-        {
-            "metadata": {},
-            "name": "emailAddress",
-            "type": "string",
-            "nullable": true
+            "nullable": false
         },
         {
             "metadata": {},
