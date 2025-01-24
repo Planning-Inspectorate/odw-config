@@ -1573,7 +1573,7 @@
       "Harmonised_Table_Name": "pins_inspectors",
       "Harmonised_Incremental_Key": "InspectorsId",
       "Entity_Primary_Key": "HorizonId"
-    }
+    },
     {
       "Source_ID": 137,
       "Source_Folder": "ServiceBus",
