@@ -1,0 +1,76 @@
+{
+  "fields": [
+    {
+      "metadata": {},
+      "name": "ingested_datetime",
+      "type": "timestamp",
+      "nullable": false
+    },
+    {
+      "metadata": {},
+      "name": "expected_from",
+      "type": "timestamp",
+      "nullable": false
+    },
+    {
+      "metadata": {},
+      "name": "expected_to",
+      "type": "timestamp",
+      "nullable": false
+    },
+    {
+      "metadata": {},
+      "name": "horizonid",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "firstname",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "lastname",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "postname",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "organisationname",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "title",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "salutation",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "qualifications",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "email",
+      "type": "string",
+      "nullable": true
+    }
+  ]
+}
