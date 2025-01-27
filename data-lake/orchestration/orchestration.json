@@ -1573,6 +1573,19 @@
       "Harmonised_Table_Name": "pins_inspectors",
       "Harmonised_Incremental_Key": "InspectorsId",
       "Entity_Primary_Key": "HorizonId"
+    },
+    {
+      "Source_ID": 137,
+      "Source_Folder": "ServiceBus",
+      "Source_Frequency_Folder": "appeal-representation",
+      "Source_Filename_Format": "appeal-representation.csv",
+      "Source_Filename_Start": "appeal-representation",
+      "Expected_Within_Weekdays": 1,
+      "Standardised_Path": "",
+      "Standardised_Table_Name": "sb_appeal_representation",
+      "Harmonised_Table_Name": "sb_appeal_representation",
+      "Harmonised_Incremental_Key": "appealRepresentaionID",
+      "Entity_Primary_Key": "representationId"
     }
   ]
 }
