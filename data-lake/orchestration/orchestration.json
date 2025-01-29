@@ -1596,7 +1596,7 @@
       "Expected_Within_Weekdays": 1,
       "Standardised_Path": "Horizon",
       "Standardised_Table_Name": "HorizonCases_s78",
-      "Standardised_Table_Definition": "",
+      "Standardised_Table_Definition": "standardised_table_definitions/Horizon/HorizonCases_s78.json",
       "Harmonised_Table_Name": "HorizonCases_s78",
       "Harmonised_Incremental_Key": "AppealS78ID",
       "Entity_Primary_Key": "CaseReference"
@@ -1610,7 +1610,7 @@
       "Expected_Within_Weekdays": 1,
       "Standardised_Path": "Horizon",
       "Standardised_Table_Name": "cases_specialisms",
-      "Standardised_Table_Definition": "",
+      "Standardised_Table_Definition": "standardised_table_definitions/Horizon/cases_specialisms.json",
       "Harmonised_Table_Name": "cases_specialisms",
       "Harmonised_Incremental_Key": "AppealS78ID",
       "Entity_Primary_Key": "CaseReference"
@@ -1624,7 +1624,7 @@
       "Expected_Within_Weekdays": 1,
       "Standardised_Path": "Horizon",
       "Standardised_Table_Name": "vw_case_dates",
-      "Standardised_Table_Definition": "",
+      "Standardised_Table_Definition": "standardised_table_definitions/Horizon/vw_case_dates.json",
       "Harmonised_Table_Name": "vw_case_dates",
       "Harmonised_Incremental_Key": "AppealS78ID",
       "Entity_Primary_Key": "CaseNodeId"
@@ -1638,7 +1638,7 @@
       "Expected_Within_Weekdays": 1,
       "Standardised_Path": "Horizon",
       "Standardised_Table_Name": "CaseDocumentDatesDates",
-      "Standardised_Table_Definition": "",
+      "Standardised_Table_Definition": "standardised_table_definitions/Horizon/CaseDocumentDatesDates.json",
       "Harmonised_Table_Name": "CaseDocumentDatesDates",
       "Harmonised_Incremental_Key": "AppealS78ID",
       "Entity_Primary_Key": "CaseNodeId"
@@ -1652,7 +1652,7 @@
       "Expected_Within_Weekdays": 1,
       "Standardised_Path": "Horizon",
       "Standardised_Table_Name": "CaseSiteStrings",
-      "Standardised_Table_Definition": "",
+      "Standardised_Table_Definition": "standardised_table_definitions/Horizon/CaseSiteStrings.json",
       "Harmonised_Table_Name": "CaseSiteStrings",
       "Harmonised_Incremental_Key": "AppealS78ID",
       "Entity_Primary_Key": "CaseNodeId"
@@ -1666,7 +1666,7 @@
       "Expected_Within_Weekdays": 1,
       "Standardised_Path": "Horizon",
       "Standardised_Table_Name": "TypeOfProcedure",
-      "Standardised_Table_Definition": "",
+      "Standardised_Table_Definition": "standardised_table_definitions/Horizon/TypeOfProcedure.json",
       "Harmonised_Table_Name": "TypeOfProcedure",
       "Harmonised_Incremental_Key": "AppealS78ID",
       "Entity_Primary_Key": "Name"
@@ -1680,7 +1680,7 @@
       "Expected_Within_Weekdays": 1,
       "Standardised_Path": "Horizon",
       "Standardised_Table_Name": "Horizon_TypeOfReasonForCase",
-      "Standardised_Table_Definition": "",
+      "Standardised_Table_Definition": "standardised_table_definitions/Horizon/Horizon_TypeOfReasonForCase.json",
       "Harmonised_Table_Name": "Horizon_TypeOfReasonForCase",
       "Harmonised_Incremental_Key": "AppealS78ID",
       "Entity_Primary_Key": "ID"
@@ -1694,7 +1694,7 @@
       "Expected_Within_Weekdays": 1,
       "Standardised_Path": "Horizon",
       "Standardised_Table_Name": "vw_AddAdditionalData",
-      "Standardised_Table_Definition": "",
+      "Standardised_Table_Definition": "standardised_table_definitions/Horizon/vw_AddAdditionalData.json",
       "Harmonised_Table_Name": "vw_AddAdditionalData",
       "Harmonised_Incremental_Key": "AppealS78ID",
       "Entity_Primary_Key": "AppealRefNumber"
@@ -1708,7 +1708,7 @@
       "Expected_Within_Weekdays": 1,
       "Standardised_Path": "Horizon",
       "Standardised_Table_Name": "vw_AdditionalFields",
-      "Standardised_Table_Definition": "",
+      "Standardised_Table_Definition": "standardised_table_definitions/Horizon/vw_AdditionalFields.json",
       "Harmonised_Table_Name": "vw_AdditionalFields",
       "Harmonised_Incremental_Key": "AppealS78ID",
       "Entity_Primary_Key": "AppealRefNumber"

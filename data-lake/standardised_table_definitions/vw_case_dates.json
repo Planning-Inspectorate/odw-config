@@ -1,0 +1,172 @@
+{
+  "fields": [
+    {
+      "metadata": {},
+      "name": "ingested_datetime",
+      "type": "timestamp",
+      "nullable": false
+    },
+    {
+      "metadata": {},
+      "name": "expected_from",
+      "type": "timestamp",
+      "nullable": false
+    },
+    {
+      "metadata": {},
+      "name": "expected_to",
+      "type": "timestamp",
+      "nullable": false
+    },
+    {
+      "metadata": {},
+      "name": "casenodeid",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "receiptdate",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "startdate",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "appealdocscomplete",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "callindate",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "datereceivedfromcallinauthority",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "bespoketargetdate",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "daterecovered",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "datenotrecoveredorderecovered",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "decisionsubmitdate",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "noticewithdrawndate",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "appealwithdrawndate",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "casedecisiondate",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "appealturnedawaydate",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "appeallapseddate",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "casecloseddate",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "proceduredetermineddate",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "originalcasedecisiondate",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "planningguaranteedate",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "datedecisionreportreceivedinpins",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "datesenttoreader",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "datereturnedfromreader",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "datepublicationprocedurecompleted",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "datecostsreportdespatched",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "orderrejectedorreturned",
+      "type": "string",
+      "nullable": true
+    }
+  ]
+}

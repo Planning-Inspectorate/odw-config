@@ -1,0 +1,88 @@
+{
+  "fields": [
+    {
+      "metadata": {},
+      "name": "ingested_datetime",
+      "type": "timestamp",
+      "nullable": false
+    },
+    {
+      "metadata": {},
+      "name": "expected_from",
+      "type": "timestamp",
+      "nullable": false
+    },
+    {
+      "metadata": {},
+      "name": "expected_to",
+      "type": "timestamp",
+      "nullable": false
+    },
+    {
+      "metadata": {},
+      "name": "casenodeid",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "landuse",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "areaofsite",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "addressline1",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "addressline2",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "town",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "county",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "postcode",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "country",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "greenbelt",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "siteviewablefromroad",
+      "type": "string",
+      "nullable": true
+    }
+  ]
+}
