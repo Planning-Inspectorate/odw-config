@@ -1,0 +1,64 @@
+{
+  "fields": [
+    {
+      "metadata": {},
+      "name": "ingested_datetime",
+      "type": "timestamp",
+      "nullable": false
+    },
+    {
+      "metadata": {},
+      "name": "expected_from",
+      "type": "timestamp",
+      "nullable": false
+    },
+    {
+      "metadata": {},
+      "name": "expected_to",
+      "type": "timestamp",
+      "nullable": false
+    },
+    {
+      "metadata": {},
+      "name": "id",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "displayorder",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "name",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "casetype",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "location",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "startdate",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "enddate",
+      "type": "string",
+      "nullable": true
+    }
+  ]
+}

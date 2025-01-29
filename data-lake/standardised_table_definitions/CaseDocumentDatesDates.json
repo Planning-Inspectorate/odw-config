@@ -1,0 +1,184 @@
+{
+  "fields": [
+    {
+      "metadata": {},
+      "name": "ingested_datetime",
+      "type": "timestamp",
+      "nullable": false
+    },
+    {
+      "metadata": {},
+      "name": "expected_from",
+      "type": "timestamp",
+      "nullable": false
+    },
+    {
+      "metadata": {},
+      "name": "expected_to",
+      "type": "timestamp",
+      "nullable": false
+    },
+    {
+      "metadata": {},
+      "name": "casenodeid",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "appealrefnumber",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "questionnairedue",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "questionnairereceived",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "lpaconditionssubmitted",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "lpaconditionsforwarded",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "statementduedate",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "appellantstatementsubmitted",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "appellantstatementforwarded",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "lpastatementsubmitted",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "lpastatementforwarded",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "datenotificationlettersent",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "interestedpartyrepsduedate",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "interestedpartyrepsforwarded",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "finalcommentsdue",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "appellantcommentssubmitted",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "appellantcommentsforwarded",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "lpacommentssubmitted",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "lpacommentsforwarded",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "commongrounddue",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "commongroundreceived",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "sitenoticesent",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "proofsdue",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "appellantsproofssubmitted",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "appellantsproofsforwarded",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "lpaproofssubmitted",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "lpaproofsforwarded",
+      "type": "string",
+      "nullable": true
+    }
+  ]
+}

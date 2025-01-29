@@ -1,0 +1,82 @@
+{
+  "fields": [
+    {
+      "metadata": {},
+      "name": "ingested_datetime",
+      "type": "timestamp",
+      "nullable": false
+    },
+    {
+      "metadata": {},
+      "name": "expected_from",
+      "type": "timestamp",
+      "nullable": false
+    },
+    {
+      "metadata": {},
+      "name": "expected_to",
+      "type": "timestamp",
+      "nullable": false
+    },
+    {
+      "metadata": {},
+      "name": "casenodeid",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "subtype",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "modifydate",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "abbreviation",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "casereference",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "caseuniqueid",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "caseofficerid",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "caseofficerlogin",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "caseofficername",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "coemailaddress",
+      "type": "string",
+      "nullable": true
+    }
+  ]
+}
