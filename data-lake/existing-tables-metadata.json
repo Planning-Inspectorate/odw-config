@@ -1231,6 +1231,13 @@
                 "table_format": "delta",
                 "table_type": "External",
                 "table_location": "abfss://logging@pinsstodwdevuks9h80mb.dfs.core.windows.net/tables_logs"
+            },
+            {
+                "database_name": "logging",
+                "table_name": "process_log",
+                "table_format": "delta",
+                "table_type": "External",
+                "table_location": "abfss://logging@pinsstodwdevuks9h80mb.dfs.core.windows.net/process_log"
             }
         ]
     }
