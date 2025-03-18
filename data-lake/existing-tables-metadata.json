@@ -265,14 +265,12 @@
                 "table_name": "aie_document_data",
                 "table_format": "delta",
                 "table_type": "EXTERNAL",
-                "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-standardised@pinsstodwdevuks9h80mb.dfs.core.windows.net/AIEDocumentData/aie_document_data"
             },
             {
                 "database_name": "odw_standardised_db",
                 "table_name": "document_meta_data",
                 "table_format": "delta",
-                "table_type": "EXTERNAL",
                 "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-standardised@pinsstodwdevuks9h80mb.dfs.core.windows.net/Horizon/document_meta_data"
             },
@@ -281,14 +279,12 @@
                 "table_name": "entraid",
                 "table_format": "delta",
                 "table_type": "EXTERNAL",
-                "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-standardised@pinsstodwdevuks9h80mb.dfs.core.windows.net/entraid"
             },
             {
                 "database_name": "odw_standardised_db",
                 "table_name": "folder",
                 "table_format": "delta",
-                "table_type": "EXTERNAL",
                 "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-standardised@pinsstodwdevuks9h80mb.dfs.core.windows.net/NSIP/folder"
             },
@@ -297,14 +293,12 @@
                 "table_name": "horizon_appeals_document_metadata",
                 "table_format": "delta",
                 "table_type": "EXTERNAL",
-                "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-standardised@pinsstodwdevuks9h80mb.dfs.core.windows.net/Horizon/horizon_appeals_document_metadata"
             },
             {
                 "database_name": "odw_standardised_db",
                 "table_name": "horizon_appeals_event",
                 "table_format": "delta",
-                "table_type": "EXTERNAL",
                 "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-standardised@pinsstodwdevuks9h80mb.dfs.core.windows.net/Horizon/horizon_appeals_event"
             },
@@ -313,14 +307,12 @@
                 "table_name": "horizon_appeals_folder",
                 "table_format": "delta",
                 "table_type": "EXTERNAL",
-                "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-standardised@pinsstodwdevuks9h80mb.dfs.core.windows.net/Horizon/horizon_appeals_folder"
             },
             {
                 "database_name": "odw_standardised_db",
                 "table_name": "horizon_case_involvement",
                 "table_format": "delta",
-                "table_type": "EXTERNAL",
                 "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-standardised@pinsstodwdevuks9h80mb.dfs.core.windows.net/Horizon/horizon_case_involvement"
             },
@@ -329,14 +321,12 @@
                 "table_name": "horizon_examination_timetable",
                 "table_format": "delta",
                 "table_type": "EXTERNAL",
-                "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-standardised@pinsstodwdevuks9h80mb.dfs.core.windows.net/Horizon/horizon_examination_timetable"
             },
             {
                 "database_name": "odw_standardised_db",
                 "table_name": "horizon_folder",
                 "table_format": "delta",
-                "table_type": "EXTERNAL",
                 "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-standardised@pinsstodwdevuks9h80mb.dfs.core.windows.net/Horizon/horizon_folder"
             },
@@ -345,14 +335,12 @@
                 "table_name": "horizon_nsip_advice",
                 "table_format": "delta",
                 "table_type": "EXTERNAL",
-                "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-standardised@pinsstodwdevuks9h80mb.dfs.core.windows.net/Horizon/horizon_nsip_advice"
             },
             {
                 "database_name": "odw_standardised_db",
                 "table_name": "horizon_nsip_data",
                 "table_format": "delta",
-                "table_type": "EXTERNAL",
                 "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-standardised@pinsstodwdevuks9h80mb.dfs.core.windows.net/Horizon/horizon_nsip_data"
             },
@@ -361,14 +349,12 @@
                 "table_name": "horizon_nsip_relevant_representation",
                 "table_format": "delta",
                 "table_type": "EXTERNAL",
-                "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-standardised@pinsstodwdevuks9h80mb.dfs.core.windows.net/Horizon/horizon_nsip_relevant_representation"
             },
             {
                 "database_name": "odw_standardised_db",
                 "table_name": "horizon_s62a_view_case_basic_data",
                 "table_format": "delta",
-                "table_type": "EXTERNAL",
                 "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-standardised@pinsstodwdevuks9h80mb.dfs.core.windows.net/Horizon/horizon_s62a_view_case_basic_data"
             },
@@ -377,14 +363,12 @@
                 "table_name": "horizon_s62a_view_case_dates",
                 "table_format": "delta",
                 "table_type": "EXTERNAL",
-                "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-standardised@pinsstodwdevuks9h80mb.dfs.core.windows.net/Horizon/horizon_s62a_view_case_dates"
             },
             {
                 "database_name": "odw_standardised_db",
                 "table_name": "horizon_s62a_view_case_extended_data",
                 "table_format": "delta",
-                "table_type": "EXTERNAL",
                 "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-standardised@pinsstodwdevuks9h80mb.dfs.core.windows.net/Horizon/horizon_s62a_view_case_extended_data"
             },
@@ -393,14 +377,12 @@
                 "table_name": "horizon_s62a_view_case_officers",
                 "table_format": "delta",
                 "table_type": "EXTERNAL",
-                "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-standardised@pinsstodwdevuks9h80mb.dfs.core.windows.net/Horizon/horizon_s62a_view_case_officers"
             },
             {
                 "database_name": "odw_standardised_db",
                 "table_name": "horizon_s62a_view_cases",
                 "table_format": "delta",
-                "table_type": "EXTERNAL",
                 "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-standardised@pinsstodwdevuks9h80mb.dfs.core.windows.net/Horizon/horizon_s62a_view_cases"
             },
@@ -409,14 +391,12 @@
                 "table_name": "nsip_document",
                 "table_format": "delta",
                 "table_type": "EXTERNAL",
-                "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-standardised@pinsstodwdevuks9h80mb.dfs.core.windows.net/nsip_document"
             },
             {
                 "database_name": "odw_standardised_db",
                 "table_name": "pins_lpa",
                 "table_format": "delta",
-                "table_type": "EXTERNAL",
                 "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-standardised@pinsstodwdevuks9h80mb.dfs.core.windows.net/pins_lpa"
             },
@@ -425,14 +405,12 @@
                 "table_name": "sb_appeal_document",
                 "table_format": "delta",
                 "table_type": "EXTERNAL",
-                "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-standardised@pinsstodwdevuks9h80mb.dfs.core.windows.net/sb_appeal_document"
             },
             {
                 "database_name": "odw_standardised_db",
                 "table_name": "sb_appeal_event",
                 "table_format": "delta",
-                "table_type": "EXTERNAL",
                 "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-standardised@pinsstodwdevuks9h80mb.dfs.core.windows.net/sb_appeal_event"
             },
@@ -441,14 +419,12 @@
                 "table_name": "sb_appeal_has",
                 "table_format": "delta",
                 "table_type": "EXTERNAL",
-                "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-standardised@pinsstodwdevuks9h80mb.dfs.core.windows.net/sb_appeal_has"
             },
             {
                 "database_name": "odw_standardised_db",
                 "table_name": "sb_folder",
                 "table_format": "delta",
-                "table_type": "EXTERNAL",
                 "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-standardised@pinsstodwdevuks9h80mb.dfs.core.windows.net/sb_folder"
             },
@@ -457,14 +433,12 @@
                 "table_name": "sb_nsip_document",
                 "table_format": "delta",
                 "table_type": "EXTERNAL",
-                "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-standardised@pinsstodwdevuks9h80mb.dfs.core.windows.net/sb_nsip_document"
             },
             {
                 "database_name": "odw_standardised_db",
                 "table_name": "sb_nsip_exam_timetable",
                 "table_format": "delta",
-                "table_type": "EXTERNAL",
                 "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-standardised@pinsstodwdevuks9h80mb.dfs.core.windows.net/sb_nsip_exam_timetable"
             },
@@ -473,14 +447,12 @@
                 "table_name": "sb_nsip_project",
                 "table_format": "delta",
                 "table_type": "EXTERNAL",
-                "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-standardised@pinsstodwdevuks9h80mb.dfs.core.windows.net/sb_nsip_project"
             },
             {
                 "database_name": "odw_standardised_db",
                 "table_name": "sb_nsip_project_update",
                 "table_format": "delta",
-                "table_type": "EXTERNAL",
                 "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-standardised@pinsstodwdevuks9h80mb.dfs.core.windows.net/sb_nsip_project_update"
             },
@@ -489,14 +461,12 @@
                 "table_name": "sb_nsip_representation",
                 "table_format": "delta",
                 "table_type": "EXTERNAL",
-                "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-standardised@pinsstodwdevuks9h80mb.dfs.core.windows.net/sb_nsip_representation"
             },
             {
                 "database_name": "odw_standardised_db",
                 "table_name": "sb_nsip_subscription",
                 "table_format": "delta",
-                "table_type": "EXTERNAL",
                 "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-standardised@pinsstodwdevuks9h80mb.dfs.core.windows.net/sb_nsip_subscription"
             },
@@ -505,14 +475,12 @@
                 "table_name": "sb_s51_advice",
                 "table_format": "delta",
                 "table_type": "EXTERNAL",
-                "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-standardised@pinsstodwdevuks9h80mb.dfs.core.windows.net/sb_s51_advice"
             },
             {
                 "database_name": "odw_standardised_db",
                 "table_name": "sb_service_user",
                 "table_format": "delta",
-                "table_type": "EXTERNAL",
                 "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-standardised@pinsstodwdevuks9h80mb.dfs.core.windows.net/sb_service_user"
             },
@@ -521,14 +489,12 @@
                 "table_name": "zendesk_system_extract",
                 "table_format": "delta",
                 "table_type": "EXTERNAL",
-                "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-standardised@pinsstodwdevuks9h80mb.dfs.core.windows.net/zendesk_system_extract"
             },
             {
                 "database_name": "odw_standardised_db",
                 "table_name": "zendesk_updated_tickets",
                 "table_format": "delta",
-                "table_type": "EXTERNAL",
                 "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-standardised@pinsstodwdevuks9h80mb.dfs.core.windows.net/zendesk_updated_tickets"
             },
@@ -537,14 +503,12 @@
                 "table_name": "hr_saphr",
                 "table_format": "delta",
                 "table_type": "EXTERNAL",
-                "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-standardised@pinsstodwdevuks9h80mb.dfs.core.windows.net/HR/hr_saphr"
             },
             {
                 "database_name": "odw_standardised_db",
                 "table_name": "ims_attribute_new",
                 "table_format": "delta",
-                "table_type": "EXTERNAL",
                 "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-standardised@pinsstodwdevuks9h80mb.dfs.core.windows.net/IMS/ims_attribute_new"
             },
@@ -553,14 +517,12 @@
                 "table_name": "ims_entity_new",
                 "table_format": "delta",
                 "table_type": "EXTERNAL",
-                "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-standardised@pinsstodwdevuks9h80mb.dfs.core.windows.net/IMS/ims_entity_new"
             },
             {
                 "database_name": "odw_standardised_db",
                 "table_name": "ims_dataflow_new",
                 "table_format": "delta",
-                "table_type": "EXTERNAL",
                 "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-standardised@pinsstodwdevuks9h80mb.dfs.core.windows.net/IMS/ims_dataflow_new"
             },
@@ -569,14 +531,12 @@
                 "table_name": "ims_dsa_new",
                 "table_format": "delta",
                 "table_type": "EXTERNAL",
-                "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-standardised@pinsstodwdevuks9h80mb.dfs.core.windows.net/IMS/ims_dsa_new"
             },
             {
                 "database_name": "odw_standardised_db",
                 "table_name": "ims_dpia_new",
                 "table_format": "delta",
-                "table_type": "EXTERNAL",
                 "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-standardised@pinsstodwdevuks9h80mb.dfs.core.windows.net/IMS/ims_dpia_new"
             },
@@ -585,14 +545,12 @@
                 "table_name": "ims_informationasset_new",
                 "table_format": "delta",
                 "table_type": "EXTERNAL",
-                "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-standardised@pinsstodwdevuks9h80mb.dfs.core.windows.net/IMS/ims_informationasset_new"
             },
             {
                 "database_name": "odw_standardised_db",
                 "table_name": "ims_intergration_new",
                 "table_format": "delta",
-                "table_type": "EXTERNAL",
                 "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-standardised@pinsstodwdevuks9h80mb.dfs.core.windows.net/IMS/ims_intergration_new"
             },
@@ -601,14 +559,12 @@
                 "table_name": "ims_masterdatamap_new",
                 "table_format": "delta",
                 "table_type": "EXTERNAL",
-                "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-standardised@pinsstodwdevuks9h80mb.dfs.core.windows.net/IMS/ims_masterdatamap_new"
             },
             {
                 "database_name": "odw_standardised_db",
                 "table_name": "ims_ropa_new",
                 "table_format": "delta",
-                "table_type": "EXTERNAL",
                 "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-standardised@pinsstodwdevuks9h80mb.dfs.core.windows.net/IMS/ims_ropa_new"
             },
@@ -617,14 +573,12 @@
                 "table_name": "sb_appeal_representation",
                 "table_format": "delta",
                 "table_type": "MANAGED",
-                "table_type": "MANAGED",
                 "table_location": "abfss://odw-standardised@pinsstodwdevuks9h80mb.dfs.core.windows.net/sb_appeal_representation"
             },
             {
                 "database_name": "odw_standardised_db",
                 "table_name": "customer",
                 "table_format": "delta",
-                "table_type": "EXTERNAL",
                 "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-standardised@pinsstodwdevuks9h80mb.dfs.core.windows.net/SAPHR/delta/Customers"
             },
@@ -633,13 +587,12 @@
                 "table_name": "horizon_table",
                 "table_format": "parquet",
                 "table_type": "EXTERNAL",
-                "table_location": "abfss://synapse@pinsstodwdevuks9h80mb.dfs.core.windows.net/tmp/horizon_table"
+                "table_location": "abfss://odw-standardised@pinsstodwdevuks9h80mb.dfs.core.windows.net/horizon_table"
             },
             {
                 "database_name": "odw_standardised_db",
                 "table_name": "cases_specialisms",
                 "table_format": "delta",
-                "table_type": "EXTERNAL",
                 "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-standardised@pinsstodwdevuks9h80mb.dfs.core.windows.net/Horizon/cases_specialisms"
             },
@@ -648,14 +601,12 @@
                 "table_name": "casesitestrings",
                 "table_format": "delta",
                 "table_type": "EXTERNAL",
-                "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-standardised@pinsstodwdevuks9h80mb.dfs.core.windows.net/Horizon/CaseSiteStrings"
             },
             {
                 "database_name": "odw_standardised_db",
                 "table_name": "typeofprocedure",
                 "table_format": "delta",
-                "table_type": "EXTERNAL",
                 "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-standardised@pinsstodwdevuks9h80mb.dfs.core.windows.net/Horizon/TypeOfProcedure"
             },
@@ -664,14 +615,12 @@
                 "table_name": "horizon_typeofreasonforcase",
                 "table_format": "delta",
                 "table_type": "EXTERNAL",
-                "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-standardised@pinsstodwdevuks9h80mb.dfs.core.windows.net/Horizon/Horizon_TypeOfReasonForCase"
             },
             {
                 "database_name": "odw_standardised_db",
                 "table_name": "vw_case_dates",
                 "table_format": "delta",
-                "table_type": "EXTERNAL",
                 "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-standardised@pinsstodwdevuks9h80mb.dfs.core.windows.net/Horizon/vw_case_dates"
             },
@@ -680,7 +629,6 @@
                 "table_name": "vw_addadditionaldata",
                 "table_format": "delta",
                 "table_type": "EXTERNAL",
-                "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-standardised@pinsstodwdevuks9h80mb.dfs.core.windows.net/Horizon/vw_AddAdditionalData"
             },
             {
@@ -688,26 +636,19 @@
                 "table_name": "vw_additionalfields",
                 "table_format": "delta",
                 "table_type": "EXTERNAL",
-                "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-standardised@pinsstodwdevuks9h80mb.dfs.core.windows.net/Horizon/vw_AdditionalFields"
             },
             {
                 "database_name": "odw_standardised_db",
                 "table_name": "sb_appeal_s78",
-                "table_name": "sb_appeal_s78",
                 "table_format": "delta",
-                "table_type": "MANAGED",
-                "table_location": "abfss://odw-standardised@pinsstodwdevuks9h80mb.dfs.core.windows.net/sb_appeal_s78"
                 "table_type": "MANAGED",
                 "table_location": "abfss://odw-standardised@pinsstodwdevuks9h80mb.dfs.core.windows.net/sb_appeal_s78"
             },
             {
                 "database_name": "odw_standardised_db",
                 "table_name": "casedocumentdatesdates",
-                "table_name": "casedocumentdatesdates",
                 "table_format": "delta",
-                "table_type": "EXTERNAL",
-                "table_location": "abfss://odw-standardised@pinsstodwdevuks9h80mb.dfs.core.windows.net/Horizon/CaseDocumentDatesDates"
                 "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-standardised@pinsstodwdevuks9h80mb.dfs.core.windows.net/Horizon/CaseDocumentDatesDates"
             },
@@ -717,17 +658,9 @@
                 "table_format": "hive",
                 "table_type": "MANAGED",
                 "table_location": "abfss://odw-standardised@pinsstodwdevuks9h80mb.dfs.core.windows.net/fact_absence_all_adf"
-                "table_name": "fact_absence_all_adf",
-                "table_format": "hive",
-                "table_type": "MANAGED",
-                "table_location": "abfss://odw-standardised@pinsstodwdevuks9h80mb.dfs.core.windows.net/fact_absence_all_adf"
             },
             {
                 "database_name": "odw_standardised_db",
-                "table_name": "stage_sap_hr_pc",
-                "table_format": "hive",
-                "table_type": "MANAGED",
-                "table_location": "abfss://odw-standardised@pinsstodwdevuks9h80mb.dfs.core.windows.net/stage_sap_hr_pc"
                 "table_name": "stage_sap_hr_pc",
                 "table_format": "hive",
                 "table_type": "MANAGED",
@@ -747,98 +680,56 @@
             {
                 "database_name": "odw_harmonised_db",
                 "table_name": "sap_pins_email_weekly",
-                "table_name": "stage_sap_hr_leavers_ads",
-                "table_format": "hive",
-                "table_type": "MANAGED",
-                "table_location": "abfss://odw-standardised@pinsstodwdevuks9h80mb.dfs.core.windows.net/stage_sap_hr_leavers_ads"
-            }
-        ]
-    },
-    {
-        "harmonised_metadata": [
-            {
-                "database_name": "odw_harmonised_db",
-                "table_name": "sap_pins_email_weekly",
                 "table_format": "delta",
-                "table_type": "MANAGED",
-                "table_location": "abfss://odw-harmonised@pinsstodwdevuks9h80mb.dfs.core.windows.net/sap_pins_email_weekly"
                 "table_type": "MANAGED",
                 "table_location": "abfss://odw-harmonised@pinsstodwdevuks9h80mb.dfs.core.windows.net/sap_pins_email_weekly"
             },
             {
                 "database_name": "odw_harmonised_db",
                 "table_name": "sap_employee_hierarchy",
-                "database_name": "odw_harmonised_db",
-                "table_name": "sap_employee_hierarchy",
                 "table_format": "delta",
-                "table_type": "MANAGED",
-                "table_location": "abfss://odw-harmonised@pinsstodwdevuks9h80mb.dfs.core.windows.net/sap_employee_hierarchy"
                 "table_type": "MANAGED",
                 "table_location": "abfss://odw-harmonised@pinsstodwdevuks9h80mb.dfs.core.windows.net/sap_employee_hierarchy"
             },
             {
                 "database_name": "odw_harmonised_db",
                 "table_name": "sb_appeal_event",
-                "database_name": "odw_harmonised_db",
-                "table_name": "sb_appeal_event",
                 "table_format": "delta",
-                "table_type": "MANAGED",
-                "table_location": "abfss://odw-harmonised@pinsstodwdevuks9h80mb.dfs.core.windows.net/sb_appeal_event"
                 "table_type": "MANAGED",
                 "table_location": "abfss://odw-harmonised@pinsstodwdevuks9h80mb.dfs.core.windows.net/sb_appeal_event"
             },
             {
                 "database_name": "odw_harmonised_db",
                 "table_name": "absence_all",
-                "database_name": "odw_harmonised_db",
-                "table_name": "absence_all",
                 "table_format": "delta",
-                "table_type": "MANAGED",
-                "table_location": "abfss://odw-harmonised@pinsstodwdevuks9h80mb.dfs.core.windows.net/absence_all"
                 "table_type": "MANAGED",
                 "table_location": "abfss://odw-harmonised@pinsstodwdevuks9h80mb.dfs.core.windows.net/absence_all"
             },
             {
                 "database_name": "odw_harmonised_db",
                 "table_name": "fact_absence_all",
-                "database_name": "odw_harmonised_db",
-                "table_name": "fact_absence_all",
                 "table_format": "delta",
-                "table_type": "MANAGED",
-                "table_location": "abfss://odw-harmonised@pinsstodwdevuks9h80mb.dfs.core.windows.net/fact_absence_all"
                 "table_type": "MANAGED",
                 "table_location": "abfss://odw-harmonised@pinsstodwdevuks9h80mb.dfs.core.windows.net/fact_absence_all"
             },
             {
                 "database_name": "odw_harmonised_db",
                 "table_name": "fact_absence_all_temp",
-                "database_name": "odw_harmonised_db",
-                "table_name": "fact_absence_all_temp",
                 "table_format": "delta",
-                "table_type": "MANAGED",
-                "table_location": "abfss://odw-harmonised@pinsstodwdevuks9h80mb.dfs.core.windows.net/fact_absence_all_temp"
                 "table_type": "MANAGED",
                 "table_location": "abfss://odw-harmonised@pinsstodwdevuks9h80mb.dfs.core.windows.net/fact_absence_all_temp"
             },
             {
                 "database_name": "odw_harmonised_db",
                 "table_name": "load_sap_pins_email_weekly",
-                "database_name": "odw_harmonised_db",
-                "table_name": "load_sap_pins_email_weekly",
                 "table_format": "delta",
-                "table_type": "EXTERNAL",
-                "table_location": "abfss://odw-harmonised@pinsstodwdevuks9h80mb.dfs.core.windows.net/saphr/load_sap_pins_email_weekly"
                 "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-harmonised@pinsstodwdevuks9h80mb.dfs.core.windows.net/saphr/load_sap_pins_email_weekly"
             },
             {
                 "database_name": "odw_harmonised_db",
                 "table_name": "sap_hr_leavers",
-                "database_name": "odw_harmonised_db",
-                "table_name": "sap_hr_leavers",
                 "table_format": "delta",
-                "table_type": "EXTERNAL",
-                "table_location": "abfss://odw-harmonised@pinsstodwdevuks9h80mb.dfs.core.windows.net/saphr/sap_hr_leavers"
                 "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-harmonised@pinsstodwdevuks9h80mb.dfs.core.windows.net/saphr/sap_hr_leavers"
             },
@@ -902,24 +793,10 @@
                 "database_name": "odw_harmonised_db",
                 "table_name": "live_holidays",
                 "table_format": "hive",
-                "database_name": "odw_harmonised_db",
-                "table_name": "sap_hr_inspector_specialisms",
-                "table_format": "delta",
-                "table_type": "EXTERNAL",
-                "table_location": "abfss://odw-harmonised@pinsstodwdevuks9h80mb.dfs.core.windows.net/saphr/sap_hr_inspector_specialisms"
-            },
-            {
-                "database_name": "odw_harmonised_db",
-                "table_name": "live_holidays",
-                "table_format": "hive",
                 "table_type": "MANAGED",
                 "table_location": "abfss://odw-harmonised@pinsstodwdevuks9h80mb.dfs.core.windows.net/live_holidays"
-                "table_location": "abfss://odw-harmonised@pinsstodwdevuks9h80mb.dfs.core.windows.net/live_holidays"
             },
             {
-                "database_name": "odw_harmonised_db",
-                "table_name": "sb_appeal_s78",
-                "table_format": "delta",
                 "database_name": "odw_harmonised_db",
                 "table_name": "sb_appeal_s78",
                 "table_format": "delta",
@@ -1099,14 +976,12 @@
                 "table_name": "aie_document_data",
                 "table_format": "delta",
                 "table_type": "EXTERNAL",
-                "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-harmonised@pinsstodwdevuks9h80mb.dfs.core.windows.net/aie_document_data"
             },
             {
                 "database_name": "odw_harmonised_db",
                 "table_name": "appeal_document",
                 "table_format": "delta",
-                "table_type": "EXTERNAL",
                 "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-harmonised@pinsstodwdevuks9h80mb.dfs.core.windows.net/appeal_document"
             },
@@ -1115,14 +990,12 @@
                 "table_name": "appeal_event",
                 "table_format": "delta",
                 "table_type": "EXTERNAL",
-                "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-harmonised@pinsstodwdevuks9h80mb.dfs.core.windows.net/appeal_event"
             },
             {
                 "database_name": "odw_harmonised_db",
                 "table_name": "appeal_s78",
                 "table_format": "delta",
-                "table_type": "EXTERNAL",
                 "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-harmonised@pinsstodwdevuks9h80mb.dfs.core.windows.net/appeal_s78"
             },
@@ -1131,14 +1004,12 @@
                 "table_name": "appeals_folder",
                 "table_format": "delta",
                 "table_type": "EXTERNAL",
-                "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-harmonised@pinsstodwdevuks9h80mb.dfs.core.windows.net/lib/appeals_folder"
             },
             {
                 "database_name": "odw_harmonised_db",
                 "table_name": "casework_case_involvement_dim",
                 "table_format": "delta",
-                "table_type": "EXTERNAL",
                 "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-harmonised@pinsstodwdevuks9h80mb.dfs.core.windows.net/lib/casework_case_involvement_dim"
             },
@@ -1147,14 +1018,12 @@
                 "table_name": "casework_nsip_advice_dim",
                 "table_format": "delta",
                 "table_type": "EXTERNAL",
-                "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-harmonised@pinsstodwdevuks9h80mb.dfs.core.windows.net/lib/casework_nsip_advice_dim"
             },
             {
                 "database_name": "odw_harmonised_db",
                 "table_name": "casework_nsip_examination_timetable_dim",
                 "table_format": "delta",
-                "table_type": "EXTERNAL",
                 "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-harmonised@pinsstodwdevuks9h80mb.dfs.core.windows.net/lib/casework_nsip_examination_timetable_dim"
             },
@@ -1163,14 +1032,12 @@
                 "table_name": "document_meta_data",
                 "table_format": "delta",
                 "table_type": "EXTERNAL",
-                "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-harmonised@pinsstodwdevuks9h80mb.dfs.core.windows.net/lib/document_meta_data"
             },
             {
                 "database_name": "odw_harmonised_db",
                 "table_name": "document_metadata",
                 "table_format": "delta",
-                "table_type": "EXTERNAL",
                 "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-harmonised@pinsstodwdevuks9h80mb.dfs.core.windows.net/document_metadata"
             },
@@ -1179,14 +1046,12 @@
                 "table_name": "entraid",
                 "table_format": "delta",
                 "table_type": "EXTERNAL",
-                "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-harmonised@pinsstodwdevuks9h80mb.dfs.core.windows.net/entraid"
             },
             {
                 "database_name": "odw_harmonised_db",
                 "table_name": "folder",
                 "table_format": "delta",
-                "table_type": "EXTERNAL",
                 "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-harmonised@pinsstodwdevuks9h80mb.dfs.core.windows.net/lib/folder"
             },
@@ -1195,14 +1060,12 @@
                 "table_name": "horizon_appeals_event",
                 "table_format": "delta",
                 "table_type": "EXTERNAL",
-                "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-harmonised@pinsstodwdevuks9h80mb.dfs.core.windows.net/horizon_appeals_event"
             },
             {
                 "database_name": "odw_harmonised_db",
                 "table_name": "horizon_appeals_folder",
                 "table_format": "delta",
-                "table_type": "EXTERNAL",
                 "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-harmonised@pinsstodwdevuks9h80mb.dfs.core.windows.net/lib/horizon_appeals_folder"
             },
@@ -1211,14 +1074,12 @@
                 "table_name": "horizon_folder",
                 "table_format": "delta",
                 "table_type": "EXTERNAL",
-                "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-harmonised@pinsstodwdevuks9h80mb.dfs.core.windows.net/lib/horizon_folder"
             },
             {
                 "database_name": "odw_harmonised_db",
                 "table_name": "ims",
                 "table_format": "delta",
-                "table_type": "EXTERNAL",
                 "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-harmonised@pinsstodwdevuks9h80mb.dfs.core.windows.net/lib/ims"
             },
@@ -1227,14 +1088,12 @@
                 "table_name": "main_sourcesystem_fact",
                 "table_format": "delta",
                 "table_type": "EXTERNAL",
-                "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-harmonised@pinsstodwdevuks9h80mb.dfs.core.windows.net/lib/main_sourcesystem_fact"
             },
             {
                 "database_name": "odw_harmonised_db",
                 "table_name": "nsip_document",
                 "table_format": "delta",
-                "table_type": "EXTERNAL",
                 "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-harmonised@pinsstodwdevuks9h80mb.dfs.core.windows.net/nsip_document"
             },
@@ -1243,14 +1102,12 @@
                 "table_name": "nsip_exam_timetable",
                 "table_format": "delta",
                 "table_type": "EXTERNAL",
-                "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-harmonised@pinsstodwdevuks9h80mb.dfs.core.windows.net/nsip_exam_timetable"
             },
             {
                 "database_name": "odw_harmonised_db",
                 "table_name": "nsip_project",
                 "table_format": "delta",
-                "table_type": "EXTERNAL",
                 "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-harmonised@pinsstodwdevuks9h80mb.dfs.core.windows.net/nsip_project"
             },
@@ -1259,14 +1116,12 @@
                 "table_name": "nsip_relevant_representation",
                 "table_format": "delta",
                 "table_type": "EXTERNAL",
-                "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-harmonised@pinsstodwdevuks9h80mb.dfs.core.windows.net/nsip_relevant_representation"
             },
             {
                 "database_name": "odw_harmonised_db",
                 "table_name": "nsip_representation",
                 "table_format": "delta",
-                "table_type": "EXTERNAL",
                 "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-harmonised@pinsstodwdevuks9h80mb.dfs.core.windows.net/nsip_representation"
             },
@@ -1275,14 +1130,12 @@
                 "table_name": "nsip_s51_advice",
                 "table_format": "delta",
                 "table_type": "EXTERNAL",
-                "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-harmonised@pinsstodwdevuks9h80mb.dfs.core.windows.net/nsip_s51_advice"
             },
             {
                 "database_name": "odw_harmonised_db",
                 "table_name": "pins_lpa",
                 "table_format": "delta",
-                "table_type": "EXTERNAL",
                 "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-harmonised@pinsstodwdevuks9h80mb.dfs.core.windows.net/pins_lpa"
             },
@@ -1291,14 +1144,12 @@
                 "table_name": "s62a_view_case_basic_data_dim",
                 "table_format": "delta",
                 "table_type": "EXTERNAL",
-                "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-harmonised@pinsstodwdevuks9h80mb.dfs.core.windows.net/lib/s62a_view_case_basic_data_dim"
             },
             {
                 "database_name": "odw_harmonised_db",
                 "table_name": "s62a_view_case_dates_dim",
                 "table_format": "delta",
-                "table_type": "EXTERNAL",
                 "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-harmonised@pinsstodwdevuks9h80mb.dfs.core.windows.net/lib/s62a_view_case_dates_dim"
             },
@@ -1307,14 +1158,12 @@
                 "table_name": "s62a_view_case_extended_data_dim",
                 "table_format": "delta",
                 "table_type": "EXTERNAL",
-                "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-harmonised@pinsstodwdevuks9h80mb.dfs.core.windows.net/lib/s62a_view_case_extended_data_dim"
             },
             {
                 "database_name": "odw_harmonised_db",
                 "table_name": "s62a_view_case_officers_dim",
                 "table_format": "delta",
-                "table_type": "EXTERNAL",
                 "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-harmonised@pinsstodwdevuks9h80mb.dfs.core.windows.net/lib/s62a_view_case_officers_dim"
             },
@@ -1323,14 +1172,12 @@
                 "table_name": "s62a_view_cases_dim",
                 "table_format": "delta",
                 "table_type": "EXTERNAL",
-                "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-harmonised@pinsstodwdevuks9h80mb.dfs.core.windows.net/lib/s62a_view_cases_dim"
             },
             {
                 "database_name": "odw_harmonised_db",
                 "table_name": "sb_folder",
                 "table_format": "delta",
-                "table_type": "EXTERNAL",
                 "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-harmonised@pinsstodwdevuks9h80mb.dfs.core.windows.net/sb_folder"
             },
@@ -1339,14 +1186,12 @@
                 "table_name": "sb_nsip_subscription",
                 "table_format": "delta",
                 "table_type": "EXTERNAL",
-                "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-harmonised@pinsstodwdevuks9h80mb.dfs.core.windows.net/sb_nsip_subscription"
             },
             {
                 "database_name": "odw_harmonised_db",
                 "table_name": "service_user",
                 "table_format": "delta",
-                "table_type": "EXTERNAL",
                 "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-harmonised@pinsstodwdevuks9h80mb.dfs.core.windows.net/lib/service_user"
             },
@@ -1355,14 +1200,12 @@
                 "table_name": "test_table_delta_logs",
                 "table_format": "delta",
                 "table_type": "EXTERNAL",
-                "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-harmonised@pinsstodwdevuks9h80mb.dfs.core.windows.net/test_table_delta_logs"
             },
             {
                 "database_name": "odw_harmonised_db",
                 "table_name": "listed_building",
                 "table_format": "delta",
-                "table_type": "EXTERNAL",
                 "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-harmonised@pinsstodwdevuks9h80mb.dfs.core.windows.net/listed_building"
             }
@@ -1376,17 +1219,9 @@
                 "table_format": "parquet",
                 "table_type": "MANAGED",
                 "table_location": "abfss://odw-curated@pinsstodwdevuks9h80mb.dfs.core.windows.net/pins_inspectors_curated"
-                "table_name": "pins_inspectors_curated",
-                "table_format": "parquet",
-                "table_type": "MANAGED",
-                "table_location": "abfss://odw-curated@pinsstodwdevuks9h80mb.dfs.core.windows.net/pins_inspectors_curated"
             },
             {
                 "database_name": "odw_curated_db",
-                "table_name": "appeals_event",
-                "table_format": "parquet",
-                "table_type": "MANAGED",
-                "table_location": "abfss://odw-curated@pinsstodwdevuks9h80mb.dfs.core.windows.net/appeals_event"
                 "table_name": "appeals_event",
                 "table_format": "parquet",
                 "table_type": "MANAGED",
@@ -1409,10 +1244,8 @@
             {
                 "database_name": "odw_curated_db",
                 "table_name": "entraid",
-                "table_name": "entraid",
                 "table_format": "parquet",
                 "table_type": "MANAGED",
-                "table_location": "abfss://odw-curated@pinsstodwdevuks9h80mb.dfs.core.windows.net/entraid"
                 "table_location": "abfss://odw-curated@pinsstodwdevuks9h80mb.dfs.core.windows.net/entraid"
             },
             {
@@ -1659,7 +1492,6 @@
                 "table_format": "delta",
                 "table_type": "MANAGED",
                 "table_location": "abfss://odw-curated@pinsstodwdevuks9h80mb.dfs.core.windows.net/listed_building"
-                "table_location": "abfss://odw-curated@pinsstodwdevuks9h80mb.dfs.core.windows.net/listed_building"
             }
         ]
     },
@@ -1667,7 +1499,6 @@
         "curated_migration_metadata": [
             {
                 "database_name": "odw_curated_migration_db",
-                "table_name": "vw_service_user",
                 "table_name": "vw_service_user",
                 "table_format": "Unknown",
                 "table_type": "VIEW",
@@ -1683,7 +1514,6 @@
             {
                 "database_name": "odw_curated_migration_db",
                 "table_name": "vw_nsip_document",
-                "table_name": "vw_nsip_document",
                 "table_format": "Unknown",
                 "table_type": "VIEW",
                 "table_location": "Unknown"
@@ -1697,10 +1527,10 @@
             },
             {
                 "database_name": "odw_curated_migration_db",
-                "table_name": "nsip_exam_timetable",
-                "table_format": "parquet",
-                "table_type": "MANAGED",
-                "table_location": "abfss://odw-curated-migration@pinsstodwdevuks9h80mb.dfs.core.windows.net/nsip_exam_timetable"
+                "table_name": "vw_nsip_exam_timetable",
+                "table_format": "Unknown",
+                "table_type": "VIEW",
+                "table_location": "Unknown"
             },
             {
                 "database_name": "odw_curated_migration_db",
@@ -1753,14 +1583,12 @@
                 "table_name": "datalabs_log",
                 "table_format": "delta",
                 "table_type": "EXTERNAL",
-                "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-raw@pinsstodwdevuks9h80mb.dfs.core.windows.net/config/datalabs_log"
             },
             {
                 "database_name": "odw_config_db",
                 "table_name": "main_pipeline_config",
                 "table_format": "delta",
-                "table_type": "EXTERNAL",
                 "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-config-db@pinsstodwdevuks9h80mb.dfs.core.windows.net/main_pipeline_config"
             }
@@ -1773,14 +1601,12 @@
                 "table_name": "pipeline_logs",
                 "table_format": "delta",
                 "table_type": "EXTERNAL",
-                "table_type": "EXTERNAL",
                 "table_location": "abfss://logging@pinsstodwdevuks9h80mb.dfs.core.windows.net/pipeline_logs"
             },
             {
                 "database_name": "logging",
                 "table_name": "tables_logs",
                 "table_format": "delta",
-                "table_type": "EXTERNAL",
                 "table_type": "EXTERNAL",
                 "table_location": "abfss://logging@pinsstodwdevuks9h80mb.dfs.core.windows.net/tables_logs"
             },
@@ -1793,16 +1619,8 @@
             },
             {
                 "database_name": "logging",
-                "table_name": "ingestion_metrics",
-                "table_format": "delta",
-                "table_type": "MANAGED",
-                "table_location": "abfss://logging@pinsstodwdevuks9h80mb.dfs.core.windows.net/ingestion_metrics"
-            },
-            {
-                "database_name": "logging",
                 "table_name": "process_log",
                 "table_format": "delta",
-                "table_type": "MANAGED",
                 "table_type": "MANAGED",
                 "table_location": "abfss://logging@pinsstodwdevuks9h80mb.dfs.core.windows.net/process_log"
             }
