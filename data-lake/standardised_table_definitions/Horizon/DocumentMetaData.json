@@ -39,6 +39,7 @@
     },
     { "metadata": {}, "name": "version", "type": "string", "nullable": true },
     { "metadata": {}, "name": "name", "type": "string", "nullable": true },
+    { "metadata": {}, "name": "originalFilename", "type": "string", "nullable": true },
     { "metadata": {}, "name": "dataSize", "type": "string", "nullable": true },
     {
       "metadata": {},
