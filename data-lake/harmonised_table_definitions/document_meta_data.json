@@ -44,6 +44,12 @@
         },
         {
             "metadata": {},
+            "name": "OriginalFilename",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "metadata": {},
             "name": "DataSize",
             "type": "string",
             "nullable": true
