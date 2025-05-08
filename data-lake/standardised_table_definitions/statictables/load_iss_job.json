@@ -1,0 +1,204 @@
+{
+  "fields": [
+    {
+      "name": "ingested_datetime",
+      "type": "timestamp",
+      "constraints": false
+    },
+    {
+      "name": "expected_from",
+      "type": "timestamp",
+      "constraints": false
+    },
+    {
+      "name": "expected_to",
+      "type": "timestamp",
+      "constraints": false
+    },
+    {
+      "name": "Id",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "StartDate",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "LeadInspector",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "Agent",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "AllocationReceived",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "Appellant",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "Branch",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "CWT",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "Duration",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "FileSenttoInspector",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "FirstOfferDate",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "Job",
+      "type": "STRING",
+      "constraints": "NOT NULL"
+    },
+    {
+      "name": "JobLastWhenOffered",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "Jurisdiction",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "JurisdictionName",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "LeadJobId",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "LPA",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "LPAName",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "LPARef",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "PIMDurn",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "PreAdjournedEventDate",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "PrepDurn",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "Procedure",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "ReportingDurn",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "SiteAddress",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "SitePostcode",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "SittingDate",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "SittingDurn",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "SpecLevel",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "Specialisms",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "Status",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "StatusName",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "VisitDurn",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "WhenCancelledConfirmedJob",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "WhenCancelledUnConfirmedJob",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "WhenConfirmed",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "PDAC_ETL_Date",
+      "type": "STRING",
+      "constraints": "NULL"
+    }
+  ]
+}

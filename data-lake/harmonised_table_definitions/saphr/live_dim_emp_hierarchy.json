@@ -1,0 +1,18 @@
+{
+    "fields": [
+                {"name": "emp_id", "type": "STRING", "nullable": true},
+                {"name": "emp_name", "type": "STRING", "nullable": true},
+                {"name": "emp_email_address", "type": "STRING", "nullable": true},
+                {"name": "mgr_id", "type": "STRING", "nullable": true},
+                {"name": "mgr_name", "type": "STRING", "nullable": true},
+                {"name": "mgr_level", "type": "STRING", "nullable": true},
+                {"name": "mgr_email_address", "type": "STRING", "nullable": true},
+                {"name": "hierarchy", "type": "STRING", "nullable": true},
+				{"name": "SourceSystemID", "type": "string","constraints": false},
+				{"name": "IngestionDate","type": "timestamp","constraints": false},
+				{"name": "ValidFrom","type": "timestamp","constraints": false},
+				{"name": "ValidTo","type": "timestamp","constraints": false},
+				{"name": "RowID","type": "string","constraints": false},
+				{"name": "IsActive","type": "string","constraints": false}				
+    ]
+}

@@ -1,0 +1,39 @@
+{
+  "fields": [
+    {
+      "name": "ingested_datetime",
+      "type": "timestamp",
+      "constraints": false
+    },
+    {
+      "name": "expected_from",
+      "type": "timestamp",
+      "constraints": false
+    },
+    {
+      "name": "expected_to",
+      "type": "timestamp",
+      "constraints": false
+    },
+    {
+      "name": "Grade",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "ERNIC",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "Pension",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "Total",
+      "type": "string",
+      "nullable": true
+    }
+  ]
+}

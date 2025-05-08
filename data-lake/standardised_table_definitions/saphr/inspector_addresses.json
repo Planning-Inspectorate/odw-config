@@ -1,0 +1,99 @@
+{
+    "fields": [
+        {
+            "name": "ingested_datetime",
+            "type": "timestamp",
+            "constraints": false
+        },
+        {
+            "name": "expected_from",
+            "type": "timestamp",
+            "constraints": false
+        },
+        {
+            "name": "expected_to",
+            "type": "timestamp",
+            "constraints": false
+        },
+        {
+            "name": "StaffNumber",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "StreetandHouseNumber",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "2ndAddressLine",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "City",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "District",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "PostalCode",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "RegionStateProvinceCount",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "StartDate",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "EndDate",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "ChartingOfficer",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "ChartingOfficerforInspector",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "SubsPSgroup",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "TelNo",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "PersonalMobile",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "WorkMobile",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "Chngdon",
+            "type": "string",
+            "nullable": true
+        }
+    ]
+}

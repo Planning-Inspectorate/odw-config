@@ -1,0 +1,21 @@
+{
+    "fields": [
+        {"name": "absencedate", "type": "TIMESTAMP", "constraints": "NOT NULL"},
+        {"name": "absencehours", "type": "FLOAT", "constraints": "NULL"},
+        {"name": "staffnumber", "type": "STRING", "constraints": "NOT NULL"},
+        {"name": "WorkScheduleRule", "type": "STRING", "constraints": "NULL"},
+        {"name": "AbsType", "type": "STRING", "constraints": "NULL"},
+        {"name": "SicknessGroup", "type": "STRING", "constraints": "NULL"},
+        {"name": "AttendanceorAbsenceType", "type": "STRING", "constraints": "NULL"},
+        {"name": "Leave", "type": "FLOAT", "constraints": "NULL"},
+        {"name": "PSGroup", "type": "STRING", "constraints": "NULL"},
+        {"name": "PersonnelArea", "type": "STRING", "constraints": "NULL"},
+        {"name": "PersonnelSubarea", "type": "STRING", "constraints": "NULL"},
+        {"name": "SourceSystemID", "type": "STRING", "constraints": false},
+        {"name": "IngestionDate", "type": "TIMESTAMP", "constraints": false},
+        {"name": "ValidTo", "type": "TIMESTAMP", "constraints": false},
+        {"name": "RowID", "type": "STRING", "constraints": false},
+        {"name": "IsActive", "type": "STRING", "constraints": false}
+        
+    ]
+}

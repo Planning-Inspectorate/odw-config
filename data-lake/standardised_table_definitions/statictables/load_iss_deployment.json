@@ -1,0 +1,319 @@
+{
+  "fields": [
+    {
+      "name": "ingested_datetime",
+      "type": "timestamp",
+      "constraints": false
+    },
+    {
+      "name": "expected_from",
+      "type": "timestamp",
+      "constraints": false
+    },
+    {
+      "name": "expected_to",
+      "type": "timestamp",
+      "constraints": false
+    },
+    {
+      "name": "Name",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "SubGroup",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "TRSG",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "Band",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "StaffBranch",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "CompLevel",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "TraineeLevel",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "StaffNumber",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "DateIn",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "DateOut",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "Day",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "Date",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "Job",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "JobBranch",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "LPAName",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "Proc",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "Procedure",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "Juris",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "CWT",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "CWTGroup",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "HigherCWTGroup",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "JobACS",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "DayACS",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "ACS",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "OldLevel",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "Level",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "Specialisms",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "Bespoke",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "Stage",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "Days",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "Casework",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "StaffWJobE",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "StaffEJobW",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "SGLName",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "StaffID",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "ResetToCW",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "InspGroup",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "InspGroupInWeek",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "InspGroupAndT",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "DCategory",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "DSubCategory",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "BandCountryGMExcl",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "GrpAndBand",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "DevelopmentType",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "InspectorType",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "SGDivision",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "BusinessArea",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "SubHeadingBusArea",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "LevelReset",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "JobBranchEW",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "InspBusArea",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "ReportingSpec",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "NonCWBuild",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "IsSGL",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "SalariedOrNSIFTC",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "MonthEnd",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "TypeOfInsp",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "StaffBranchEW",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "ReBandAndTrainer",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "ETL_Date",
+      "type": "STRING",
+      "constraints": "NULL"
+    }
+  ]
+}

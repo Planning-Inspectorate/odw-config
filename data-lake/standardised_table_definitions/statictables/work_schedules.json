@@ -1,0 +1,59 @@
+{
+  "fields": [
+    {
+      "name": "ingested_datetime",
+      "type": "timestamp",
+      "constraints": false
+    },
+    {
+      "name": "expected_from",
+      "type": "timestamp",
+      "constraints": false
+    },
+    {
+      "name": "expected_to",
+      "type": "timestamp",
+      "constraints": false
+    },
+    {
+      "name": "WorkScheduleRule",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "Mo",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "Tu",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "We",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "Th",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "Fr",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "WkHrs",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "MoTuWeThFr",
+      "type": "string",
+      "nullable": true
+    }
+  ]
+}
