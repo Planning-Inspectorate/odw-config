@@ -1,0 +1,67 @@
+{
+  "fields": [
+    {
+      "name": "ingested_datetime",
+      "type": "timestamp",
+      "constraints": false
+    },
+    {
+      "name": "expected_from",
+      "type": "timestamp",
+      "constraints": false
+    },
+    {
+      "name": "expected_to",
+      "type": "timestamp",
+      "constraints": false
+    },
+    {
+      "name": "RefNumber",
+      "type": "string",
+      "nullable": false,
+      "metadata": {}
+    },
+    {
+      "name": "Ethnicorigin",
+      "type": "string",
+      "nullable": true,
+      "metadata": {}
+    },
+    {
+      "name": "ReligiousDenominationKey",
+      "type": "string",
+      "nullable": true,
+      "metadata": {}
+    },
+    {
+      "name": "SxO",
+      "type": "string",
+      "nullable": true,
+      "metadata": {}
+    },
+    {
+      "name": "DisabilityText",
+      "type": "string",
+      "nullable": true,
+      "metadata": {}
+    },
+    {
+      "name": "file_name",
+      "type": "string",
+      "nullable": true,
+      "metadata": {}
+    },
+    {
+      "name": "load_date",
+      "type": "string",
+      "nullable": true,
+      "metadata": {}
+    },
+    {
+      "name": "Grade",
+      "type": "string",
+      "nullable": true,
+      "metadata": {}
+    }
+  ]
+}

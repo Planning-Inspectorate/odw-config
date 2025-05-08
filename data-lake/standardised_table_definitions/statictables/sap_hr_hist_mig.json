@@ -1,0 +1,434 @@
+{
+  "fields": [
+    {
+      "name": "ingested_datetime",
+      "type": "timestamp",
+      "constraints": false
+    },
+    {
+      "name": "expected_from",
+      "type": "timestamp",
+      "constraints": false
+    },
+    {
+      "name": "expected_to",
+      "type": "timestamp",
+      "constraints": false
+    },
+    {
+      "name": "PersNo",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "Firstname",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "Lastname",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "EmployeeNo",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "CoCd",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "CompanyCode",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "PA",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "PersonnelArea",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "PSubarea",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "PersonnelSubarea",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "Orgunit",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "OrganizationalUnit",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "Organizationalkey",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "OrganizationalKey1",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "WorkC",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "WorkContract",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "CT",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "ContractType",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "PSgroup",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "PayBandDescription",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "FTE",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "Wkhrs",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "IndicatorPartTimeEmployee",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "S",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "EmploymentStatus",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "GenderKey",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "TRAStartDate",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "TRAEndDate",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "TRAStatus",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "TRAGrade",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "PrevPersNo",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "ActR",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "ReasonforAction",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "Position",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "Position1",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "CostCtr",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "CostCentre",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "CivilServiceStart",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "DatetoCurrentJob",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "SeniorityDate",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "DatetoSubsitGrade",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "PersNo1",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "NameofManagerOM",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "ManagerPosition",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "ManagerPositionText",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "CounterSignManager",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "Loc",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "Location",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "OrgStartDate",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "FixTermEndDate",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "LoanStartDate",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "LoanEndDate",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "EEGrp",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "EmployeeGroup",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "Annualsalary",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "Curr",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "NInumber",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "Birthdate",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "Ageofemployee",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "EO",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "Ethnicorigin",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "NID",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "Rel",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "ReligiousDenominationKey",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "SxO",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "WageType",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "EmployeeSubgroup",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "LOAAbsType",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "LOAAbsenceTypeText",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "Schemereference",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "PensionSchemeName",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "DisabilityCode",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "DisabilityText",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "DisabilityCodeDescription",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "PArea",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "PayrollArea",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "AssignmentNumber",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "FTE2",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "Report_MonthEnd_Date",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "leave_entitlement_hrs",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "leave_taken_hrs",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "leave_remaining_hours",
+      "type": "STRING",
+      "constraints": false
+    },
+    {
+      "name": "leave_remaining_prorata_hours",
+      "type": "STRING",
+      "constraints": false
+    }
+  ]
+}

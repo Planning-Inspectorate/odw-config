@@ -1,0 +1,26 @@
+{
+    "fields": [
+				{"name": "StaffNumber", "type": "STRING","nullable": true },
+				{"name": "StreetandHouseNumber", "type": "STRING", "nullable": true },
+				{"name": "2ndAddressLine", "type": "STRING", "nullable": true },
+				{"name": "City", "type": "STRING", "nullable": true },
+				{"name": "District", "type": "STRING", "nullable": true },
+				{"name": "PostalCode", "type": "STRING", "nullable": true },
+				{"name": "Region", "type": "STRING", "nullable": true },
+				{"name": "StartDate", "type": "date", "nullable": true },
+				{"name": "EndDate", "type": "date", "nullable": true },
+				{"name": "ChartingOfficer", "type": "STRING", "nullable": true },
+				{"name": "ChartingOfficerforInspector", "type": "STRING", "nullable": true },
+				{"name": "SubsPSgroup", "type": "STRING", "nullable": true },
+				{"name": "Telephoneno", "type": "STRING", "nullable": true },
+				{"name": "PersonalMobile", "type": "STRING", "nullable": true },
+				{"name": "WorkMobile", "type": "STRING", "nullable": true },
+				{"name": "Chngdon", "type": "date", "nullable": true },
+				{"name": "ValidFrom", "type": "date", "nullable": true },
+				{"name": "ValidTo","type": "timestamp","constraints": false},
+				{"name": "SourceSystemID", "type": "STRING","constraints": false},
+				{"name": "IngestionDate","type": "timestamp","constraints": false},
+				{"name": "RowID","type": "STRING","constraints": false},
+				{"name": "IsActive","type": "STRING","constraints": false}			
+		]
+}

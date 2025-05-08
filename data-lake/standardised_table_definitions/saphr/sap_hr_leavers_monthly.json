@@ -1,0 +1,204 @@
+{
+    "fields": [
+        {
+            "name": "ingested_datetime",
+            "type": "timestamp",
+            "constraints": false
+        },
+        {
+            "name": "expected_from",
+            "type": "timestamp",
+            "constraints": false
+        },
+        {
+            "name": "expected_to",
+            "type": "timestamp",
+            "constraints": false
+        },
+        {
+            "name": "PersNo",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "Lastname",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "Firstname",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "CoCd",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "CompanyCode",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "Loc",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "Location",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "PSgroup",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "PayBandDescription",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "Orgunit",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "OrganizationalUnit",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "PA",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "PersonnelArea",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "PSubarea",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "PersonnelSubarea",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "WorkC",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "WorkContract",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "OrgStartDate",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "Leaving",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "Act",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "ActionType",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "ActR",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "ReasonforAction",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "S",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "EmploymentStatus",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "EmployeeNo",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "Position",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "Position1",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "AnnualSalary",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "Curr",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "UserID",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "EmailAddress",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "PersNo1",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "NameofManagerOM",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "ManagerPosition",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "ManagerPositionText",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "LMEmail",
+            "type": "string",
+            "nullable": true
+        }
+    ]
+}

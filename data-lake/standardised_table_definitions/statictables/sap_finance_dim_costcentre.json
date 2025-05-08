@@ -1,0 +1,89 @@
+{
+  "fields": [
+    {
+      "name": "ingested_datetime",
+      "type": "timestamp",
+      "constraints": false
+    },
+    {
+      "name": "expected_from",
+      "type": "timestamp",
+      "constraints": false
+    },
+    {
+      "name": "expected_to",
+      "type": "timestamp",
+      "constraints": false
+    },
+    {
+      "name": "ID",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "cc_level_1",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "cc_level_2",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "cc_level_3",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "cc_level_4",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "CostCentre",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "CostCentreDesc",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "dim_check_sum",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "effective_date",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "end_date",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "current_record",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "last_updated",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "Directorate",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "Branch",
+      "type": "string",
+      "nullable": true
+    }
+  ]
+}

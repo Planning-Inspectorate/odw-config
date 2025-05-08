@@ -1,0 +1,49 @@
+{
+  "fields": [
+    {
+      "name": "ingested_datetime",
+      "type": "timestamp",
+      "constraints": false
+    },
+    {
+      "name": "expected_from",
+      "type": "timestamp",
+      "constraints": false
+    },
+    {
+      "name": "expected_to",
+      "type": "timestamp",
+      "constraints": false
+    },
+    {
+      "name": "Id",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "Modified",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "Created",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "HorizonID",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "StaffNumber",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "horizon_inspector_name",
+      "type": "STRING",
+      "constraints": "NULL"
+    }
+  ]
+}
