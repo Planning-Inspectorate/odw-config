@@ -1725,7 +1725,8 @@
       "Standardised_Table_Definition": "standardised_table_definitions/ServiceBus/appeal-event-estimate.json",
       "Harmonised_Table_Name": "sb_appeal_event_estimate",
       "Harmonised_Incremental_Key": "AppealsEstimateEventID",
-      "Entity_Primary_Key": "id"
+      "Entity_Primary_Key": "id",
+      "Entity_Name": "appeal-event-estimate"
     }
   ]
 }
