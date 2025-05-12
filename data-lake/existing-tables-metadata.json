@@ -437,6 +437,13 @@
             },
             {
                 "database_name": "odw_standardised_db",
+                "table_name": "sb_appeal_event_estimate",
+                "table_format": "delta",
+                "table_type": "EXTERNAL",
+                "table_location": "abfss://odw-standardised@pinsstodwdevuks9h80mb.dfs.core.windows.net/sb_appeal_event_estimate"
+            },
+            {
+                "database_name": "odw_standardised_db",
                 "table_name": "sb_nsip_exam_timetable",
                 "table_format": "delta",
                 "table_type": "EXTERNAL",
@@ -935,6 +942,13 @@
                 "table_format": "delta",
                 "table_type": "MANAGED",
                 "table_location": "abfss://odw-harmonised@pinsstodwdevuks9h80mb.dfs.core.windows.net/sb_nsip_document"
+            },
+            {
+                "database_name": "odw_harmonised_db",
+                "table_name": "sb_appeal_event_estimate",
+                "table_format": "delta",
+                "table_type": "MANAGED",
+                "table_location": "abfss://odw-harmonised@pinsstodwdevuks9h80mb.dfs.core.windows.net/sb_appeal_event_estimate"
             },
             {
                 "database_name": "odw_harmonised_db",
