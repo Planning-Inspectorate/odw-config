@@ -947,7 +947,7 @@
                 "database_name": "odw_harmonised_db",
                 "table_name": "sb_appeal_event_estimate",
                 "table_format": "delta",
-                "table_type": "MANAGED",
+                "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-harmonised@pinsstodwdevuks9h80mb.dfs.core.windows.net/sb_appeal_event_estimate"
             },
             {
