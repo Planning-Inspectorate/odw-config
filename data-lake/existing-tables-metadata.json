@@ -1467,6 +1467,13 @@
             },
             {
                 "database_name": "odw_curated_db",
+                "table_name": "sb_appeal_event_estimate",
+                "table_format": "parquet",
+                "table_type": "EXTERNAL",
+                "table_location": "abfss://odw-curated@pinsstodwdevuks9h80mb.dfs.core.windows.net/sb_appeal_event_estimate"
+            },
+            {
+                "database_name": "odw_curated_db",
                 "table_name": "vw_nsip_exam_timetable",
                 "table_format": "Unknown",
                 "table_type": "VIEW",
