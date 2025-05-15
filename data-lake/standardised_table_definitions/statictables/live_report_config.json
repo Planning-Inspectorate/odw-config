@@ -1,0 +1,74 @@
+{
+  "fields": [
+    {
+      "name": "ingested_datetime",
+      "type": "timestamp",
+      "constraints": false
+    },
+    {
+      "name": "expected_from",
+      "type": "timestamp",
+      "constraints": false
+    },
+    {
+      "name": "expected_to",
+      "type": "timestamp",
+      "constraints": false
+    },
+    {
+      "name": "ID",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "config_Id",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "config_name",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "config_description",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "config_value",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "config_paraname",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "config_paravalue",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "config_paraname2",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "config_paravalue2",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "config_paraname3",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "config_paravalue3",
+      "type": "string",
+      "nullable": true
+    }
+  ]
+}

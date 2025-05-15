@@ -1,0 +1,104 @@
+{
+    "fields": [
+        {
+            "name": "ingested_datetime",
+            "type": "timestamp",
+            "constraints": false
+        },
+        {
+            "name": "expected_from",
+            "type": "timestamp",
+            "constraints": false
+        },
+        {
+            "name": "expected_to",
+            "type": "timestamp",
+            "constraints": false
+        },
+        {
+            "name": "StaffNumber",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "AbsType",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "SicknessGroup",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "StartDate",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "EndDate",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "AttendanceorAbsenceType",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "Days",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "Hrs",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "Start",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "Endtime",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "Caldays",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "WorkScheduleRule",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "Wkhrs",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "HrsDay",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "WkDys",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "AnnualLeaveStart",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "Illness",
+            "type": "string",
+            "nullable": true
+        }
+    ]
+}

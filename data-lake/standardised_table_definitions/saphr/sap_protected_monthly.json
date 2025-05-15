@@ -1,0 +1,79 @@
+{
+    "fields": [
+        {
+            "name": "ingested_datetime",
+            "type": "timestamp",
+            "constraints": false
+        },
+        {
+            "name": "expected_from",
+            "type": "timestamp",
+            "constraints": false
+        },
+        {
+            "name": "expected_to",
+            "type": "timestamp",
+            "constraints": false
+        },
+        {
+            "name": "RefNo",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "EthnicOrigin",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "ReligiousDenominationKey",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "SxO",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "DisabilityText",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "DisabilityCodeDescription",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "Disabled",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "Ethnicity",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "Religion",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "SexualOrientation",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "Grade",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "Report_MonthEnd_date",
+            "type": "string",
+            "nullable": true
+        }
+    ]
+}

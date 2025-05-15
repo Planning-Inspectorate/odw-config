@@ -1,0 +1,15 @@
+{
+    "fields": [
+    {"name": "ID", "type": "string", "nullable": false},
+    {"name": "lead_inspector", "type": "string", "nullable": true},
+    {"name": "inspector_name", "type": "string", "nullable": true},
+    {"name": "record_start_date", "type": "string", "nullable": true},
+    {"name": "record_end_date", "type": "string", "nullable": true},
+	{"name": "SourceSystemID", "type": "string","constraints": false},
+	{"name": "IngestionDate","type": "timestamp","constraints": false},
+	{"name": "ValidFrom","type": "timestamp","constraints": false},
+	{"name": "ValidTo","type": "timestamp","constraints": false},
+	{"name": "RowID","type": "string","constraints": false},
+	{"name": "IsActive","type": "string","constraints": false}
+  ]
+}

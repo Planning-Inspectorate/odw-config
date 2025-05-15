@@ -1,0 +1,26 @@
+{
+    "fields": [
+        {"name": "StaffNumber", "type": "STRING", "constraints": "NULL"},
+        {"name": "AbsType", "type": "STRING", "constraints": "NULL"},
+        {"name": "SicknessGroup", "type": "STRING", "constraints": "NULL"},
+        {"name": "StartDate", "type": "DATE", "constraints": "NULL"},
+        {"name": "EndDate", "type": "DATE", "constraints": "NULL"},
+        {"name": "AttendanceorAbsenceType", "type": "STRING", "constraints": "NULL"},
+        {"name": "Days", "type": "FLOAT", "constraints": "NULL"},
+        {"name": "Hrs", "type": "FLOAT", "constraints": "NULL"},
+        {"name": "Start", "type": "TIMESTAMP", "constraints": "NULL"},
+        {"name": "Endtime", "type": "TIMESTAMP", "constraints": "NULL"},
+        {"name": "Caldays", "type": "FLOAT", "constraints": "NULL"},
+        {"name": "WorkScheduleRule", "type": "STRING", "constraints": "NULL"},
+        {"name": "Wkhrs", "type": "FLOAT", "constraints": "NULL"},
+        {"name": "HrsDay", "type": "FLOAT", "constraints": "NULL"},
+        {"name": "WkDys", "type": "FLOAT", "constraints": "NULL"},
+        {"name": "AnnualLeaveStart", "type": "DATE", "constraints": "NULL"},
+        {"name": "SourceSystemID", "type": "STRING", "constraints": false},
+        {"name": "IngestionDate", "type": "TIMESTAMP", "constraints": false},
+        {"name": "ValidTo", "type": "TIMESTAMP", "constraints": false},
+        {"name": "RowID", "type": "STRING", "constraints": false},
+        {"name": "IsActive", "type": "STRING", "constraints": false}
+        
+    ]
+}

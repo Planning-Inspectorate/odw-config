@@ -1,0 +1,44 @@
+{
+    "fields": [
+        {
+            "name": "ingested_datetime",
+            "type": "timestamp",
+            "constraints": false
+        },
+        {
+            "name": "expected_from",
+            "type": "timestamp",
+            "constraints": false
+        },
+        {
+            "name": "expected_to",
+            "type": "timestamp",
+            "constraints": false
+        },
+        {
+            "name": "StaffNumber",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "Firstname",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "Lastname",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "QualificationName",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "Proficien",
+            "type": "string",
+            "nullable": true
+        }
+    ]
+}

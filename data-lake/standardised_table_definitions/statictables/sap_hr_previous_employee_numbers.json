@@ -1,0 +1,29 @@
+{
+  "fields": [
+    {
+      "name": "ingested_datetime",
+      "type": "timestamp",
+      "constraints": false
+    },
+    {
+      "name": "expected_from",
+      "type": "timestamp",
+      "constraints": false
+    },
+    {
+      "name": "expected_to",
+      "type": "timestamp",
+      "constraints": false
+    },
+    {
+      "name": "persno",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "employeeno",
+      "type": "string",
+      "nullable": true
+    }
+  ]
+}
