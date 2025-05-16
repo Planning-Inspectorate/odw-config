@@ -1712,6 +1712,21 @@
       "Harmonised_Table_Name": "vw_AdditionalFields",
       "Harmonised_Incremental_Key": "AppealS78ID",
       "Entity_Primary_Key": "AppealRefNumber"
+    },
+    {
+      "Source_ID": 147,
+      "Source_Folder": "ServiceBus",
+      "Source_Frequency_Folder": "appeal-event-estimate",
+      "Source_Filename_Format": "appeal-event-estimate.csv",
+      "Source_Filename_Start": "appeal-event-estimate",
+      "Expected_Within_Weekdays": 1,
+      "Standardised_Path": "ServiceBus",
+      "Standardised_Table_Name": "sb_appeal_event_estimate",
+      "Standardised_Table_Definition": "standardised_table_definitions/ServiceBus/appeal-event-estimate.json",
+      "Harmonised_Table_Name": "sb_appeal_event_estimate",
+      "Harmonised_Incremental_Key": "AppealsEstimateEventID",
+      "Entity_Primary_Key": "id",
+      "Entity_Name": "appeal-event-estimate"
     }
   ]
 }
