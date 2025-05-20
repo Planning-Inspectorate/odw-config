@@ -1,0 +1,323 @@
+{
+  "definitions": [
+    {
+      "Source_ID": 1,
+      "Source_Folder": "SapHr",
+      "Source_Frequency_Folder": "MONTHLY",
+      "Source_Filename_Format": "HR_Absence_YYYYMMDD.csv",
+      "Source_Filename_Start": "HR_Absence_",
+      "Expected_Within_Weekdays": 5,
+      "Standardised_Path": "saphr",
+      "Standardised_Table_Name": "hr_absence_monthly",
+      "Standardised_Table_Definition": "standardised_table_definitions/saphr/hr_absence_monthly.json"
+    },
+    {
+      "Source_ID": 2,
+      "Source_Folder": "SapHr",
+      "Source_Frequency_Folder": "MONTHLY",
+      "Source_Filename_Format": "Inspector_Addresses_YYYYMMDD.csv",
+      "Source_Filename_Start": "Inspector_Addresses_",
+      "Expected_Within_Weekdays": 5,
+      "Standardised_Path": "saphr",
+      "Standardised_Table_Name": "inspector_addresses",
+      "Standardised_Table_Definition": "standardised_table_definitions/saphr/inspector_addresses.json"
+    },
+    {
+      "Source_ID": 3,
+      "Source_Folder": "SapHr",
+      "Source_Frequency_Folder": "MONTHLY",
+      "Source_Filename_Format": "Inspector_Specialisms_YYYYMMDD.csv",
+      "Source_Filename_Start": "Inspector_Specialisms_",
+      "Expected_Within_Weekdays": 5,
+      "Standardised_Path": "saphr",
+      "Standardised_Table_Name": "inspector_specialisms_monthly",
+      "Standardised_Table_Definition": "standardised_table_definitions/saphr/inspector_specialisms_monthly.json"
+    },
+    {
+      "Source_ID": 4,
+      "Source_Folder": "SapHr",
+      "Source_Frequency_Folder": "MONTHLY",
+      "Source_Filename_Format": "SAP_PINS_Email_YYYYMMDD.csv",
+      "Source_Filename_Start": "SAP_PINS_Email_",
+      "Expected_Within_Weekdays": 5,
+      "Standardised_Path": "saphr",
+      "Standardised_Table_Name": "sap_email_monthly",
+      "Standardised_Table_Definition": "standardised_table_definitions/saphr/sap_email_monthly.json"
+    },
+    {
+      "Source_ID": 5,
+      "Source_Folder": "SapHr",
+      "Source_Frequency_Folder": "MONTHLY",
+      "Source_Filename_Format": "SAP_HR_History_YYYYMMDD.csv",
+      "Source_Filename_Start": "SAP_HR_History_",
+      "Expected_Within_Weekdays": 5,
+      "Standardised_Path": "saphr",
+      "Standardised_Table_Name": "sap_hr_history_monthly",
+      "Standardised_Table_Definition": "standardised_table_definitions/saphr/sap_hr_history_monthly.json"
+    },
+    {
+      "Source_ID": 6,
+      "Source_Folder": "SapHr",
+      "Source_Frequency_Folder": "MONTHLY",
+      "Source_Filename_Format": "SAP_HR_Leavers_YYYYMMDD.csv",
+      "Source_Filename_Start": "SAP_HR_Leavers_",
+      "Expected_Within_Weekdays": 5,
+      "Standardised_Path": "saphr",
+      "Standardised_Table_Name": "sap_hr_leavers_monthly",
+      "Standardised_Table_Definition": "standardised_table_definitions/saphr/sap_hr_leavers_monthly.json"
+    },
+    {
+      "Source_ID": 7,
+      "Source_Folder": "SapHr",
+      "Source_Frequency_Folder": "MONTHLY",
+      "Source_Filename_Format": "SAP_Protected_YYYYMMDD.csv",
+      "Source_Filename_Start": "SAP_Protected_",
+      "Expected_Within_Weekdays": 5,
+      "Standardised_Path": "saphr",
+      "Standardised_Table_Name": "sap_protected_monthly",
+      "Standardised_Table_Definition": "standardised_table_definitions/saphr/sap_protected_monthly.json"
+    },
+    {
+      "Source_ID": 8,
+      "Source_Folder": "SapHr",
+      "Source_Frequency_Folder": "WEEKLY",
+      "Source_Filename_Format": "Inspector_Addresses_YYYYMMDD.csv",
+      "Source_Filename_Start": "Inspector_Addresses_",
+      "Expected_Within_Weekdays": 5,
+      "Standardised_Path": "saphr",
+      "Standardised_Table_Name": "inspector_addresses",
+      "Standardised_Table_Definition": "standardised_table_definitions/saphr/inspector_addresses.json"
+    },
+    {
+      "Source_ID": 9,
+      "Source_Folder": "SapHr",
+      "Source_Frequency_Folder": "WEEKLY",
+      "Source_Filename_Format": "Inspector_specialisms_YYYYMMDD.csv",
+      "Source_Filename_Start": "Inspector_specialisms_",
+      "Expected_Within_Weekdays": 5,
+      "Standardised_Path": "saphr",
+      "Standardised_Table_Name": "inspector_specialisms_monthly",
+      "Standardised_Table_Definition": "standardised_table_definitions/saphr/inspector_specialisms_monthly.json"
+    },
+    {
+      "Source_ID": 10,
+      "Source_Folder": "SapHr",
+      "Source_Frequency_Folder": "WEEKLY",
+      "Source_Filename_Format": "SAP_Email_YYYYMMDD.csv",
+      "Source_Filename_Start": "SAP_Email_",
+      "Expected_Within_Weekdays": 5,
+      "Standardised_Path": "saphr",
+      "Standardised_Table_Name": "sap_email_monthly",
+      "Standardised_Table_Definition": "standardised_table_definitions/saphr/sap_email_monthly.json"
+    },
+    {
+      "Source_ID": 11,
+      "Source_Folder": "SapHr",
+      "Source_Frequency_Folder": "WEEKLY",
+      "Source_Filename_Format": "SAP_HR_YYYYMMDD.csv",
+      "Source_Filename_Start": "SAP_HR_",
+      "Expected_Within_Weekdays": 5,
+      "Standardised_Path": "saphr",
+      "Standardised_Table_Name": "sap_hr_weekly",
+      "Standardised_Table_Definition": "standardised_table_definitions/saphr/sap_hr_weekly.json"
+    },
+    {
+      "Source_ID": 12,
+      "Source_Folder": "StaticTables",
+      "Source_Frequency_Folder": "",
+      "Source_Filename_Format": "bis_inspector_group.csv",
+      "Source_Filename_Start": "bis_inspector_group",
+      "Expected_Within_Weekdays": 5,
+      "Standardised_Path": "statictables",
+      "Standardised_Table_Name": "bis_inspector_group",
+      "Standardised_Table_Definition": "standardised_table_definitions/statictables/bis_inspector_group.json"
+    },
+    {
+      "Source_ID": 13,
+      "Source_Folder": "StaticTables",
+      "Source_Frequency_Folder": "",
+      "Source_Filename_Format": "hist_iss_job.csv",
+      "Source_Filename_Start": "hist_iss_job",
+      "Expected_Within_Weekdays": 5,
+      "Standardised_Path": "statictables",
+      "Standardised_Table_Name": "hist_iss_job",
+      "Standardised_Table_Definition": "standardised_table_definitions/statictables/hist_iss_job.json"
+    },
+    {
+      "Source_ID": 14,
+      "Source_Folder": "StaticTables",
+      "Source_Frequency_Folder": "",
+      "Source_Filename_Format": "leave_entitlement.csv",
+      "Source_Filename_Start": "leave_entitlement",
+      "Expected_Within_Weekdays": 5,
+      "Standardised_Path": "statictables",
+      "Standardised_Table_Name": "leave_entitlement",
+      "Standardised_Table_Definition": "standardised_table_definitions/statictables/leave_entitlement.json"
+    },
+    {
+      "Source_ID": 15,
+      "Source_Folder": "StaticTables",
+      "Source_Frequency_Folder": "",
+      "Source_Filename_Format": "Live_Holidays.csv",
+      "Source_Filename_Start": "Live_Holidays",
+      "Expected_Within_Weekdays": 5,
+      "Standardised_Path": "statictables",
+      "Standardised_Table_Name": "live_holidays",
+      "Standardised_Table_Definition": "standardised_table_definitions/statictables/live_holidays.json"
+    },
+    {
+      "Source_ID": 16,
+      "Source_Folder": "StaticTables",
+      "Source_Frequency_Folder": "",
+      "Source_Filename_Format": "Live_report_config.csv",
+      "Source_Filename_Start": "Live_report_config",
+      "Expected_Within_Weekdays": 5,
+      "Standardised_Path": "statictables",
+      "Standardised_Table_Name": "live_report_config",
+      "Standardised_Table_Definition": "standardised_table_definitions/statictables/live_report_config.json"
+    },
+    {
+      "Source_ID": 17,
+      "Source_Folder": "StaticTables",
+      "Source_Frequency_Folder": "",
+      "Source_Filename_Format": "load_inspector_raw.csv",
+      "Source_Filename_Start": "load_inspector_raw",
+      "Expected_Within_Weekdays": 5,
+      "Standardised_Path": "statictables",
+      "Standardised_Table_Name": "load_inspector_raw",
+      "Standardised_Table_Definition": "standardised_table_definitions/statictables/load_inspector_raw.json"
+    },
+    {
+      "Source_ID": 18,
+      "Source_Folder": "StaticTables",
+      "Source_Frequency_Folder": "",
+      "Source_Filename_Format": "load_iss_deployment.csv",
+      "Source_Filename_Start": "load_iss_deployment",
+      "Expected_Within_Weekdays": 5,
+      "Standardised_Path": "statictables",
+      "Standardised_Table_Name": "load_iss_deployment",
+      "Standardised_Table_Definition": "standardised_table_definitions/statictables/load_iss_deployment.json"
+    },
+    {
+      "Source_ID": 19,
+      "Source_Folder": "StaticTables",
+      "Source_Frequency_Folder": "",
+      "Source_Filename_Format": "load_iss_job.csv",
+      "Source_Filename_Start": "load_iss_job",
+      "Expected_Within_Weekdays": 5,
+      "Standardised_Path": "statictables",
+      "Standardised_Table_Name": "load_iss_job",
+      "Standardised_Table_Definition": "standardised_table_definitions/statictables/load_iss_job.json"
+    },
+    {
+      "Source_ID": 20,
+      "Source_Folder": "StaticTables",
+      "Source_Frequency_Folder": "",
+      "Source_Filename_Format": "Load_SAPPreferredName.csv",
+      "Source_Filename_Start": "Load_SAPPreferredName",
+      "Expected_Within_Weekdays": 5,
+      "Standardised_Path": "statictables",
+      "Standardised_Table_Name": "load_sappreferredname",
+      "Standardised_Table_Definition": "standardised_table_definitions/statictables/load_sappreferredname.json"
+    },
+    {
+      "Source_ID": 21,
+      "Source_Folder": "StaticTables",
+      "Source_Frequency_Folder": "",
+      "Source_Filename_Format": "load_sp_list_inspector_map.csv",
+      "Source_Filename_Start": "load_sp_list_inspector_map",
+      "Expected_Within_Weekdays": 5,
+      "Standardised_Path": "statictables",
+      "Standardised_Table_Name": "load_sp_list_inspector_map",
+      "Standardised_Table_Definition": "standardised_table_definitions/statictables/load_sp_list_inspector_map.json"
+    },
+    {
+      "Source_ID": 22,
+      "Source_Folder": "StaticTables",
+      "Source_Frequency_Folder": "",
+      "Source_Filename_Format": "pension_ernic_rates.csv",
+      "Source_Filename_Start": "pension_ernic_rates",
+      "Expected_Within_Weekdays": 5,
+      "Standardised_Path": "statictables",
+      "Standardised_Table_Name": "pension_ernic_rates",
+      "Standardised_Table_Definition": "standardised_table_definitions/statictables/pension_ernic_rates.json"
+    },
+    {
+      "Source_ID": 23,
+      "Source_Folder": "StaticTables",
+      "Source_Frequency_Folder": "",
+      "Source_Filename_Format": "protectedcharacteristicstargets.csv",
+      "Source_Filename_Start": "protectedcharacteristicstargets",
+      "Expected_Within_Weekdays": 5,
+      "Standardised_Path": "statictables",
+      "Standardised_Table_Name": "protectedcharacteristicstargets",
+      "Standardised_Table_Definition": "standardised_table_definitions/statictables/protectedcharacteristicstargets.json"
+    },
+    {
+      "Source_ID": 24,
+      "Source_Folder": "StaticTables",
+      "Source_Frequency_Folder": "",
+      "Source_Filename_Format": "sap_finance_dim_costcentre.csv",
+      "Source_Filename_Start": "sap_finance_dim_costcentre",
+      "Expected_Within_Weekdays": 5,
+      "Standardised_Path": "statictables",
+      "Standardised_Table_Name": "sap_finance_dim_costcentre",
+      "Standardised_Table_Definition": "standardised_table_definitions/statictables/sap_finance_dim_costcentre.json"
+    },
+    {
+      "Source_ID": 25,
+      "Source_Folder": "StaticTables",
+      "Source_Frequency_Folder": "",
+      "Source_Filename_Format": "sap_hr_equality_dummy_data.csv",
+      "Source_Filename_Start": "sap_hr_equality_dummy_data",
+      "Expected_Within_Weekdays": 5,
+      "Standardised_Path": "statictables",
+      "Standardised_Table_Name": "sap_hr_equality_dummy_data",
+      "Standardised_Table_Definition": "standardised_table_definitions/statictables/sap_hr_equality_dummy_data.json"
+    },
+    {
+      "Source_ID": 26,
+      "Source_Folder": "StaticTables",
+      "Source_Frequency_Folder": "",
+      "Source_Filename_Format": "sap_hr_hist_mig.csv",
+      "Source_Filename_Start": "sap_hr_hist_mig",
+      "Expected_Within_Weekdays": 5,
+      "Standardised_Path": "statictables",
+      "Standardised_Table_Name": "sap_hr_hist_mig",
+      "Standardised_Table_Definition": "standardised_table_definitions/statictables/sap_hr_hist_mig.json"
+    },
+    {
+      "Source_ID": 27,
+      "Source_Folder": "StaticTables",
+      "Source_Frequency_Folder": "",
+      "Source_Filename_Format": "sap_hr_previous_employee_numbers.csv",
+      "Source_Filename_Start": "sap_hr_previous_employee_numbers",
+      "Expected_Within_Weekdays": 5,
+      "Standardised_Path": "statictables",
+      "Standardised_Table_Name": "sap_hr_previous_employee_numbers",
+      "Standardised_Table_Definition": "standardised_table_definitions/statictables/sap_hr_previous_employee_numbers.json"
+    },
+    {
+      "Source_ID": 28,
+      "Source_Folder": "StaticTables",
+      "Source_Frequency_Folder": "",
+      "Source_Filename_Format": "sap_hr_protected_data_hist.csv",
+      "Source_Filename_Start": "sap_hr_protected_data_hist",
+      "Expected_Within_Weekdays": 5,
+      "Standardised_Path": "statictables",
+      "Standardised_Table_Name": "sap_hr_protected_data_hist",
+      "Standardised_Table_Definition": "standardised_table_definitions/statictables/sap_hr_protected_data_hist.json"
+    },
+    {
+      "Source_ID": 29,
+      "Source_Folder": "StaticTables",
+      "Source_Frequency_Folder": "",
+      "Source_Filename_Format": "work_schedules.csv",
+      "Source_Filename_Start": "work_schedules",
+      "Expected_Within_Weekdays": 5,
+      "Standardised_Path": "statictables",
+      "Standardised_Table_Name": "work_schedules",
+      "Standardised_Table_Definition": "standardised_table_definitions/statictables/work_schedules.json"
+    }
+  ]
+}
