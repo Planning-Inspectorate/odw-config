@@ -1,0 +1,79 @@
+{
+  "fields": [
+    {
+      "name": "ingested_datetime",
+      "type": "timestamp",
+      "constraints": false
+    },
+    {
+      "name": "expected_from",
+      "type": "timestamp",
+      "constraints": false
+    },
+    {
+      "name": "expected_to",
+      "type": "timestamp",
+      "constraints": false
+    },
+    {
+      "name": "StaffNumber",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "Name",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "Grade",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "Directorate",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "Salary",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "Gender",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "AgeGroup",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "Ethnicity",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "Disability",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "Sexuality",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "Religion",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "PTFT",
+      "type": "string",
+      "nullable": true
+    }
+  ]
+}

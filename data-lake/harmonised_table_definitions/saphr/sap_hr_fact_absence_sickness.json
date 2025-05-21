@@ -1,0 +1,19 @@
+{
+    "fields": [
+        {"name": "sickness_id", "type": "INT", "constraints": "NULL"},
+        {"name": "StaffNumber", "type": "INT", "constraints": "NULL"},
+        {"name": "Days", "type": "FLOAT", "constraints": "NULL"},
+        {"name": "sickness_start", "type": "DATE", "constraints": "NULL"},
+        {"name": "sickness_end", "type": "DATE", "constraints": "NULL"},
+        {"name": "FY", "type": "STRING", "constraints": "NULL"},
+        {"name": "financial_year", "type": "STRING", "constraints": "NULL"},
+        {"name": "calendar_year", "type": "STRING", "constraints": "NULL"},
+        {"name": "SourceSystemID", "type": "STRING", "constraints": false},
+        {"name": "IngestionDate", "type": "TIMESTAMP", "constraints": false},
+        {"name": "ValidFrom", "type": "TIMESTAMP", "constraints": false},
+        {"name": "ValidTo", "type": "TIMESTAMP", "constraints": false},
+        {"name": "RowID", "type": "STRING", "constraints": false},
+        {"name": "IsActive", "type": "STRING", "constraints": false},
+        {"name": "LastUpdated", "type": "TIMESTAMP", "constraints": false}
+    ]
+}

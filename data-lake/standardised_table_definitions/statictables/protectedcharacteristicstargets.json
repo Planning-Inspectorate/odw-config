@@ -1,0 +1,119 @@
+{
+  "fields": [
+    {
+      "name": "ingested_datetime",
+      "type": "timestamp",
+      "constraints": false
+    },
+    {
+      "name": "expected_from",
+      "type": "timestamp",
+      "constraints": false
+    },
+    {
+      "name": "expected_to",
+      "type": "timestamp",
+      "constraints": false
+    },
+    {
+      "name": "Title",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "PCDate",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "month_int",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "PCMonthLatest",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "PCYear",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "PCFY",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "PCFYLatest",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "FY_Latest_SortKey",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "RefNumber",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "MonthYearLatest_SortKey",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "DataCompleteness",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "PCHeadcount",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "Disabled",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "Ethnicity",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "Religion",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "SexualOrientation",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "Source",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "ResponsibilityLevel",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "Sex",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "AgeBand",
+      "type": "string",
+      "nullable": true
+    }
+  ]
+}

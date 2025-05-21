@@ -1,0 +1,16 @@
+{
+    "fields": [
+				{"name": "RefNo", "type": "STRING", "constraints": "NULL"},
+                {"name": "EthnicOrigin", "type": "STRING", "constraints": "NULL"},
+                {"name": "ReligiousDenominationKey", "type": "STRING", "constraints": "NULL"},
+                {"name": "SxO", "type": "STRING", "constraints": "NULL"},
+				{"name": "Grade", "type": "STRING", "constraints": "NULL"},
+                {"name": "DisabilityText", "type": "STRING", "constraints": "NULL"},
+				{"name": "Report_MonthEnd_Date", "type": "DATE", "constraints": "NULL"},
+              	{"name": "SourceSystemID", "type": "string","constraints": false},
+				{"name": "IngestionDate","type": "timestamp","constraints": false},
+				{"name": "ValidTo","type": "timestamp","constraints": false},
+				{"name": "RowID","type": "string","constraints": false},
+				{"name": "IsActive","type": "string","constraints": false}			
+    ]
+}

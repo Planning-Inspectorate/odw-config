@@ -1,0 +1,59 @@
+{
+  "fields": [
+    {
+      "name": "ingested_datetime",
+      "type": "timestamp",
+      "constraints": false
+    },
+    {
+      "name": "expected_from",
+      "type": "timestamp",
+      "constraints": false
+    },
+    {
+      "name": "expected_to",
+      "type": "timestamp",
+      "constraints": false
+    },
+    {
+      "name": "code",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "name",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "resource_group",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "inspector_group",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "New",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "Inspector_manager",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "Ops_Lead",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "sap_ou",
+      "type": "STRING",
+      "constraints": "NULL"
+    }
+  ]
+}

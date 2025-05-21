@@ -1,0 +1,139 @@
+{
+  "fields": [
+    {
+      "name": "ingested_datetime",
+      "type": "timestamp",
+      "constraints": false
+    },
+    {
+      "name": "expected_from",
+      "type": "timestamp",
+      "constraints": false
+    },
+    {
+      "name": "expected_to",
+      "type": "timestamp",
+      "constraints": false
+    },
+    {
+      "name": "Id",
+      "type": "STRING",
+      "constraints": "NOT NULL"
+    },
+    {
+      "name": "Title",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "GivenNames",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "FamilyName",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "Name",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "AddressLine1",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "AddressLine2",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "Town",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "County",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "Postcode",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "PhoneNumber",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "EmailAddress",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "ActiveStatus",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "Branch",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "Chart",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "DateIn",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "DateOut",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "EOResponsible",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "Grade",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "PINSStaffNumber",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "ResourceGroup",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "Staff",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "TraineeLevel",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "PDAC_ETL_Date",
+      "type": "STRING",
+      "constraints": "NULL"
+    }
+  ]
+}

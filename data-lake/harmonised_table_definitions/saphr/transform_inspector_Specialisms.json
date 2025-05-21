@@ -1,0 +1,16 @@
+{
+    "fields": [
+        {"name": "StaffNumber", "type": "STRING", "constraints": "NULL"},
+        {"name": "Firstname", "type": "STRING", "constraints": "NULL"},
+        {"name": "Lastname", "type": "STRING", "constraints": "NULL"},
+        {"name": "QualificationName", "type": "STRING", "constraints": "NULL"},
+        {"name": "Proficien", "type": "STRING", "constraints": "NULL"},
+		{"name": "SourceSystemID", "type": "string","constraints": false},
+		{"name": "IngestionDate","type": "timestamp","constraints": false},
+		{"name": "ValidTo","type": "timestamp","constraints": false},
+		{"name": "RowID","type": "string","constraints": false},
+		{"name": "IsActive","type": "string","constraints": false}	
+    ]
+}
+
+

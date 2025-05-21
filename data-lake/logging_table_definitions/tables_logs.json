@@ -1,0 +1,47 @@
+{
+    "fields": [
+      {
+        "metadata": {},
+        "name": "file_ID",
+        "type": "string",
+        "nullable": false
+      },
+      {
+        "metadata": {},
+        "name": "ingested_datetime",
+        "type": "timestamp",
+        "nullable": false
+      },
+      {
+        "metadata": {},
+        "name": "ingested_by_process_name",
+        "type": "string",
+        "nullable": false
+      },
+      {
+        "metadata": {},
+        "name": "input_file",
+        "type": "string",
+        "nullable": false
+      },
+      {
+        "metadata": {},
+        "name": "modified_datetime",
+        "type": "timestamp",
+        "nullable": false
+      },
+      {
+        "metadata": {},
+        "name": "modified_by_process_name",
+        "type": "string",
+        "nullable": false
+      },
+      {
+        "metadata": {},
+        "name": "entity_name",
+        "type": "string",
+        "nullable": false
+      }
+    ]
+  }
+  

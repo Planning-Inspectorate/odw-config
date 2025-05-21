@@ -1,0 +1,39 @@
+{
+  "fields": [
+    {
+      "name": "ingested_datetime",
+      "type": "timestamp",
+      "constraints": false
+    },
+    {
+      "name": "expected_from",
+      "type": "timestamp",
+      "constraints": false
+    },
+    {
+      "name": "expected_to",
+      "type": "timestamp",
+      "constraints": false
+    },
+    {
+      "name": "PreferredTitle",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "PreferredFirstName",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "PreferredFamilyName",
+      "type": "STRING",
+      "constraints": "NULL"
+    },
+    {
+      "name": "PERSNO",
+      "type": "STRING",
+      "constraints": "NULL"
+    }
+  ]
+}

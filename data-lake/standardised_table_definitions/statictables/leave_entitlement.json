@@ -1,0 +1,54 @@
+{
+  "fields": [
+    {
+      "name": "ingested_datetime",
+      "type": "timestamp",
+      "constraints": false
+    },
+    {
+      "name": "expected_from",
+      "type": "timestamp",
+      "constraints": false
+    },
+    {
+      "name": "expected_to",
+      "type": "timestamp",
+      "constraints": false
+    },
+    {
+      "name": "StaffNumber",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "Number",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "Deduction",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "Dedfrom",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "Dedto",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "AbsenceQuotaType",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "file_name",
+      "type": "string",
+      "nullable": true
+    }
+  ]
+}
