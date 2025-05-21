@@ -12,6 +12,7 @@ parameters:
   type: string
   default: Dev
   values:
+  - Build
   - Dev
   - Test
   - Prod
@@ -24,7 +25,7 @@ parameters:
 variables:
 - group: Terraform ${{ parameters.environment }}
 
-# Set service connection for the environment to deploy to, e.g. ODW Dev, ODW Test, ODW Prod
+# Set service connection for the environment to deploy to, e.g. ODW Build, ODW Dev, ODW Test, ODW Prod
 - name: armServiceConnectionName
   value: ${{ format('Azure DevOps Pipelines - ODW {0} - Infrastructure', upper(parameters.environment)) }}
 
