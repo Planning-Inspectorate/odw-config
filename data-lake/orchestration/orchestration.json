@@ -1305,6 +1305,8 @@
       "Standardised_Path": "Horizon",
       "Standardised_Table_Name": "horizon_folder",
       "Standardised_Table_Definition": "standardised_table_definitions/Horizon/HorizonFolder.json",
+      "Harmonised_Table_Name": "horizon_folder",
+      "Harmonised_Incremental_Key": "HorizonFolderID",
       "Harmonised_NoteBook": "horizon_folder"
     },
     {
@@ -1639,8 +1641,7 @@
       "Standardised_Table_Definition": "standardised_table_definitions/Horizon/HorizonCases_s78.json",
       "Harmonised_Table_Name": "HorizonCases_s78",
       "Harmonised_Incremental_Key": "AppealS78ID",
-      "Entity_Primary_Key": "CaseReference",
-      "Harmonised_NoteBook": "py_hzn_standardized_s78_tables"
+      "Entity_Primary_Key": "CaseReference"
     },
     {
       "Source_ID": 139,
