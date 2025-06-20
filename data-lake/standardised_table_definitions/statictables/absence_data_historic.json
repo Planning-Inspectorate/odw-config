@@ -1,0 +1,119 @@
+{
+  "fields": [
+    {
+      "name": "ingested_datetime",
+      "type": "timestamp",
+      "nullable": true
+    },
+    {
+      "name": "expected_from",
+      "type": "timestamp",
+      "nullable": true
+    },
+    {
+      "name": "expected_to",
+      "type": "timestamp",
+      "nullable": true
+    },
+    {
+      "name": "StaffNumber",
+      "type": "STRING",
+      "nullable": false
+    },
+    {
+      "name": "AbsType",
+      "type": "STRING",
+      "nullable": true
+    },
+    {
+      "name": "SicknessGroup",
+      "type": "STRING",
+      "nullable": true
+    },
+    {
+      "name": "StartDate",
+      "type": "STRING",
+      "nullable": true
+    },
+    {
+      "name": "EndDate",
+      "type": "STRING",
+      "nullable": true
+    },
+    {
+      "name": "AttendanceorAbsenceType",
+      "type": "STRING",
+      "nullable": true
+    },
+    {
+      "name": "Days",
+      "type": "STRING",
+      "nullable": true
+    },
+    {
+      "name": "Hrs",
+      "type": "STRING",
+      "nullable": true
+    },
+    {
+      "name": "Start",
+      "type": "STRING",
+      "nullable": true
+    },
+    {
+      "name": "Endtime",
+      "type": "STRING",
+      "nullable": true
+    },
+    {
+      "name": "Caldays",
+      "type": "STRING",
+      "nullable": true
+    },
+    {
+      "name": "WorkScheduleRule",
+      "type": "STRING",
+      "nullable": true
+    },
+    {
+      "name": "Wkhrs",
+      "type": "STRING",
+      "nullable": true
+    },
+    {
+      "name": "HrsDay",
+      "type": "STRING",
+      "nullable": true
+    },
+    {
+      "name": "WkDys",
+      "type": "STRING",
+      "nullable": true
+    },
+    {
+      "name": "AnnualLeaveStart",
+      "type": "STRING",
+      "nullable": true
+    },
+    {
+      "name": "Illness",
+      "type": "STRING",
+      "nullable": true
+    },
+    {
+      "name": "externalCode",
+      "type": "STRING",
+      "nullable": true
+    },
+    {
+      "name": "lastModifiedDate",
+      "type": "STRING",
+      "nullable": true
+    },
+    {
+      "name": "approvalStatus",
+      "type": "STRING",
+      "nullable": true
+    }
+  ]
+}
