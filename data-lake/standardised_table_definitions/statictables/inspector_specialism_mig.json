@@ -1,0 +1,65 @@
+{
+  "fields": [
+
+    {
+      "name": "ingested_datetime",
+      "type": "timestamp",
+      "constraints": false
+    },
+    {
+      "name": "expected_from",
+      "type": "timestamp",
+      "constraints": false
+    },
+    {
+      "name": "expected_to",
+      "type": "timestamp",
+      "constraints": false
+    },
+    {
+      "name": "StaffNumber",
+      "type": "STRING",
+      "nullable": false
+    },
+    {
+      "name": "Firstname",
+      "type": "STRING",
+      "nullable": false
+    },
+    {
+      "name": "Lastname",
+      "type": "STRING",
+      "nullable": false
+    },
+    {
+      "name": "QualificationName",
+      "type": "STRING",
+      "nullable": true
+    },
+    {
+      "name": "Proficien",
+      "type": "STRING",
+      "nullable": true
+    },
+    {
+      "name": "ValidFrom",
+      "type": "STRING",
+      "nullable": false
+    },
+    {
+      "name": "ValidTo",
+      "type": "STRING",
+      "nullable": true
+    },
+    {
+      "name": "Current",
+      "type": "STRING",
+      "nullable": false
+    },
+    {
+      "name": "LastUpdated",
+      "type": "STRING",
+      "nullable": false
+    }
+  ]
+}

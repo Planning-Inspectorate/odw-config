@@ -318,6 +318,28 @@
       "Standardised_Path": "statictables",
       "Standardised_Table_Name": "work_schedules",
       "Standardised_Table_Definition": "standardised_table_definitions/statictables/work_schedules.json"
+    },
+    {
+      "Source_ID": 30,
+      "Source_Folder": "StaticTables",
+      "Source_Frequency_Folder": "",
+      "Source_Filename_Format": "absence_data_historic.csv",
+      "Source_Filename_Start": "absence_data_historic",
+      "Expected_Within_Weekdays": 5,
+      "Standardised_Path": "statictables",
+      "Standardised_Table_Name": "absence_data_historic",
+      "Standardised_Table_Definition": "standardised_table_definitions/statictables/absence_data_historic.json"
+    },
+    {
+      "Source_ID": 31,
+      "Source_Folder": "StaticTables",
+      "Source_Frequency_Folder": "",
+      "Source_Filename_Format": "inspector_specialism_mig.csv",
+      "Source_Filename_Start": "inspector_specialism_mig",
+      "Expected_Within_Weekdays": 5,
+      "Standardised_Path": "statictables",
+      "Standardised_Table_Name": "inspector_specialism_mig",
+      "Standardised_Table_Definition": "standardised_table_definitions/statictables/inspector_specialism_mig.json"
     }
   ]
 }
