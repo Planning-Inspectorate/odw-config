@@ -107,8 +107,8 @@
       "Source_Filename_Start": "SAP_Email_",
       "Expected_Within_Weekdays": 5,
       "Standardised_Path": "saphr",
-      "Standardised_Table_Name": "sap_email_monthly",
-      "Standardised_Table_Definition": "standardised_table_definitions/saphr/sap_email_monthly.json"
+      "Standardised_Table_Name": "sap_email_weekly",
+      "Standardised_Table_Definition": "standardised_table_definitions/saphr/sap_email_weekly.json"
     },
     {
       "Source_ID": 11,
