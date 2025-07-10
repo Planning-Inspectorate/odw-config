@@ -1,0 +1,46 @@
+{
+  "fields": [
+    {
+      "metadata": {},
+      "name": "attribute",
+      "type": "string",
+      "nullable": false
+    },
+    {
+      "metadata": {},
+      "name": "type",
+      "type": "string",
+      "nullable": false
+    },
+    {
+      "metadata": {},
+      "name": "description",
+      "type": "string",
+      "nullable": false
+    },
+    {
+      "metadata": {},
+      "name": "monthlyStatsComponent",
+      "type": "integer",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "s78",
+      "type": "integer",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "s20",
+      "type": "integer",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "hasV1",
+      "type": "string",
+      "nullable": true
+    }
+  ]
+}
