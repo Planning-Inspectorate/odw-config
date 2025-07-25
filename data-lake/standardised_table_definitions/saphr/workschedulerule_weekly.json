@@ -1,0 +1,44 @@
+{
+  "fields": [
+    {
+      "name": "ingested_datetime",
+      "type": "timestamp",
+      "constraints": false
+    },
+    {
+      "name": "expected_from",
+      "type": "timestamp",
+      "constraints": false
+    },
+    {
+      "name": "expected_to",
+      "type": "timestamp",
+      "constraints": false
+    },
+    {
+      "name": "wsr_name",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "wsr_code",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "wsr_description",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "wsr_startdate",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "wsr_lastmodified",
+      "type": "string",
+      "nullable": true
+    }
+  ]
+}
