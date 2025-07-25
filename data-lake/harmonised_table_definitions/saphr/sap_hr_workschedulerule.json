@@ -1,0 +1,23 @@
+{
+  "fields": [
+    {"name": "WorkScheduleRule", "type": "STRING", "constraints": "NULL"},
+    {"name": "WorkScheduleCode", "type": "STRING", "constraints": "NULL"},
+    {"name": "MoWk1", "type": "STRING", "constraints": "NULL"},
+    {"name": "TuWk1", "type": "STRING", "constraints": "NULL"},
+    {"name": "WeWk1", "type": "STRING", "constraints": "NULL"},
+    {"name": "ThWk1", "type": "STRING", "constraints": "NULL"},
+    {"name": "FrWk1", "type": "STRING", "constraints": "NULL"},
+    {"name": "MoWk2", "type": "STRING", "constraints": "NULL"},
+    {"name": "TuWk2", "type": "STRING", "constraints": "NULL"},
+    {"name": "WeWk2", "type": "STRING", "constraints": "NULL"},
+    {"name": "ThWk2", "type": "STRING", "constraints": "NULL"},
+    {"name": "FrWk2", "type": "STRING", "constraints": "NULL"},
+    {"name": "WkHrsWk1", "type": "FLOAT", "constraints": "NULL"},
+    {"name": "WkHrsWk2", "type": "FLOAT", "constraints": "NULL"},
+    {"name": "AvgWkHrs", "type": "FLOAT", "constraints": "NULL"},
+    {"name": "WSRstart", "type": "DATE", "constraints": "NULL"},
+    {"name": "Currentweek", "type": "BOOLEAN", "constraints": "NULL"},
+    {"name": "Lastmodified", "type": "TIMESTAMP", "constraints": "NULL"},
+    {"name": "IngestionDate", "type": "TIMESTAMP", "constraints": false}
+  ]
+}
