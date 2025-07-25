@@ -121,6 +121,7 @@
       "Standardised_Table_Name": "sap_hr_weekly",
       "Standardised_Table_Definition": "standardised_table_definitions/saphr/sap_hr_weekly.json"
     },
+
     {
       "Source_ID": 12,
       "Source_Folder": "StaticTables",
@@ -340,6 +341,17 @@
       "Standardised_Path": "statictables",
       "Standardised_Table_Name": "inspector_specialism_mig",
       "Standardised_Table_Definition": "standardised_table_definitions/statictables/inspector_specialism_mig.json"
+    },
+  {
+      "Source_ID": 32,
+      "Source_Folder": "SapHr",
+      "Source_Frequency_Folder": "WEEKLY",
+      "Source_Filename_Format": "workschedulerule_YYYYMMDD.csv",
+      "Source_Filename_Start": "workschedulerule",
+      "Expected_Within_Weekdays": 5,
+      "Standardised_Path": "saphr",
+      "Standardised_Table_Name": "workschedulerule_weekly",
+      "Standardised_Table_Definition": "standardised_table_definitions/saphr/workschedulerule_weekly.json"
     }
   ]
 }
