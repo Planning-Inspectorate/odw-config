@@ -1,1 +1,46 @@
-{"fields":[{"metadata":{},"name":"ingested_datetime","type":"timestamp","nullable":false},{"metadata":{},"name":"expected_from","type":"timestamp","nullable":false},{"metadata":{},"name":"expected_to","type":"timestamp","nullable":false},{"metadata":{},"name":"name","type":"string","nullable":true},{"metadata":{},"name":"band","type":"string","nullable":true},{"metadata":{},"name":"displayorder","type":"integer","nullable":true},{"metadata":{},"name":"id","type":"integer","nullable":true}]}
+{
+  "fields": [
+    {
+      "metadata": {},
+      "name": "ingested_datetime",
+      "type": "timestamp",
+      "nullable": false
+    },
+    {
+      "metadata": {},
+      "name": "expected_from",
+      "type": "timestamp",
+      "nullable": false
+    },
+    {
+      "metadata": {},
+      "name": "expected_to",
+      "type": "timestamp",
+      "nullable": false
+    },
+    {
+      "metadata": {},
+      "name": "name",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "band",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "displayorder",
+      "type": "integer",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "id",
+      "type": "integer",
+      "nullable": true
+    }
+  ]
+}
