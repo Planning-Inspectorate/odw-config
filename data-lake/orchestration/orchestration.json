@@ -1824,10 +1824,7 @@
       "Expected_Within_Weekdays": 1,
       "Standardised_Path": "Horizon",
       "Standardised_Table_Name": "TypeOfLevel",
-      "Standardised_Table_Definition": "standardised_table_definitions/Horizon/TypeOfLevel.json",
-      "Harmonised_Table_Name": "TypeOfLevel",
-      "Harmonised_Incremental_Key": "AppealS78ID",
-      "Entity_Primary_Key": "Name"
+      "Standardised_Table_Definition": "standardised_table_definitions/Horizon/TypeOfLevel.json"
     },
     {
       "Source_ID": 149,
@@ -1841,10 +1838,7 @@
       "Expected_Within_Weekdays": 1,
       "Standardised_Path": "Horizon",
       "Standardised_Table_Name": "CaseStrings",
-      "Standardised_Table_Definition": "standardised_table_definitions/Horizon/CaseStrings.json",
-      "Harmonised_Table_Name": "CaseStrings",
-      "Harmonised_Incremental_Key": "AppealS78ID",
-      "Entity_Primary_Key": "CaseNodeId"
+      "Standardised_Table_Definition": "standardised_table_definitions/Horizon/CaseStrings.json"
     },
     {
       "Source_ID": 150,
@@ -1858,10 +1852,7 @@
       "Expected_Within_Weekdays": 1,
       "Standardised_Path": "Horizon",
       "Standardised_Table_Name": "BIS_LeadCase",
-      "Standardised_Table_Definition": "standardised_table_definitions/Horizon/BIS_LeadCase.json",
-      "Harmonised_Table_Name": "BIS_LeadCase",
-      "Harmonised_Incremental_Key": "AppealS78ID",
-      "Entity_Primary_Key": "CaseNodeId"
+      "Standardised_Table_Definition": "standardised_table_definitions/Horizon/BIS_LeadCase.json"
     },
     {
       "Source_ID": 151,
@@ -1875,10 +1866,7 @@
       "Expected_Within_Weekdays": 1,
       "Standardised_Path": "Horizon",
       "Standardised_Table_Name": "PlanningAppDates",
-      "Standardised_Table_Definition": "standardised_table_definitions/Horizon/PlanningAppDates.json",
-      "Harmonised_Table_Name": "PlanningAppDates",
-      "Harmonised_Incremental_Key": "AppealS78ID",
-      "Entity_Primary_Key": "CaseNodeId"
+      "Standardised_Table_Definition": "standardised_table_definitions/Horizon/PlanningAppDates.json"
     },
     {
       "Source_ID": 152,
@@ -1892,10 +1880,7 @@
       "Expected_Within_Weekdays": 1,
       "Standardised_Path": "Horizon",
       "Standardised_Table_Name": "PlanningAppStrings",
-      "Standardised_Table_Definition": "standardised_table_definitions/Horizon/PlanningAppStrings.json",
-      "Harmonised_Table_Name": "PlanningAppStrings",
-      "Harmonised_Incremental_Key": "AppealS78ID",
-      "Entity_Primary_Key": "CaseNodeId"
+      "Standardised_Table_Definition": "standardised_table_definitions/Horizon/PlanningAppStrings.json"
     }
   ]
 }
