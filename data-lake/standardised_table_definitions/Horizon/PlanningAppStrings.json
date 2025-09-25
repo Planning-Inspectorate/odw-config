@@ -1,0 +1,40 @@
+{
+  "fields": [
+    {
+      "metadata": {},
+      "name": "ingested_datetime",
+      "type": "timestamp",
+      "nullable": false
+    },
+    {
+      "metadata": {},
+      "name": "expected_from",
+      "type": "timestamp",
+      "nullable": false
+    },
+    {
+      "metadata": {},
+      "name": "expected_to",
+      "type": "timestamp",
+      "nullable": false
+    },
+    {
+      "metadata": {},
+      "name": "casenodeid",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "planningapplicationtype",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "lpaapplicationreference",
+      "type": "string",
+      "nullable": true
+    }
+  ]
+}

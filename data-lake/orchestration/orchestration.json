@@ -1811,6 +1811,76 @@
       "Harmonised_Incremental_Key": "AppealsEstimateEventID",
       "Entity_Primary_Key": "id",
       "Entity_Name": "appeal-event-estimate"
+    },
+    {
+      "Source_ID": 148,
+      "Load_Enable_status": "True",
+      "Source_Folder": "Horizon",
+      "Horizon_Table_Name": "Horizon_vw_curr_TypeOfLevel",
+      "Incremental": false,
+      "Source_Frequency_Folder": "",
+      "Source_Filename_Format": "TypeOfLevel.csv",
+      "Source_Filename_Start": "TypeOfLevel",
+      "Expected_Within_Weekdays": 1,
+      "Standardised_Path": "Horizon",
+      "Standardised_Table_Name": "TypeOfLevel",
+      "Standardised_Table_Definition": "standardised_table_definitions/Horizon/TypeOfLevel.json"
+    },
+    {
+      "Source_ID": 149,
+      "Load_Enable_status": "True",
+      "Source_Folder": "Horizon",
+      "Horizon_Table_Name": "Horizon_vw_BIS_CaseStrings",
+      "Incremental": false,
+      "Source_Frequency_Folder": "",
+      "Source_Filename_Format": "CaseStrings.csv",
+      "Source_Filename_Start": "CaseStrings",
+      "Expected_Within_Weekdays": 1,
+      "Standardised_Path": "Horizon",
+      "Standardised_Table_Name": "CaseStrings",
+      "Standardised_Table_Definition": "standardised_table_definitions/Horizon/CaseStrings.json"
+    },
+    {
+      "Source_ID": 150,
+      "Load_Enable_status": "True",
+      "Source_Folder": "Horizon",
+      "Horizon_Table_Name": "Horizon_vw_BIS_LeadCase",
+      "Incremental": false,
+      "Source_Frequency_Folder": "",
+      "Source_Filename_Format": "BIS_LeadCase.csv",
+      "Source_Filename_Start": "BIS_LeadCase",
+      "Expected_Within_Weekdays": 1,
+      "Standardised_Path": "Horizon",
+      "Standardised_Table_Name": "BIS_LeadCase",
+      "Standardised_Table_Definition": "standardised_table_definitions/Horizon/BIS_LeadCase.json"
+    },
+    {
+      "Source_ID": 151,
+      "Load_Enable_status": "True",
+      "Source_Folder": "Horizon",
+      "Horizon_Table_Name": "Horizon_vw_BIS_PlanningAppDates",
+      "Incremental": false,
+      "Source_Frequency_Folder": "",
+      "Source_Filename_Format": "PlanningAppDates.csv",
+      "Source_Filename_Start": "PlanningAppDates",
+      "Expected_Within_Weekdays": 1,
+      "Standardised_Path": "Horizon",
+      "Standardised_Table_Name": "PlanningAppDates",
+      "Standardised_Table_Definition": "standardised_table_definitions/Horizon/PlanningAppDates.json"
+    },
+    {
+      "Source_ID": 152,
+      "Load_Enable_status": "True",
+      "Source_Folder": "Horizon",
+      "Horizon_Table_Name": "Horizon_vw_BIS_PlanningAppStrings",
+      "Incremental": false,
+      "Source_Frequency_Folder": "",
+      "Source_Filename_Format": "PlanningAppStrings.csv",
+      "Source_Filename_Start": "PlanningAppStrings",
+      "Expected_Within_Weekdays": 1,
+      "Standardised_Path": "Horizon",
+      "Standardised_Table_Name": "PlanningAppStrings",
+      "Standardised_Table_Definition": "standardised_table_definitions/Horizon/PlanningAppStrings.json"
     }
   ]
 }
