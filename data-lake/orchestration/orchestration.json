@@ -376,7 +376,10 @@
     },
     {
       "Source_ID": 35,
+      "Load_Enable_status": "True",
       "Source_Folder": "Horizon",
+      "Horizon_Table_Name": "Horizon_vw_BIS_AppealsAdditonalData",
+      "Incremental": false,
       "Source_Frequency_Folder": "",
       "Source_Filename_Format": "AppealsAdditionalData.csv",
       "Source_Filename_Start": "AppealsAdditionalData",
@@ -632,7 +635,10 @@
     },
     {
       "Source_ID": 58,
+      "Load_Enable_status": "True",
       "Source_Folder": "Horizon",
+      "Horizon_Table_Name": "Horizon_vw_BIS_CaseDates",
+      "Incremental": false,
       "Source_Frequency_Folder": "",
       "Source_Filename_Format": "CaseDates.csv",
       "Source_Filename_Start": "CaseDates",
@@ -643,7 +649,10 @@
     },
     {
       "Source_ID": 59,
+      "Load_Enable_status": "True",
       "Source_Folder": "Horizon",
+      "Horizon_Table_Name": "Horizon_vw_BIS_CaseInfo",
+      "Incremental": false,
       "Source_Frequency_Folder": "",
       "Source_Filename_Format": "CaseInfo.csv",
       "Source_Filename_Start": "CaseInfo",
@@ -746,7 +755,10 @@
     },
     {
       "Source_ID": 68,
+      "Load_Enable_status": "True",
       "Source_Folder": "Horizon",
+      "Horizon_Table_Name": "Horizon_vw_BIS_SpecialistCaseDates",
+      "Incremental": false,
       "Source_Frequency_Folder": "",
       "Source_Filename_Format": "SpecialistCaseDates.csv",
       "Source_Filename_Start": "SpecialistCaseDates",
