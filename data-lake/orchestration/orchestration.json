@@ -1302,7 +1302,7 @@
       "Load_Enable_status": "True",
       "Source_Folder": "Horizon",
       "Horizon_Table_Name": "Horizon_ODW_vw_DocumentMetadata",
-      "Incremental": true,
+      "Incremental": false,
       "Incremental_Key": "ModifyDate",
       "Source_Frequency_Folder": "",
       "Source_Filename_Format": "DocumentMetaData.csv",
