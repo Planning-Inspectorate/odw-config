@@ -1,0 +1,189 @@
+{
+  "fields": [
+    {
+      "name": "ingested_datetime",
+      "type": "timestamp",
+      "constraints": false
+    },
+    {
+      "name": "expected_from",
+      "type": "timestamp",
+      "constraints": false
+    },
+    {
+      "name": "expected_to",
+      "type": "timestamp",
+      "constraints": false
+    },
+    {
+      "name": "person_number",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "first_name",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "last_name",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "manager_id",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "manager_first_name",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "manager_last_name",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "subarea",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "org_unit",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "pay_grade",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "time_type",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "activity_type",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "casework_category",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "case_reference",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "activity_startdate",
+      "type": "string",
+      "constraints": false
+    },
+    {
+      "name": "activity_enddate",
+      "type": "string",
+      "constraints": false
+    },
+    {
+      "name": "duration_hours",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "duration_minutes",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "activity_created_date",
+      "type": "string",
+      "constraints": false
+    },
+    {
+      "name": "activity_last_updated",
+      "type": "string",
+      "constraints": false
+    },
+    {
+      "name": "activity_uuid",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "planned_working_time",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "recorded_working_time",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "working_time_diff",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "external_times_exist",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "timesheet_startdate",
+      "type": "string",
+      "constraints": false
+    },
+    {
+      "name": "timesheet_enddate",
+      "type": "string",
+      "constraints": false
+    },
+    {
+      "name": "timesheet_created_date",
+      "type": "string",
+      "constraints": false
+    },
+    {
+      "name": "timesheet_last_updated",
+      "type": "string",
+      "constraints": false
+    },
+    {
+      "name": "timesheet_submission_date",
+      "type": "string",
+      "constraints": false
+    },
+    {
+      "name": "timesheet_approved_date",
+      "type": "string",
+      "constraints": false
+    },
+    {
+      "name": "approval_status",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "timesheet_uuid",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "replacement_timesheet_uuid",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "extract_date",
+      "type": "string",
+      "constraints": false
+    }
+  ]
+}
