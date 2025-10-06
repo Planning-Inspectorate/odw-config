@@ -352,6 +352,30 @@
       "Standardised_Path": "saphr",
       "Standardised_Table_Name": "workschedulerule_weekly",
       "Standardised_Table_Definition": "standardised_table_definitions/saphr/workschedulerule_weekly.json"
+    },
+
+    {
+      "Source_ID": 33,
+      "Source_Folder": "SapHr",
+      "Source_Frequency_Folder": "WEEKLY",
+      "Source_Filename_Format": "SAP_HR_timesheets_YYYYMMDD.csv",
+      "Source_Filename_Start": "SAP_HR_timesheets_",
+      "Expected_Within_Weekdays": 5,
+      "Standardised_Path": "saphr",
+      "Standardised_Table_Name": "load_sap_timesheets",
+      "Standardised_Table_Definition": "standardised_table_definitions/saphr/load_sap_timesheets.json"
+    },
+    {
+      "Source_ID": 34,
+      "Source_Folder": "StaticTables",
+      "Source_Frequency_Folder": "",
+      "Source_Filename_Format": "load_sap_timesheets_references.csv",
+      "Source_Filename_Start": "load_sap_timesheets_references",
+      "Expected_Within_Weekdays": 5,
+      "Standardised_Path": "statictables",
+      "Standardised_Table_Name": "load_sap_timesheets_references",
+      "Standardised_Table_Definition": "standardised_table_definitions/statictables/load_sap_timesheets_references.json"
     }
+  
   ]
 }

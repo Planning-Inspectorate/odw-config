@@ -1,0 +1,44 @@
+{
+  "fields": [
+    {
+      "name": "ingested_datetime",
+      "type": "timestamp",
+      "constraints": false
+    },
+    {
+      "name": "expected_from",
+      "type": "timestamp",
+      "constraints": false
+    },
+    {
+      "name": "expected_to",
+      "type": "timestamp",
+      "constraints": false
+    },
+    {
+      "name": "sap_timesheet_casework_category",
+      "type": "STRING",
+      "nullable": true
+    },
+    {
+      "name": "segment_type_id",
+      "type": "STRING",
+      "nullable": true
+    },
+    {
+      "name": "segment_type_description",
+      "type": "STRING",
+      "nullable": true
+    },
+    {
+      "name": "segment_type_shortname",
+      "type": "STRING",
+      "nullable": true
+    },
+    {
+      "name": "last_modified",
+      "type": "STRING",
+      "nullable": true
+    }
+  ]
+}
