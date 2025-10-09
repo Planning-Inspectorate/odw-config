@@ -357,7 +357,7 @@
     {
       "Source_ID": 33,
       "Source_Folder": "SapHr",
-      "Source_Frequency_Folder": "WEEKLY",
+      "Source_Frequency_Folder": "MONTHLY",
       "Source_Filename_Format": "SAP_HR_timesheets_YYYYMMDD.csv",
       "Source_Filename_Start": "SAP_HR_timesheets_",
       "Expected_Within_Weekdays": 5,
