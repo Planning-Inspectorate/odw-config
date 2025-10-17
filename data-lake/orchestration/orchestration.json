@@ -707,7 +707,10 @@
     },
     {
       "Source_ID": 64,
+      "Load_Enable_status": "True",
       "Source_Folder": "Horizon",
+      "Horizon_Table_Name": "Horizon_ODW_vw_Inspector_Cases",
+      "Incremental": false,
       "Source_Frequency_Folder": "",
       "Source_Filename_Format": "InspectorCases.csv",
       "Source_Filename_Start": "InspectorCases",
@@ -1926,20 +1929,6 @@
       "Source_ID": 155,
       "Load_Enable_status": "True",
       "Source_Folder": "Horizon",
-      "Horizon_Table_Name": "Horizon_ODW_vw_Inspector_Cases",
-      "Incremental": false,
-      "Source_Frequency_Folder": "",
-      "Source_Filename_Format": "Inspector_Cases.csv",
-      "Source_Filename_Start": "Inspector_Cases",
-      "Expected_Within_Weekdays": 1,
-      "Standardised_Path": "Horizon",
-      "Standardised_Table_Name": "horizon_inspector_cases",
-      "Standardised_Table_Definition": "standardised_table_definitions/Horizon/Inspector_Cases.json"
-    },
-    {
-      "Source_ID": 156,
-      "Load_Enable_status": "True",
-      "Source_Folder": "Horizon",
       "Horizon_Table_Name": "Horizon_ODW_vw_Cases_HAS",
       "Incremental": false,
       "Source_Frequency_Folder": "",
@@ -1949,20 +1938,6 @@
       "Standardised_Path": "Horizon",
       "Standardised_Table_Name": "horizon_cases_has",
       "Standardised_Table_Definition": "standardised_table_definitions/Horizon/Cases_Has.json"
-    },
-    {
-      "Source_ID": 157,
-      "Load_Enable_status": "True",
-      "Source_Folder": "Horizon",
-      "Horizon_Table_Name": "Horizon_ODW_vw_Case_Specialisms",
-      "Incremental": false,
-      "Source_Frequency_Folder": "",
-      "Source_Filename_Format": "Case_Specialisms.csv",
-      "Source_Filename_Start": "Case_Specialisms",
-      "Expected_Within_Weekdays": 1,
-      "Standardised_Path": "Horizon",
-      "Standardised_Table_Name": "horizon_case_specialisms",
-      "Standardised_Table_Definition": "standardised_table_definitions/Horizon/Case_Specialisms.json"
     }
   ]
 }
