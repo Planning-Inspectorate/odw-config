@@ -26,58 +26,71 @@
     },
     {
       "metadata": {},
-      "name": "CaseReference",
+      "name": "AgriculturalHolding",
       "type": "string",
       "nullable": true
     },
     {
       "metadata": {},
-      "name": "TypeOfInvolvement",
+      "name": "DevelopmentAffectSettingOfListedBuilding",
       "type": "string",
       "nullable": true
     },
     {
       "metadata": {},
-      "name": "InspectorName",
+      "name": "SiteGridReferenceEasting",
       "type": "string",
       "nullable": true
     },
     {
       "metadata": {},
-      "name": "ContactID",
+      "name": "SiteGridReferenceNorthing",
       "type": "string",
       "nullable": true
     },
     {
       "metadata": {},
-      "name": "ParentKeyID",
+      "name": "HistoricBuildingGrantMade",
       "type": "string",
       "nullable": true
     },
     {
       "metadata": {},
-      "name": "PostName",
+      "name": "InCARelatesToCA",
       "type": "string",
       "nullable": true
     },
     {
       "metadata": {},
-      "name": "FirstName",
+      "name": "InspectorNeedToEnterSite",
       "type": "string",
       "nullable": true
     },
     {
       "metadata": {},
-      "name": "LastName",
+      "name": "IsFloodingAnIssue",
       "type": "string",
       "nullable": true
     },
     {
       "metadata": {},
-      "name": "Email",
+      "name": "IsTheSiteWithinAnAONB",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "SiteWithinAGreenBelt",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "SiteWithinSSSI",
       "type": "string",
       "nullable": true
     }
   ]
 }
+
  

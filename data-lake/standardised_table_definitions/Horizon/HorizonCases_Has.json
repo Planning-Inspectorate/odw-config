@@ -20,64 +20,69 @@
     },
     {
       "metadata": {},
-      "name": "AppealRefNumber",
+      "name": "CaseNodeId",
       "type": "string",
       "nullable": true
     },
     {
       "metadata": {},
-      "name": "CaseReference",
+      "name": "subType",
       "type": "string",
       "nullable": true
     },
     {
       "metadata": {},
-      "name": "TypeOfInvolvement",
+      "name": "modifyDate",
+      "type": "timestamp",
+      "nullable": true
+    },
+    {
+      "metadata": {},
+      "name": "Abbreviation",
       "type": "string",
       "nullable": true
     },
     {
       "metadata": {},
-      "name": "InspectorName",
+      "name": "caseReference",
       "type": "string",
       "nullable": true
     },
     {
       "metadata": {},
-      "name": "ContactID",
+      "name": "caseUniqueId",
       "type": "string",
       "nullable": true
     },
     {
       "metadata": {},
-      "name": "ParentKeyID",
+      "name": "caseOfficerId",
       "type": "string",
       "nullable": true
     },
     {
       "metadata": {},
-      "name": "PostName",
+      "name": "caseOfficerLogin",
       "type": "string",
       "nullable": true
     },
     {
       "metadata": {},
-      "name": "FirstName",
+      "name": "caseOfficerName",
       "type": "string",
       "nullable": true
     },
     {
       "metadata": {},
-      "name": "LastName",
+      "name": "coEmailAddress",
       "type": "string",
       "nullable": true
     },
     {
       "metadata": {},
-      "name": "Email",
+      "name": "casSubType",
       "type": "string",
       "nullable": true
     }
   ]
 }
- 
