@@ -23,14 +23,21 @@ parameters:
 
 # Create variables
 variables:
-- group: Terraform ${{ parameters.environment }}
+- name: environment
+  # If the pipeline was triggered by a merge, and the source branch is the main branch
+  ${{ if and(eq(variables['Build.Reason'], 'IndividualCI'), eq(variables['Build.SourceBranch'], 'refs/heads/main')) }}:
+    value: Test
+  ${{ else }}:
+    value: ${{ parameters.environment }}
+
+- group: Terraform ${{ variables.environment }}
 
 # Set service connection for the environment to deploy to, e.g. ODW Build, ODW Dev, ODW Test, ODW Prod
 - name: armServiceConnectionName
-  value: ${{ format('Azure DevOps Pipelines - ODW {0} - Infrastructure', upper(parameters.environment)) }}
+  value: ${{ format('Azure DevOps Pipelines - ODW {0} - Infrastructure', upper(variables.environment)) }}
 
 - name: poolName
-  value: ${{ format('pins-agent-pool-odw-{0}-uks', lower(parameters.environment)) }}
+  value: ${{ format('pins-agent-pool-odw-{0}-uks', lower(variables.environment)) }}
 
 - name: source_folder
   value: '$(System.DefaultWorkingDirectory)/data-lake'
@@ -57,7 +64,7 @@ trigger:
 
 stages:
 - stage: DeployConfig
-  displayName: 'Deploy Config to the ${{ parameters.environment }} environment'
+  displayName: 'Deploy Config to the ${{ variables.environment }} environment'
   jobs:
   - job: CopyFiles
     displayName: 'Copy Files'
