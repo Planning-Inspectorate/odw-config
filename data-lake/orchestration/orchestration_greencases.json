@@ -9,7 +9,7 @@
       "Expected_Within_Weekdays": 5,
       "Standardised_Path": "greencases",
       "Standardised_Table_Name": "all_greencases.json",
-      "Standardised_Table_Definition": "standardised_table_definitions/saphr/all_greencases.json"
+      "Standardised_Table_Definition": "standardised_table_definitions/greencases/all_greencases.json"
     }  
   ]
 }
