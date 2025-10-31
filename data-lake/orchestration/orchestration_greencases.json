@@ -1,0 +1,15 @@
+{
+  "definitions": [
+    {
+      "Source_ID": 1,
+      "Source_Folder": "GreenCases",
+      "Source_Frequency_Folder": "",
+      "Source_Filename_Format": "GreenCases_YYYYMMDD.csv",
+      "Source_Filename_Start": "GreenCases_",
+      "Expected_Within_Weekdays": 5,
+      "Standardised_Path": "greencases",
+      "Standardised_Table_Name": "all_greencases.json",
+      "Standardised_Table_Definition": "standardised_table_definitions/saphr/all_greencases.json"
+    }  
+  ]
+}
