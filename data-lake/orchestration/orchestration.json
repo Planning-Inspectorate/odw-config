@@ -1620,7 +1620,10 @@
     },
     {
       "Source_ID": 135,
+      "Load_Enable_status": "True",
       "Source_Folder": "Horizon",
+      "Horizon_Table_Name": "Horizon_ODW_vw_LPA",
+      "Incremental": false,
       "Source_Frequency_Folder": "",
       "Source_Filename_Format": "DaRT_LPA.csv",
       "Source_Filename_Start": "DaRT_LPA",
@@ -1630,11 +1633,15 @@
       "Standardised_Table_Definition": "standardised_table_definitions/Horizon/DaRT_LPA.json",
       "Harmonised_Table_Name": "pins_lpa",
       "Harmonised_Incremental_Key": "LPAId",
-      "Entity_Primary_Key": "ID"
+      "Entity_Primary_Key": "ID",
+      "Harmonised_NoteBook":"pins_lpa"
     },
     {
       "Source_ID": 136,
+      "Load_Enable_status": "True",
       "Source_Folder": "Horizon",
+      "Horizon_Table_Name": "Horizon_ODW_vw_PinsInspectors",
+      "Incremental": false,
       "Source_Frequency_Folder": "",
       "Source_Filename_Format": "DaRT_Inspectors.csv",
       "Source_Filename_Start": "DaRT_Inspectors",
@@ -1644,7 +1651,8 @@
       "Standardised_Table_Definition": "standardised_table_definitions/Horizon/DaRT_Inspectors.json",
       "Harmonised_Table_Name": "pins_inspector",
       "Harmonised_Incremental_Key": "InspectorsId",
-      "Entity_Primary_Key": "HorizonId"
+      "Entity_Primary_Key": "HorizonId",
+      "Harmonised_NoteBook":"pins_inspectors"
     },
     {
       "Source_ID": 137,
