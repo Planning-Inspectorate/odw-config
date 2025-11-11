@@ -39,6 +39,16 @@
             "name": "Proficien",
             "type": "string",
             "nullable": true
-        }
+        },
+        {
+            "name": "ValidFrom",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "ValidTo",
+            "type": "string",
+            "nullable": true
+        }		
     ]
 }

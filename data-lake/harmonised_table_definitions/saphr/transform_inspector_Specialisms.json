@@ -7,10 +7,9 @@
         {"name": "Proficien", "type": "STRING", "constraints": "NULL"},
 		{"name": "SourceSystemID", "type": "string","constraints": false},
 		{"name": "IngestionDate","type": "timestamp","constraints": false},
+		{"name": "ValidFrom","type": "timestamp","constraints": false},
 		{"name": "ValidTo","type": "timestamp","constraints": false},
 		{"name": "RowID","type": "string","constraints": false},
 		{"name": "IsActive","type": "string","constraints": false}	
     ]
 }
-
-
