@@ -1428,7 +1428,7 @@
       "Source_Folder": "Horizon",
       "Horizon_Table_Name": "Horizon_ODW_vw_DocumentMetadataAppeals",
       "Source_Frequency_Folder": "",
-      "Incremental": true,
+      "Incremental": false,
       "Incremental_Key": "lastModified",
       "Source_Filename_Format": "HorizonAppealsDocumentMetadata.csv",
       "Source_Filename_Start": "HorizonAppealsDocumentMetadata",
