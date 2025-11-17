@@ -1935,6 +1935,20 @@
       "Harmonised_Table_Name": "HorizonCases_Has",
       "Harmonised_Incremental_Key": "AppealsHasID",
       "Entity_Primary_Key": "caseReference"
+    },
+    {
+      "Source_ID": 155,
+      "Load_Enable_status": "True",
+      "Source_Folder": "Horizon",
+      "Horizon_Table_Name": "Horizon_ODW_vw_AdvertAttributes",
+      "Incremental": false,
+      "Source_Frequency_Folder": "",
+      "Source_Filename_Format": "HorizonAdvertAttributes.csv",
+      "Source_Filename_Start": "HorizonAdvertAttributes",
+      "Expected_Within_Weekdays": 1,
+      "Standardised_Path": "Horizon",
+      "Standardised_Table_Name": "HorizonAdvertAttributes",
+      "Standardised_Table_Definition": "standardised_table_definitions/Horizon/HorizonAdvertAttributes.json"
     }
   ]
 }
