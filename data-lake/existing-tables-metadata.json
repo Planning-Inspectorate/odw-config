@@ -1232,14 +1232,14 @@
             },
             {
                 "database_name": "odw_harmonised_db",
-                "table_name": "sb_nsip_meeting ",
+                "table_name": "sb_nsip_ meeting ",
                 "table_format": "delta",
                 "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-harmonised@pinsstodwdevuks9h80mb.dfs.core.windows.net/sb_nsip_ meeting "
             },
             {
                 "database_name": "odw_harmonised_db",
-                "table_name": "sb_nsip_invoice ",
+                "table_name": "sb_nsip_ invoice ",
                 "table_format": "delta",
                 "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-harmonised@pinsstodwdevuks9h80mb.dfs.core.windows.net/sb_nsip_ invoice "
@@ -1537,7 +1537,7 @@
             },
             {
                 "database_name": "odw_curated_db",
-                "table_name": " nsip_meeting",
+                "table_name": " nsip_ meeting",
                 "table_format": "parquet",
                 "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-curated@pinsstodwdevuks9h80mb.dfs.core.windows.net/nsip_ meeting "
@@ -1545,7 +1545,7 @@
 
             {
                 "database_name": "odw_curated_db",
-                "table_name": " nsip_invoice",
+                "table_name": " nsip_ invoice",
                 "table_format": "parquet",
                 "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-curated@pinsstodwdevuks9h80mb.dfs.core.windows.net/nsip_ invoice "
