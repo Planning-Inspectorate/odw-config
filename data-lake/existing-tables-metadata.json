@@ -1232,14 +1232,14 @@
             },
             {
                 "database_name": "odw_harmonised_db",
-                "table_name": "sb_nsip_meeting ",
+                "table_name": "sb_nsip_meeting",
                 "table_format": "delta",
                 "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-harmonised@pinsstodwdevuks9h80mb.dfs.core.windows.net/sb_nsip_meeting"
             },
             {
                 "database_name": "odw_harmonised_db",
-                "table_name": "sb_nsip_invoice ",
+                "table_name": "sb_nsip_invoice",
                 "table_format": "delta",
                 "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-harmonised@pinsstodwdevuks9h80mb.dfs.core.windows.net/sb_nsip_invoice"
