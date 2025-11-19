@@ -1949,6 +1949,19 @@
       "Standardised_Path": "Horizon",
       "Standardised_Table_Name": "HorizonAdvertAttributes",
       "Standardised_Table_Definition": "standardised_table_definitions/Horizon/HorizonAdvertAttributes.json"
+    },
+    {
+      "Source_ID": 156,
+      "Source_Folder": "ServiceBus",
+      "Source_Frequency_Folder": "nsip-meeting",
+      "Source_Filename_Format": "nsip-meeting.json",
+      "Source_Filename_Start": "nsip-meeting",
+      "Expected_Within_Weekdays": 1,
+      "Standardised_Path": "NSIP",
+      "Standardised_Table_Name": "sb_nsip_meeting",
+      "Harmonised_Table_Name": "sb_nsip_meeting",
+      "Harmonised_Incremental_Key": "NSIPMeetingID",
+      "Entity_Primary_Key": "NSIPMeetingID"
     }
   ]
 }
