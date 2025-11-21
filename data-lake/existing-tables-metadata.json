@@ -1334,6 +1334,13 @@
             },
             {
                 "database_name": "odw_curated_db",
+                "table_name": "s51_advice",
+                "table_format": "delta",
+                "table_type": "EXTERNAL",
+                "table_location": "abfss://odw-curated@pinsstodwdevuks9h80mb.dfs.core.windows.net/s51_advice"
+            },
+            {
+                "database_name": "odw_curated_db",
                 "table_name": "appeal_representation",
                 "table_format": "parquet",
                 "table_type": "MANAGED",
