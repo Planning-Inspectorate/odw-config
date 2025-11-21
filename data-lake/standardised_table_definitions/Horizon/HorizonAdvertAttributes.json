@@ -50,13 +50,13 @@
       },
       {
         "metadata": {},
-        "name": "publicSafetyLPAIndicator",
+        "name": "publicSafetyLpaIndicator",
         "type": "string",
         "nullable": true
       },
       {
         "metadata": {},
-        "name": "amenityLPAIndicator",
+        "name": "amenityLpaIndicator",
         "type": "string",
         "nullable": true
       },
