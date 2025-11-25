@@ -234,6 +234,13 @@
             },
             {
                 "database_name": "odw_standardised_db",
+                "table_name": "horizon_advert_attributes",
+                "table_format": "parquet",
+                "table_type": "MANAGED",
+                "table_location": "abfss://odw-standardised@pinsstodwdevuks9h80mb.dfs.core.windows.net/horizon_advert_attributes"
+            },            
+            {
+                "database_name": "odw_standardised_db",
                 "table_name": "sap_hr_hist_mig",
                 "table_format": "delta",
                 "table_type": "EXTERNAL",
