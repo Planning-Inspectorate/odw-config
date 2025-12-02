@@ -1551,7 +1551,7 @@
             },
             {
                 "database_name": "odw_curated_db",
-                "table_name": " nsip_meeting",
+                "table_name": "nsip_meeting",
                 "table_format": "parquet",
                 "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-curated@pinsstodwdevuks9h80mb.dfs.core.windows.net/nsip_meeting"
@@ -1559,7 +1559,7 @@
 
             {
                 "database_name": "odw_curated_db",
-                "table_name": " nsip_invoice",
+                "table_name": "nsip_invoice",
                 "table_format": "parquet",
                 "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-curated@pinsstodwdevuks9h80mb.dfs.core.windows.net/nsip_invoice"
