@@ -1,0 +1,15 @@
+{
+  "definitions": [
+    {
+      "Source_ID": 1,
+      "Source_Folder": "Casework_Local_Plan",
+      "Source_Frequency_Folder": "",
+      "Source_Filename_Format": "Local_Plans_YYYYMMDD.csv",
+      "Source_Filename_Start": "Local_Plans_",
+      "Expected_Within_Weekdays": 5,
+      "Standardised_Path": "casework_local_plan",
+      "Standardised_Table_Name": "casework_local_plan",
+      "Standardised_Table_Definition": "standardised_table_definitions/casework_local_plan/casework_local_plan.json"
+    }  
+  ]
+}
