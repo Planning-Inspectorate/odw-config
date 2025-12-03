@@ -1,0 +1,15 @@
+{
+  "definitions": [
+    {
+      "Source_ID": 1,
+      "Source_Folder": "Green_Specialist_Case",
+      "Source_Frequency_Folder": "",
+      "Source_Filename_Format": "green_specialist_case_YYYYMMDD.csv",
+      "Source_Filename_Start": "green_specialist_case_",
+      "Expected_Within_Weekdays": 5,
+      "Standardised_Path": "green_specialist_case",
+      "Standardised_Table_Name": "green_specialist_case",
+      "Standardised_Table_Definition": "standardised_table_definitions/green_specialist_case/green_specialist_case.json"
+    }  
+  ]
+}

@@ -1,0 +1,194 @@
+{
+    "fields": [
+        {
+            "name": "ingested_datetime",
+            "type": "timestamp",
+            "constraints": false
+        },
+        {
+            "name": "expected_from",
+            "type": "timestamp",
+            "constraints": false
+        },
+        {
+            "name": "expected_to",
+            "type": "timestamp",
+            "constraints": false
+        },
+        {
+            "name": "GreenCaseType",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "GreenCaseID",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "FullReference",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "HorizonID",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "LinkedGreenCaseID",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "CaseOfficerName",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "CaseOfficerEmail",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "AppealType",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "Procedure",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "ProcessingState",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "LPACode",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "LPAName",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "AppellantName",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "AgentName",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "SiteAddressDescription",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "SitePostcode",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "OtherPartyName",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "ReceiptDate",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "ValidDate",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "StartDate",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "QuDate",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "QuRecDate",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "6Weeks",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "8Weeks",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "9Weeks",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "EventType",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "EventDate",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "EventTime",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "InspectorName",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "InspectorStaffNumber",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "Decision",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "DecisionDate",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "DateWithdrawnorTurnedAway",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "Comments",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "Active",
+            "type": "string",
+            "nullable": true
+        }		
+    ]
+}
