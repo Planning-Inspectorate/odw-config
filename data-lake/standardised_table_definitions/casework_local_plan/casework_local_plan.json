@@ -1,6 +1,21 @@
 {
     "fields": [
         {
+            "name": "ingested_datetime",
+            "type": "timestamp",
+            "constraints": false
+        },
+        {
+            "name": "expected_from",
+            "type": "timestamp",
+            "constraints": false
+        },
+        {
+            "name": "expected_to",
+            "type": "timestamp",
+            "constraints": false
+        },
+        {
             "name": "HZRef",
             "type": "string",
             "nullable": true
@@ -284,21 +299,6 @@
             "name": "ReportsIssued",
             "type": "string",
             "nullable": true
-        },
-        {
-            "name": "ingested_datetime",
-            "type": "timestamp",
-            "constraints": false
-        },
-        {
-            "name": "expected_from",
-            "type": "timestamp",
-            "constraints": false
-        },
-        {
-            "name": "expected_to",
-            "type": "timestamp",
-            "constraints": false
         }
     ]
 }
