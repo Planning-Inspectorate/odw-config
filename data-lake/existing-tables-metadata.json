@@ -220,6 +220,13 @@
             },
             {
                 "database_name": "odw_standardised_db",
+                "table_name": "horizon_advert_attributes",
+                "table_format": "parquet",
+                "table_type": "MANAGED",
+                "table_location": "abfss://odw-standardised@pinsstodwdevuks9h80mb.dfs.core.windows.net/horizon_advert_attributes"
+            },
+            {
+                "database_name": "odw_standardised_db",
                 "table_name": "horizon_appeal_s78_final",
                 "table_format": "parquet",
                 "table_type": "MANAGED",
@@ -1551,7 +1558,7 @@
             },
             {
                 "database_name": "odw_curated_db",
-                "table_name": " nsip_meeting",
+                "table_name": "nsip_meeting",
                 "table_format": "parquet",
                 "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-curated@pinsstodwdevuks9h80mb.dfs.core.windows.net/nsip_meeting"
@@ -1559,7 +1566,7 @@
 
             {
                 "database_name": "odw_curated_db",
-                "table_name": " nsip_invoice",
+                "table_name": "nsip_invoice",
                 "table_format": "parquet",
                 "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-curated@pinsstodwdevuks9h80mb.dfs.core.windows.net/nsip_invoice"
