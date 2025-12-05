@@ -1950,6 +1950,34 @@
       "Standardised_Table_Name": "horizon_advert_attributes",
       "Standardised_Table_Definition": "standardised_table_definitions/Horizon/horizon_advert_attributes.json",
       "Entity_Primary_Key": "advertAttributeKey"
-    }
+    },
+    {
+      "Source_ID": 156,
+      "Source_Folder": "ServiceBus",
+      "Source_Frequency_Folder": "nsip-invoice",
+      "Source_Filename_Format": "nsip-invoice",
+      "Source_Filename_Start": "nsip-invoice",
+      "Expected_Within_Weekdays": 1,
+      "Standardised_Path": "NSIP",
+      "Standardised_Table_Name": "sb_nsip_project",
+      "Harmonised_derived_table_status":"True",
+      "Harmonised_Table_Name": "nsip_invoice",
+      "Harmonised_Incremental_Key": "NSIPInvoiceID",
+      "Entity_Primary_Key": "invoiceNumber"
+      },
+        {
+        "Source_ID": 157,
+        "Source_Folder": "ServiceBus",
+        "Source_Frequency_Folder": "nsip-meeting",
+        "Source_Filename_Format": "nsip-meeting",
+        "Source_Filename_Start": "nsip-meeting",
+        "Expected_Within_Weekdays": 1,
+        "Standardised_Path": "NSIP",
+        "Standardised_Table_Name": "sb_nsip_project",
+        "Harmonised_derived_table_status":"True",
+        "Harmonised_Table_Name": "nsip_meeting",
+        "Harmonised_Incremental_Key": "NSIPmeetingID",
+        "Entity_Primary_Key": "meetingID"
+        }
   ]
 }
