@@ -1,0 +1,304 @@
+{
+    "fields": [
+        {
+            "name": "ingested_datetime",
+            "type": "timestamp",
+            "constraints": false
+        },
+        {
+            "name": "expected_from",
+            "type": "timestamp",
+            "constraints": false
+        },
+        {
+            "name": "expected_to",
+            "type": "timestamp",
+            "constraints": false
+        },
+        {
+            "name": "HZRef",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "LDFNo",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "Region",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "LPA",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "Title",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "DPDType",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "Grade",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "ActualPublicationDate_Reg19",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "ActualPublicationNotes",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "ActualSubmissionDate_Reg22",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "ActualSubmissionNotes",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "FIVEYEARSUPPLYOFLAND",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "INSPECTORS",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "Mentornamedcontact",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "ProgrammeOfficer",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "DateofAppointment",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "DateofAppointmentNotes",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "ActualHearingStartDate",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "ActualHearingStartNotes",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "HearingsCloseDate",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "HearingsCloseNotes",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "AdvisoryVisitPrep",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "AdvisoryVisitMeeting",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "AdvisoryVisitTravel",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "AdvisoryVisitReporting",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "LocalPlanAdmin",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "Prepdays",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "Hearingdays",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "PostHearingLetters",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "SVdays",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "Traveldays",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "LocalPlanMMPrep",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "Reptgdays",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "TotalDays",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "DaysLDFRef",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "DateGivenToLPAForReceiptofFactCheck",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "DateGivenToLPAForReceiptofFactCheckNotes",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "DraftReportSenttoQAGroupDate",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "DraftReportSenttoQAGroupNotes",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "QAPanel",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "FactCheckReportReceivedFromINSPDate",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "FactCheckReportReceivedFromINSPNotes",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "FactCheckReportDispatchDate",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "FactCheckReportDispatchNotes",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "FinalReportIssuedDate",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "FinalReportIssuedNotes",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "AdoptionDate",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "AdoptionNotes",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "WithdrawnDate",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "WithdrawnNotes",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "Status",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "TotalWeeks",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "HearingCloseto_final_report",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "NOTES",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "LPALookup",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "SubmissionDate",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "ReportsIssued",
+            "type": "string",
+            "nullable": true
+        }
+    ]
+}
