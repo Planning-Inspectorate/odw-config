@@ -90,6 +90,9 @@ stages:
     #     ls -R "$targetFolder"
 
     #   displayName: 'Copy amended files to staging directory'
+    - script: |
+        python3 pipelines/scripts/process_existing_tables_metadata.py
+      displayName: 'Substitute resource references'
 
     - task: CopyFiles@2
       displayName: 'Copy files to staging directory'
