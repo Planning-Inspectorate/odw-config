@@ -1,0 +1,52 @@
+{
+    "fields": [
+      {
+        "metadata": {},
+        "name": "ingested_datetime",
+        "type": "timestamp",
+        "nullable": false
+      },
+      {
+        "metadata": {},
+        "name": "expected_from",
+        "type": "timestamp",
+        "nullable": false
+      },
+      {
+        "metadata": {},
+        "name": "expected_to",
+        "type": "timestamp",
+        "nullable": false
+      },
+      {
+        "metadata": {},
+        "name": "groundsKey",
+        "type": "string",
+        "nullable": false
+      },
+      {
+        "metadata": {},
+        "name": "caseNodeId",
+        "type": "integer",
+        "nullable": false
+      },
+      {
+        "metadata": {},
+        "name": "setRowNumber",
+        "type": "integer",
+        "nullable": false
+      },
+      {
+        "metadata": {},
+        "name": "appealGroundLetter",
+        "type": "string",
+        "nullable": false
+      },
+      {
+        "metadata": {},
+        "name": "groundForAppealStartDate",
+        "type": "timestamp",
+        "nullable": true
+      }
+    ]
+  }  
