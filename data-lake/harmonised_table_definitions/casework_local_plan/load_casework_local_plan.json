@@ -1,6 +1,7 @@
 {
     "fields": [
         {"name": "horizonId", "type": "STRING", "constraints": "NULL"},
+        {"name": "LDFNo", "type": "INTEGER", "constraints": "NULL"},
         {"name": "localDevelopmentFrameworkId", "type": "INTEGER", "constraints": "NULL"},
         {"name": "region", "type": "STRING", "constraints": "NULL"},
         {"name": "pinsLpaName", "type": "STRING", "constraints": "NULL"},
