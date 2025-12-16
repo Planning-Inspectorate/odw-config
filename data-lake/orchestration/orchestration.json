@@ -1960,8 +1960,7 @@
       "Expected_Within_Weekdays": 1,
       "Standardised_Path": "NSIP",
       "Standardised_Table_Name": "sb_nsip_project",
-      "Harmonised_derived_table_status":"True",
-      "Harmonised_Table_Name": "nsip_invoice",
+      "Harmonised_Table_Name": "sb_nsip_invoice",
       "Harmonised_Incremental_Key": "NSIPInvoiceID",
       "Entity_Primary_Key": "invoiceNumber"
       },
@@ -1974,11 +1973,10 @@
       "Expected_Within_Weekdays": 1,
       "Standardised_Path": "NSIP",
       "Standardised_Table_Name": "sb_nsip_project",
-      "Harmonised_derived_table_status":"True",
-      "Harmonised_Table_Name": "nsip_meeting",
+      "Harmonised_Table_Name": "sb_nsip_meeting",
       "Harmonised_Incremental_Key": "NSIPmeetingID",
       "Entity_Primary_Key": "meetingID"
-    },
+      },
     {
       "Source_ID": 158,
       "Load_Enable_status": "True",
