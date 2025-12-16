@@ -1960,24 +1960,50 @@
       "Expected_Within_Weekdays": 1,
       "Standardised_Path": "NSIP",
       "Standardised_Table_Name": "sb_nsip_project",
-      "Harmonised_derived_table_status":"True",
-      "Harmonised_Table_Name": "nsip_invoice",
+      "Harmonised_Table_Name": "sb_nsip_invoice",
       "Harmonised_Incremental_Key": "NSIPInvoiceID",
       "Entity_Primary_Key": "invoiceNumber"
       },
-        {
-        "Source_ID": 157,
-        "Source_Folder": "ServiceBus",
-        "Source_Frequency_Folder": "nsip-meeting",
-        "Source_Filename_Format": "nsip-meeting",
-        "Source_Filename_Start": "nsip-meeting",
-        "Expected_Within_Weekdays": 1,
-        "Standardised_Path": "NSIP",
-        "Standardised_Table_Name": "sb_nsip_project",
-        "Harmonised_derived_table_status":"True",
-        "Harmonised_Table_Name": "nsip_meeting",
-        "Harmonised_Incremental_Key": "NSIPmeetingID",
-        "Entity_Primary_Key": "meetingID"
-        }
+      {
+      "Source_ID": 157,
+      "Source_Folder": "ServiceBus",
+      "Source_Frequency_Folder": "nsip-meeting",
+      "Source_Filename_Format": "nsip-meeting",
+      "Source_Filename_Start": "nsip-meeting",
+      "Expected_Within_Weekdays": 1,
+      "Standardised_Path": "NSIP",
+      "Standardised_Table_Name": "sb_nsip_project",
+      "Harmonised_Table_Name": "sb_nsip_meeting",
+      "Harmonised_Incremental_Key": "NSIPmeetingID",
+      "Entity_Primary_Key": "meetingID"
+      },
+      {
+      "Source_ID": 158,
+      "Load_Enable_status": "True",
+      "Source_Folder": "Horizon",
+      "Horizon_Table_Name": "Horizon_ODW_vw_AppealGrounds",
+      "Incremental": false,
+      "Source_Frequency_Folder": "",
+      "Source_Filename_Format": "Horizon_AppealGrounds.csv",
+      "Source_Filename_Start": "HorizonAppealGrounds",
+      "Expected_Within_Weekdays": 1,
+      "Standardised_Path": "Horizon",
+      "Standardised_Table_Name": "horizon_appeal_grounds",
+      "Standardised_Table_Definition": "standardised_table_definitions/Horizon/HorizonAppealGrounds.json"
+      },
+      {
+      "Source_ID": 159,
+      "Load_Enable_status": "True",
+      "Source_Folder": "Horizon",
+      "Horizon_Table_Name": "Horizon_ODW_vw_NoticeDates",
+      "Incremental": false,
+      "Source_Frequency_Folder": "",
+      "Source_Filename_Format": "Horizon_NoticeDates.csv",
+      "Source_Filename_Start": "HorizonNoticeDates",
+      "Expected_Within_Weekdays": 1,
+      "Standardised_Path": "Horizon",
+      "Standardised_Table_Name": "horizon_notice_dates",
+      "Standardised_Table_Definition": "standardised_table_definitions/Horizon/HorizonNoticeDates.json"
+      }
   ]
 }
