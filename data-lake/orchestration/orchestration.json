@@ -1977,7 +1977,7 @@
       "Harmonised_Incremental_Key": "NSIPmeetingID",
       "Entity_Primary_Key": "meetingID"
       },
-    {
+      {
       "Source_ID": 158,
       "Load_Enable_status": "True",
       "Source_Folder": "Horizon",
@@ -1990,8 +1990,8 @@
       "Standardised_Path": "Horizon",
       "Standardised_Table_Name": "horizon_appeal_grounds",
       "Standardised_Table_Definition": "standardised_table_definitions/Horizon/HorizonAppealGrounds.json"
-    },
-    {
+      },
+      {
       "Source_ID": 159,
       "Load_Enable_status": "True",
       "Source_Folder": "Horizon",
@@ -2004,6 +2004,6 @@
       "Standardised_Path": "Horizon",
       "Standardised_Table_Name": "horizon_notice_dates",
       "Standardised_Table_Definition": "standardised_table_definitions/Horizon/HorizonNoticeDates.json"
-    }
+      }
   ]
 }
