@@ -171,10 +171,10 @@
             },
             {
                 "database_name": "odw_standardised_db",
-                "table_name": "pins_inspector",
+                "table_name": "horizon_pins_inspector",
                 "table_format": "delta",
-                "table_type": "MANAGED",
-                "table_location": "abfss://odw-standardised@{DATA_LAKE_NAME}.dfs.core.windows.net/pins_inspector"
+                "table_type": "EXTERNAL",
+                "table_location": "abfss://odw-standardised@{DATA_LAKE_NAME}.dfs.core.windows.net/horizon_pins_inspector"
             },
             {
                 "database_name": "odw_standardised_db",
@@ -777,10 +777,10 @@
             },
             {
                 "database_name": "odw_harmonised_db",
-                "table_name": "pins_inspector",
+                "table_name": "horizon_pins_inspector",
                 "table_format": "delta",
                 "table_type": "MANAGED",
-                "table_location": "abfss://odw-harmonised@{DATA_LAKE_NAME}.dfs.core.windows.net/pins_inspector"
+                "table_location": "abfss://odw-harmonised@{DATA_LAKE_NAME}.dfs.core.windows.net/horizon_pins_inspector"
             },
             {
                 "database_name": "odw_harmonised_db",
@@ -1271,10 +1271,10 @@
         "curated_metadata": [
             {
                 "database_name": "odw_curated_db",
-                "table_name": "pins_inspectors_curated",
+                "table_name": "horizon_pins_inspectors_curated",
                 "table_format": "parquet",
                 "table_type": "MANAGED",
-                "table_location": "abfss://odw-curated@{DATA_LAKE_NAME}.dfs.core.windows.net/pins_inspectors_curated"
+                "table_location": "abfss://odw-curated@{DATA_LAKE_NAME}.dfs.core.windows.net/horizon_pins_inspectors_curated"
             },
             {
                 "database_name": "odw_curated_db",
