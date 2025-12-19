@@ -777,6 +777,13 @@
             },
             {
                 "database_name": "odw_harmonised_db",
+                "table_name": "pins_inspector",
+                "table_format": "parquet",
+                "table_type": "EXTERNAL",
+                "table_location": "abfss://odw-harmonised@{DATA_LAKE_NAME}.dfs.core.windows.net/pins_inspector"
+            },
+            {
+                "database_name": "odw_harmonised_db",
                 "table_name": "horizon_pins_inspector",
                 "table_format": "delta",
                 "table_type": "MANAGED",
@@ -1271,9 +1278,16 @@
         "curated_metadata": [
             {
                 "database_name": "odw_curated_db",
+                "table_name": "pins_inspector",
+                "table_format": "parquet",
+                "table_type": "EXTERNAL",
+                "table_location": "abfss://odw-curated@{DATA_LAKE_NAME}.dfs.core.windows.net/pins_inspector"
+            },
+            {
+                "database_name": "odw_curated_db",
                 "table_name": "horizon_pins_inspectors_curated",
                 "table_format": "parquet",
-                "table_type": "MANAGED",
+                "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-curated@{DATA_LAKE_NAME}.dfs.core.windows.net/horizon_pins_inspectors_curated"
             },
             {
