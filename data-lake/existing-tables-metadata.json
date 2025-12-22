@@ -1285,7 +1285,7 @@
             },
             {
                 "database_name": "odw_curated_db",
-                "table_name": "horizon_pins_inspectors_curated",
+                "table_name": "horizon_pins_inspector_curated",
                 "table_format": "parquet",
                 "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-curated@{DATA_LAKE_NAME}.dfs.core.windows.net/horizon_pins_inspectors_curated"
