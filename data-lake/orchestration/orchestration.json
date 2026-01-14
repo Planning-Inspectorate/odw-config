@@ -1647,12 +1647,12 @@
       "Source_Filename_Start": "DaRT_Inspectors",
       "Expected_Within_Weekdays": 1,
       "Standardised_Path": "Horizon",
-      "Standardised_Table_Name": "pins_inspector",
+      "Standardised_Table_Name": "horizon_pins_inspector",
       "Standardised_Table_Definition": "standardised_table_definitions/Horizon/DaRT_Inspectors.json",
-      "Harmonised_Table_Name": "pins_inspector",
+      "Harmonised_Table_Name": "horizon_pins_inspector",
       "Harmonised_Incremental_Key": "InspectorsId",
       "Entity_Primary_Key": "HorizonId",
-      "Harmonised_NoteBook":"pins_inspectors"
+      "Harmonised_NoteBook":"horizon_pins_inspector"
     },
     {
       "Source_ID": 137,
