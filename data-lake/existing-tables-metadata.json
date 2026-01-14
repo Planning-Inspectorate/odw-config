@@ -1271,7 +1271,7 @@
         "curated_metadata": [
             {
                 "database_name": "odw_curated_db",
-                "table_name": "pins_inspectors_curated",
+                "table_name": "pins_inspector_curated",
                 "table_format": "parquet",
                 "table_type": "MANAGED",
                 "table_location": "abfss://odw-curated@{DATA_LAKE_NAME}.dfs.core.windows.net/pins_inspectors_curated"
