@@ -1652,7 +1652,7 @@
       "Harmonised_Table_Name": "horizon_pins_inspector",
       "Harmonised_Incremental_Key": "InspectorsId",
       "Entity_Primary_Key": "HorizonId",
-      "Harmonised_NoteBook":"horizon_pins_inspector"
+      "Harmonised_NoteBook":"py_horizon_harmonised_pins_inspector"
     },
     {
       "Source_ID": 137,
