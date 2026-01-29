@@ -1650,7 +1650,6 @@
       "Standardised_Table_Name": "horizon_pins_inspector",
       "Standardised_Table_Definition": "standardised_table_definitions/Horizon/DaRT_Inspectors.json",
       "Harmonised_Table_Name": "horizon_pins_inspector",
-      "Harmonised_Incremental_Key": "inspectorsId",
       "Entity_Primary_Key": "horizonId",
       "Harmonised_NoteBook":"py_horizon_harmonised_pins_inspector"
     },
