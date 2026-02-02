@@ -1591,6 +1591,14 @@
                 "table_format": "parquet",
                 "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-curated@{DATA_LAKE_NAME}.dfs.core.windows.net/nsip_invoice"
+            },
+
+            {
+                "database_name": "odw_curated_db",
+                "table_name": "folder",
+                "table_format": "parquet",
+                "table_type": "EXTERNAL",
+                "table_location": "abfss://odw-curated@{DATA_LAKE_NAME}.dfs.core.windows.net/folder"
             }
         ]
     },
