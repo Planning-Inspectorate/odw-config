@@ -2015,7 +2015,7 @@
       "Source_Filename_Start": "horizon_ApplicationMadeUnderSection",
       "Expected_Within_Weekdays": 1,
       "Standardised_Path": "Horizon",
-      "Standardised_Table_Name": "horizon_ApplicationMadeUnderSection",
+      "Standardised_Table_Name": "horizon_application_made_under_section",
       "Standardised_Table_Definition": "standardised_table_definitions/Horizon/HorizonApplicationMadeUnderSection.json"
       }
       

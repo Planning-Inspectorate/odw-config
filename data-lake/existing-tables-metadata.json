@@ -241,10 +241,10 @@
             },   
              {
                 "database_name": "odw_standardised_db",
-                "table_name": "horizon_ApplicationMadeUnderSection",
+                "table_name": "horizon_application_made_under_section",
                 "table_format": "parquet",
                 "table_type": "EXTERNAL",
-                "table_location": "abfss://odw-standardised@{DATA_LAKE_NAME}.dfs.core.windows.net/horizon_ApplicationMadeUnderSection"
+                "table_location": "abfss://odw-standardised@{DATA_LAKE_NAME}.dfs.core.windows.net/horizon_application_made_under_section"
             },            
             {
                 "database_name": "odw_standardised_db",
