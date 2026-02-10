@@ -2003,6 +2003,21 @@
       "Standardised_Path": "Horizon",
       "Standardised_Table_Name": "horizon_notice_dates",
       "Standardised_Table_Definition": "standardised_table_definitions/Horizon/HorizonNoticeDates.json"
+      },
+      {
+      "Source_ID": 160,
+      "Load_Enable_status": "True",
+      "Source_Folder": "Horizon",
+      "Horizon_Table_Name": "Horizon_ODW_vw_ApplicationMadeUnderActSection",
+      "Incremental": false,
+      "Source_Frequency_Folder": "",
+      "Source_Filename_Format": "horizon_ApplicationMadeUnderSection.csv",
+      "Source_Filename_Start": "horizon_ApplicationMadeUnderSection",
+      "Expected_Within_Weekdays": 1,
+      "Standardised_Path": "Horizon",
+      "Standardised_Table_Name": "horizon_application_made_under_section",
+      "Standardised_Table_Definition": "standardised_table_definitions/Horizon/HorizonApplicationMadeUnderSection.json"
       }
+      
   ]
 }
