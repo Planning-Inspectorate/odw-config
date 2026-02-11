@@ -1988,7 +1988,8 @@
       "Expected_Within_Weekdays": 1,
       "Standardised_Path": "Horizon",
       "Standardised_Table_Name": "horizon_appeal_grounds",
-      "Standardised_Table_Definition": "standardised_table_definitions/Horizon/HorizonAppealGrounds.json"
+      "Standardised_Table_Definition": "standardised_table_definitions/Horizon/HorizonAppealGrounds.json",
+      "Entity_Primary_Key": "groundsKey"
       },
       {
       "Source_ID": 159,
