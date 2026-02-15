@@ -1327,6 +1327,13 @@
             },
             {
                 "database_name": "odw_curated_db",
+                "table_name": "folder",
+                "table_format": "delta",
+                "table_type": "EXTERNAL",
+                "table_location": "abfss://odw-curated@pinsstodwbuildukslu4d8k.dfs.core.windows.net/folder"
+            },
+            {
+                "database_name": "odw_curated_db",
                 "table_name": "nsip_exam_timetable",
                 "table_format": "parquet",
                 "table_type": "MANAGED",
