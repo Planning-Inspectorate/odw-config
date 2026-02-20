@@ -238,6 +238,13 @@
                 "table_format": "parquet",
                 "table_type": "MANAGED",
                 "table_location": "abfss://odw-standardised@{DATA_LAKE_NAME}.dfs.core.windows.net/horizon_notice_dates"
+            },   
+             {
+                "database_name": "odw_standardised_db",
+                "table_name": "horizon_application_made_under_section",
+                "table_format": "parquet",
+                "table_type": "EXTERNAL",
+                "table_location": "abfss://odw-standardised@{DATA_LAKE_NAME}.dfs.core.windows.net/horizon_application_made_under_section"
             },            
             {
                 "database_name": "odw_standardised_db",
