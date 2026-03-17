@@ -221,7 +221,7 @@
       "Standardised_Table_Definition": "standardised_table_definitions/statictables/inspector_specialism_mig.json"
     },
     {
-      "Source_ID": 34,
+      "Source_ID": 32,
       "Source_Folder": "StaticTables",
       "Source_Frequency_Folder": "",
       "Source_Filename_Format": "load_sap_timesheets_references.csv",
@@ -230,7 +230,53 @@
       "Standardised_Path": "statictables",
       "Standardised_Table_Name": "load_sap_timesheets_references",
       "Standardised_Table_Definition": "standardised_table_definitions/statictables/load_sap_timesheets_references.json"
+    },
+  {
+      "Source_ID": 33,
+      "Source_Folder": "StaticTables",
+      "Source_Frequency_Folder": "",
+      "Source_Filename_Format": "MWR_Lines.csv",
+      "Source_Filename_Start": "MWR_Lines",
+      "Expected_Within_Weekdays": 5,
+      "Standardised_Path": "StaticTables",
+      "Standardised_Table_Name": "mwr_lines",
+      "Standardised_Table_Definition": "standardised_table_definitions/statictables/mwr_lines.json"
+    },
+    
+    {
+      "Source_ID": 34,
+      "Source_Folder": "StaticTables",
+      "Source_Frequency_Folder": "",
+      "Source_Filename_Format": "MWR_Status.csv",
+      "Source_Filename_Start": "MWR_Status",
+      "Expected_Within_Weekdays": 5,
+      "Standardised_Path": "StaticTables",
+      "Standardised_Table_Name": "mwr_status",
+      "Standardised_Table_Definition": "standardised_table_definitions/statictables/mwr_status.json"
+    },
+
+    {
+      "Source_ID": 35,
+      "Source_Folder": "StaticTables",
+      "Source_Frequency_Folder": "",
+      "Source_Filename_Format": "MWR_Submisison_Date.csv",
+      "Source_Filename_Start": "MWR_Submisison_Date",
+      "Expected_Within_Weekdays": 5,
+      "Standardised_Path": "StaticTables",
+      "Standardised_Table_Name": "mwr_submisison_date",
+      "Standardised_Table_Definition": "standardised_table_definitions/statictables/mwr_submisison_date.json"
+    },
+    {
+      "Source_ID": 36,
+      "Source_Folder": "StaticTables",
+      "Source_Frequency_Folder": "",
+      "Source_Filename_Format": "MWR_Inspector_dim.csv",
+      "Source_Filename_Start": "MWR_Inspector_dim",
+      "Expected_Within_Weekdays": 5,
+      "Standardised_Path": "StaticTables",
+      "Standardised_Table_Name": "mwr_inspector_dim",
+      "Standardised_Table_Definition": "standardised_table_definitions/statictables/mwr_inspector_dim.json"
     }
-  
+    
   ]
 }

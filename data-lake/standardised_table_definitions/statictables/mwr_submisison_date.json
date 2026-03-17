@@ -1,0 +1,49 @@
+{
+"fields": [
+{
+"name": "ingested_datetime",
+"type": "timestamp",
+"constraints": false
+},
+{
+"name": "expected_from",
+"type": "timestamp",
+"constraints": false
+},
+{
+"name": "expected_to",
+"type": "timestamp",
+"constraints": false
+},
+{
+"name": "Id",
+"type": "STRING",
+"nullable": true
+},
+{
+"name": "Dated",
+"type": "STRING",
+"nullable": true
+},
+{
+"name": "InspectorId",
+"type": "STRING",
+"nullable": true
+},
+{
+"name": "JobId",
+"type": "STRING",
+"nullable": true
+},
+{
+"name": "Status",
+"type": "STRING",
+"nullable": true
+},
+{
+"name": "StatusName",
+"type": "STRING",
+"nullable": true
+}
+]
+}
