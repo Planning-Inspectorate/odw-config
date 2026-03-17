@@ -1,0 +1,179 @@
+{
+"fields": [
+{
+"name": "ingested_datetime",
+"type": "timestamp",
+"constraints": false
+},
+{
+"name": "expected_from",
+"type": "timestamp",
+"constraints": false
+},
+{
+"name": "expected_to",
+"type": "timestamp",
+"constraints": false
+},
+{
+"name": "dim_inspector_key",
+"type": "STRING",
+"nullable": true
+},
+{
+"name": "source_id",
+"type": "STRING",
+"nullable": true
+},
+{
+"name": "pins_staff_number",
+"type": "STRING",
+"nullable": true
+},
+{
+"name": "given_names",
+"type": "STRING",
+"nullable": true
+},
+{
+"name": "family_name",
+"type": "STRING",
+"nullable": true
+},
+{
+"name": "inspector_name",
+"type": "STRING",
+"nullable": true
+},
+{
+"name": "inspector_postcode",
+"type": "STRING",
+"nullable": true
+},
+{
+"name": "active_status",
+"type": "STRING",
+"nullable": true
+},
+{
+"name": "branch",
+"type": "STRING",
+"nullable": true
+},
+{
+"name": "date_in",
+"type": "STRING",
+"nullable": true
+},
+{
+"name": "date_out",
+"type": "STRING",
+"nullable": true
+},
+{
+"name": "eo_responsible",
+"type": "STRING",
+"nullable": true
+},
+{
+"name": "grade",
+"type": "STRING",
+"nullable": true
+},
+{
+"name": "resource_group",
+"type": "STRING",
+"nullable": true
+},
+{
+"name": "staff",
+"type": "STRING",
+"nullable": true
+},
+{
+"name": "trainee_level",
+"type": "STRING",
+"nullable": true
+},
+{
+"name": "inspector_group",
+"type": "STRING",
+"nullable": true
+},
+{
+"name": "FTE",
+"type": "STRING",
+"nullable": true
+},
+{
+"name": "primary_location",
+"type": "STRING",
+"nullable": true
+},
+{
+"name": "primary_FTE",
+"type": "STRING",
+"nullable": true
+},
+{
+"name": "secondary_location",
+"type": "STRING",
+"nullable": true
+},
+{
+"name": "secondary_FTE",
+"type": "STRING",
+"nullable": true
+},
+{
+"name": "InspectorAddress",
+"type": "STRING",
+"nullable": true
+},
+{
+"name": "Telephoneno",
+"type": "STRING",
+"nullable": true
+},
+{
+"name": "WorkMobile",
+"type": "STRING",
+"nullable": true
+},
+{
+"name": "is_sgl",
+"type": "STRING",
+"nullable": true
+},
+{
+"name": "pins_email_address",
+"type": "STRING",
+"nullable": true
+},
+{
+"name": "is_apom",
+"type": "STRING",
+"nullable": true
+},
+{
+"name": "resource_code",
+"type": "STRING",
+"nullable": true
+},
+{
+"name": "emp_type",
+"type": "STRING",
+"nullable": true
+},
+{
+"name": "HorizonID",
+"type": "STRING",
+"nullable": true
+},
+{
+"name": "LastUpdated",
+"type": "STRING",
+"nullable": true
+}
+]
+}
