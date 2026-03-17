@@ -259,12 +259,12 @@
       "Source_ID": 35,
       "Source_Folder": "StaticTables",
       "Source_Frequency_Folder": "",
-      "Source_Filename_Format": "MWR_Submisison_Date.csv",
-      "Source_Filename_Start": "MWR_Submisison_Date",
+      "Source_Filename_Format": "MWR_Submission_Date.csv",
+      "Source_Filename_Start": "MWR_Submission_Date",
       "Expected_Within_Weekdays": 5,
       "Standardised_Path": "StaticTables",
-      "Standardised_Table_Name": "mwr_submisison_date",
-      "Standardised_Table_Definition": "standardised_table_definitions/statictables/mwr_submisison_date.json"
+      "Standardised_Table_Name": "mwr_submission_date",
+      "Standardised_Table_Definition": "standardised_table_definitions/statictables/mwr_submission_date.json"
     },
     {
       "Source_ID": 36,
