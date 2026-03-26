@@ -1,128 +1,6 @@
 {
   "definitions": [
     {
-      "Source_ID": 1,
-      "Source_Folder": "SapHr",
-      "Source_Frequency_Folder": "MONTHLY",
-      "Source_Filename_Format": "HR_Absence_YYYYMMDD.csv",
-      "Source_Filename_Start": "HR_Absence_",
-      "Expected_Within_Weekdays": 5,
-      "Standardised_Path": "saphr",
-      "Standardised_Table_Name": "hr_absence_monthly",
-      "Standardised_Table_Definition": "standardised_table_definitions/saphr/hr_absence_monthly.json"
-    },
-    {
-      "Source_ID": 2,
-      "Source_Folder": "SapHr",
-      "Source_Frequency_Folder": "MONTHLY",
-      "Source_Filename_Format": "Inspector_Addresses_YYYYMMDD.csv",
-      "Source_Filename_Start": "Inspector_Addresses_",
-      "Expected_Within_Weekdays": 5,
-      "Standardised_Path": "saphr",
-      "Standardised_Table_Name": "inspector_addresses",
-      "Standardised_Table_Definition": "standardised_table_definitions/saphr/inspector_addresses.json"
-    },
-    {
-      "Source_ID": 3,
-      "Source_Folder": "SapHr",
-      "Source_Frequency_Folder": "MONTHLY",
-      "Source_Filename_Format": "Inspector_Specialisms_YYYYMMDD.csv",
-      "Source_Filename_Start": "Inspector_Specialisms_",
-      "Expected_Within_Weekdays": 5,
-      "Standardised_Path": "saphr",
-      "Standardised_Table_Name": "inspector_specialisms_monthly",
-      "Standardised_Table_Definition": "standardised_table_definitions/saphr/inspector_specialisms_monthly.json"
-    },
-    {
-      "Source_ID": 4,
-      "Source_Folder": "SapHr",
-      "Source_Frequency_Folder": "MONTHLY",
-      "Source_Filename_Format": "SAP_PINS_Email_YYYYMMDD.csv",
-      "Source_Filename_Start": "SAP_PINS_Email_",
-      "Expected_Within_Weekdays": 5,
-      "Standardised_Path": "saphr",
-      "Standardised_Table_Name": "sap_email_monthly",
-      "Standardised_Table_Definition": "standardised_table_definitions/saphr/sap_email_monthly.json"
-    },
-    {
-      "Source_ID": 5,
-      "Source_Folder": "SapHr",
-      "Source_Frequency_Folder": "MONTHLY",
-      "Source_Filename_Format": "SAP_HR_History_YYYYMMDD.csv",
-      "Source_Filename_Start": "SAP_HR_History_",
-      "Expected_Within_Weekdays": 5,
-      "Standardised_Path": "saphr",
-      "Standardised_Table_Name": "sap_hr_history_monthly",
-      "Standardised_Table_Definition": "standardised_table_definitions/saphr/sap_hr_history_monthly.json"
-    },
-    {
-      "Source_ID": 6,
-      "Source_Folder": "SapHr",
-      "Source_Frequency_Folder": "MONTHLY",
-      "Source_Filename_Format": "SAP_HR_Leavers_YYYYMMDD.csv",
-      "Source_Filename_Start": "SAP_HR_Leavers_",
-      "Expected_Within_Weekdays": 5,
-      "Standardised_Path": "saphr",
-      "Standardised_Table_Name": "sap_hr_leavers_monthly",
-      "Standardised_Table_Definition": "standardised_table_definitions/saphr/sap_hr_leavers_monthly.json"
-    },
-    {
-      "Source_ID": 7,
-      "Source_Folder": "SapHr",
-      "Source_Frequency_Folder": "MONTHLY",
-      "Source_Filename_Format": "SAP_Protected_YYYYMMDD.csv",
-      "Source_Filename_Start": "SAP_Protected_",
-      "Expected_Within_Weekdays": 5,
-      "Standardised_Path": "saphr",
-      "Standardised_Table_Name": "sap_protected_monthly",
-      "Standardised_Table_Definition": "standardised_table_definitions/saphr/sap_protected_monthly.json"
-    },
-    {
-      "Source_ID": 8,
-      "Source_Folder": "SapHr",
-      "Source_Frequency_Folder": "WEEKLY",
-      "Source_Filename_Format": "Inspector_Addresses_YYYYMMDD.csv",
-      "Source_Filename_Start": "Inspector_Addresses_",
-      "Expected_Within_Weekdays": 5,
-      "Standardised_Path": "saphr",
-      "Standardised_Table_Name": "inspector_addresses",
-      "Standardised_Table_Definition": "standardised_table_definitions/saphr/inspector_addresses.json"
-    },
-    {
-      "Source_ID": 9,
-      "Source_Folder": "SapHr",
-      "Source_Frequency_Folder": "WEEKLY",
-      "Source_Filename_Format": "Inspector_specialisms_YYYYMMDD.csv",
-      "Source_Filename_Start": "Inspector_specialisms_",
-      "Expected_Within_Weekdays": 5,
-      "Standardised_Path": "saphr",
-      "Standardised_Table_Name": "inspector_specialisms_monthly",
-      "Standardised_Table_Definition": "standardised_table_definitions/saphr/inspector_specialisms_monthly.json"
-    },
-    {
-      "Source_ID": 10,
-      "Source_Folder": "SapHr",
-      "Source_Frequency_Folder": "WEEKLY",
-      "Source_Filename_Format": "SAP_Email_YYYYMMDD.csv",
-      "Source_Filename_Start": "SAP_Email_",
-      "Expected_Within_Weekdays": 5,
-      "Standardised_Path": "saphr",
-      "Standardised_Table_Name": "sap_email_weekly",
-      "Standardised_Table_Definition": "standardised_table_definitions/saphr/sap_email_weekly.json"
-    },
-    {
-      "Source_ID": 11,
-      "Source_Folder": "SapHr",
-      "Source_Frequency_Folder": "WEEKLY",
-      "Source_Filename_Format": "SAP_HR_YYYYMMDD.csv",
-      "Source_Filename_Start": "SAP_HR_",
-      "Expected_Within_Weekdays": 5,
-      "Standardised_Path": "saphr",
-      "Standardised_Table_Name": "sap_hr_weekly",
-      "Standardised_Table_Definition": "standardised_table_definitions/saphr/sap_hr_weekly.json"
-    },
-
-    {
       "Source_ID": 12,
       "Source_Folder": "StaticTables",
       "Source_Frequency_Folder": "",
@@ -342,31 +220,8 @@
       "Standardised_Table_Name": "inspector_specialism_mig",
       "Standardised_Table_Definition": "standardised_table_definitions/statictables/inspector_specialism_mig.json"
     },
-  {
-      "Source_ID": 32,
-      "Source_Folder": "SapHr",
-      "Source_Frequency_Folder": "WEEKLY",
-      "Source_Filename_Format": "workschedulerule_YYYYMMDD.csv",
-      "Source_Filename_Start": "workschedulerule",
-      "Expected_Within_Weekdays": 5,
-      "Standardised_Path": "saphr",
-      "Standardised_Table_Name": "workschedulerule_weekly",
-      "Standardised_Table_Definition": "standardised_table_definitions/saphr/workschedulerule_weekly.json"
-    },
-
-  {
-      "Source_ID": 33,
-      "Source_Folder": "SapHr",
-      "Source_Frequency_Folder": "MONTHLY",
-      "Source_Filename_Format": "SAP_Timesheets_YYYYMMDD.csv",
-      "Source_Filename_Start": "SAP_Timesheets_",
-      "Expected_Within_Weekdays": 5,
-      "Standardised_Path": "saphr",
-      "Standardised_Table_Name": "load_sap_timesheets",
-      "Standardised_Table_Definition": "standardised_table_definitions/saphr/load_sap_timesheets.json"
-    },
     {
-      "Source_ID": 34,
+      "Source_ID": 32,
       "Source_Folder": "StaticTables",
       "Source_Frequency_Folder": "",
       "Source_Filename_Format": "load_sap_timesheets_references.csv",
@@ -376,16 +231,52 @@
       "Standardised_Table_Name": "load_sap_timesheets_references",
       "Standardised_Table_Definition": "standardised_table_definitions/statictables/load_sap_timesheets_references.json"
     },
+  {
+      "Source_ID": 33,
+      "Source_Folder": "StaticTables",
+      "Source_Frequency_Folder": "",
+      "Source_Filename_Format": "MWR_Lines.csv",
+      "Source_Filename_Start": "MWR_Lines",
+      "Expected_Within_Weekdays": 5,
+      "Standardised_Path": "StaticTables",
+      "Standardised_Table_Name": "mwr_lines",
+      "Standardised_Table_Definition": "standardised_table_definitions/statictables/mwr_lines.json"
+    },
+    
+    {
+      "Source_ID": 34,
+      "Source_Folder": "StaticTables",
+      "Source_Frequency_Folder": "",
+      "Source_Filename_Format": "MWR_Status.csv",
+      "Source_Filename_Start": "MWR_Status",
+      "Expected_Within_Weekdays": 5,
+      "Standardised_Path": "StaticTables",
+      "Standardised_Table_Name": "mwr_status",
+      "Standardised_Table_Definition": "standardised_table_definitions/statictables/mwr_status.json"
+    },
+
     {
       "Source_ID": 35,
-      "Source_Folder": "SapHr",
-      "Source_Frequency_Folder": "WEEKLY",
-      "Source_Filename_Format": "SAP_Timesheets_YYYYMMDD.csv",
-      "Source_Filename_Start": "SAP_Timesheets_",
+      "Source_Folder": "StaticTables",
+      "Source_Frequency_Folder": "",
+      "Source_Filename_Format": "MWR_Submission_Date.csv",
+      "Source_Filename_Start": "MWR_Submission_Date",
       "Expected_Within_Weekdays": 5,
-      "Standardised_Path": "saphr",
-      "Standardised_Table_Name": "load_sap_timesheets",
-      "Standardised_Table_Definition": "standardised_table_definitions/saphr/load_sap_timesheets.json"
-    }  
+      "Standardised_Path": "StaticTables",
+      "Standardised_Table_Name": "mwr_submission_date",
+      "Standardised_Table_Definition": "standardised_table_definitions/statictables/mwr_submission_date.json"
+    },
+    {
+      "Source_ID": 36,
+      "Source_Folder": "StaticTables",
+      "Source_Frequency_Folder": "",
+      "Source_Filename_Format": "MWR_Inspector_dim.csv",
+      "Source_Filename_Start": "MWR_Inspector_dim",
+      "Expected_Within_Weekdays": 5,
+      "Standardised_Path": "StaticTables",
+      "Standardised_Table_Name": "mwr_inspector_dim",
+      "Standardised_Table_Definition": "standardised_table_definitions/statictables/mwr_inspector_dim.json"
+    }
+    
   ]
 }

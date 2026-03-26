@@ -1,0 +1,40 @@
+{
+    "fields": [
+      {
+        "metadata": {},
+        "name": "ingested_datetime",
+        "type": "timestamp",
+        "nullable": false
+      },
+      {
+        "metadata": {},
+        "name": "expected_from",
+        "type": "timestamp",
+        "nullable": false
+      },
+      {
+        "metadata": {},
+        "name": "expected_to",
+        "type": "timestamp",
+        "nullable": false
+      },
+      {
+        "metadata": {},
+        "name": "caseUniqueId",
+        "type": "integer",
+        "nullable": false
+      },
+      {
+        "metadata": {},
+        "name": "caseNodeId",
+        "type": "integer",
+        "nullable": false
+      },
+      {
+        "metadata": {},
+        "name": "applicationMadeUnderSection",
+        "type": "string",
+        "nullable": true
+      }
+    ]
+  }  
