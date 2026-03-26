@@ -1213,6 +1213,7 @@
       "Standardised_Table_Name": "sb_service_user",
       "Harmonised_Table_Name": "sb_service_user",
       "Harmonised_Incremental_Key": "ServiceUserID",
+      "Harmonised_Notebook_Name":"py_sb_horizon_harmonised_service_user",
       "Entity_Primary_Key": "id"
     },
     {
@@ -1227,6 +1228,7 @@
       "Standardised_Table_Definition": "standardised_table_definitions/NSIP/NSIPProject.json",
       "Harmonised_Table_Name": "sb_nsip_project",
       "Harmonised_Incremental_Key": "NSIPProjectInfoInternalID",
+      "Harmonised_Notebook_Name": "py_sb_horizon_harmonised_nsip_project",
       "Entity_Primary_Key": "caseId"
     },
     {
@@ -1263,6 +1265,7 @@
       "Standardised_Table_Definition": "standardised_table_definitions/NSIP/nsip_exam_timetable.json",
       "Harmonised_Table_Name": "sb_nsip_exam_timetable",
       "Harmonised_Incremental_Key": "NSIPExaminationTimetableID",
+      "Harmonised_Notebook_Name":"py_sb_horizon_harmonised_nsip_exam_timetable",
       "Entity_Primary_Key": "caseReference",
       "Std_To_Hrm_Mapping": {
         "ID": "eventid",
@@ -1298,6 +1301,7 @@
       "Standardised_Table_Name": "sb_s51_advice",
       "Harmonised_Table_Name": "sb_s51_advice",
       "Harmonised_Incremental_Key": "NSIPAdviceID",
+      "Harmonised_Notebook_Name":"py_sb_horizon_harmonised_nsip_s51_advice",
       "Entity_Primary_Key": "adviceId"
     },
     {
@@ -1368,6 +1372,7 @@
       "Standardised_Table_Name": "sb_nsip_project_update",
       "Harmonised_Table_Name": "sb_nsip_project_update",
       "Harmonised_Incremental_Key": "NSIPProjectUpdateID",
+      "Harmonised_Notebook_Name": "",
       "Entity_Primary_Key": "id"
     },
     {
@@ -1381,6 +1386,7 @@
       "Standardised_Table_Name": "sb_nsip_subscription",
       "Harmonised_Table_Name": "sb_nsip_subscription",
       "Harmonised_Incremental_Key": "NSIPSubscriptionID",
+      "Harmonised_Notebook_Name": "",
       "Entity_Primary_Key": "subscriptionId"
     },
     {
@@ -1394,6 +1400,7 @@
       "Standardised_Table_Name": "sb_nsip_document",
       "Harmonised_Table_Name": "sb_nsip_document",
       "Harmonised_Incremental_Key": "NSIPDocumentID",
+      "Harmonised_Notebook_Name":"py_sb_horizon_harmonised_nsip_document",
       "Entity_Primary_Key": "documentId"
     },
     {
@@ -1407,6 +1414,7 @@
       "Standardised_Table_Name": "sb_nsip_representation",
       "Harmonised_Table_Name": "sb_nsip_representation",
       "Harmonised_Incremental_Key": "NSIPRepresentaionID",
+      "Harmonised_Notebook_Name":"py_sb_horizon_harmonised_nsip_representation",
       "Entity_Primary_Key": "representationId"
     },
     {
@@ -1420,6 +1428,7 @@
       "Standardised_Table_Name": "sb_appeal_document",
       "Harmonised_Table_Name": "sb_appeal_document",
       "Harmonised_Incremental_Key": "AppealsDocumentMetadataID",
+      "Harmonised_Notebook_Name":"py_sb_horizon_harmonised_appeal_document",
       "Entity_Primary_Key": "documentId"
     },
     {
@@ -1486,6 +1495,7 @@
       "Standardised_Table_Name": "sb_appeal_event",
       "Harmonised_Table_Name": "sb_appeal_event",
       "Harmonised_Incremental_Key": "AppealsEventId",
+      "Harmonised_Notebook_Name":"py_sb_horizon_harmonised_appeal_event",
       "Entity_Primary_Key": "eventId"
     },
     {
@@ -1499,6 +1509,7 @@
       "Standardised_Table_Name": "sb_appeal_has",
       "Harmonised_Table_Name": "sb_appeal_has",
       "Harmonised_Incremental_Key": "AppealsHasID",
+      "Harmonised_Notebook_Name":"py_sb_horizon_harmonised_appeal_has",
       "Entity_Primary_Key": "caseReference"
     },
     {
@@ -1616,6 +1627,7 @@
       "Standardised_Table_Name": "sb_appeal_s78",
       "Harmonised_Table_Name": "sb_appeal_s78",
       "Harmonised_Incremental_Key": "AppealS78ID",
+      "Harmonised_Notebook_Name":"py_sb_horizon_harmonised_appeal_s78",
       "Entity_Primary_Key": "caseReference"
     },
     {
@@ -1664,6 +1676,7 @@
       "Standardised_Table_Name": "sb_appeal_representation",
       "Harmonised_Table_Name": "sb_appeal_representation",
       "Harmonised_Incremental_Key": "appealRepresentaionID",
+      "Harmonised_Notebook_Name": "",
       "Entity_Primary_Key": "representationId"
     },
     {
@@ -1831,6 +1844,7 @@
       "Standardised_Table_Definition": "standardised_table_definitions/ServiceBus/appeal-event-estimate.json",
       "Harmonised_Table_Name": "sb_appeal_event_estimate",
       "Harmonised_Incremental_Key": "AppealsEstimateEventID",
+      "Harmonised_Notebook_Name": "",
       "Entity_Primary_Key": "id",
       "Entity_Name": "appeal-event-estimate"
     },
@@ -1961,6 +1975,7 @@
       "Standardised_Table_Name": "sb_nsip_project",
       "Harmonised_Table_Name": "sb_nsip_invoice",
       "Harmonised_Incremental_Key": "NSIPInvoiceID",
+      "Harmonised_Notebook_Name":"py_sb_harmonised_nsip_invoice",
       "Entity_Primary_Key": "invoiceNumber"
       },
       {
@@ -1974,6 +1989,7 @@
       "Standardised_Table_Name": "sb_nsip_project",
       "Harmonised_Table_Name": "sb_nsip_meeting",
       "Harmonised_Incremental_Key": "NSIPmeetingID",
+      "Harmonised_Notebook_Name":"py_sb_harmonised_nsip_meeting",
       "Entity_Primary_Key": "meetingID"
       },
       {
@@ -1988,8 +2004,7 @@
       "Expected_Within_Weekdays": 1,
       "Standardised_Path": "Horizon",
       "Standardised_Table_Name": "horizon_appeal_grounds",
-      "Standardised_Table_Definition": "standardised_table_definitions/Horizon/HorizonAppealGrounds.json",
-      "Entity_Primary_Key": "groundsKey"
+      "Standardised_Table_Definition": "standardised_table_definitions/Horizon/HorizonAppealGrounds.json"
       },
       {
       "Source_ID": 159,
