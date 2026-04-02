@@ -37,4 +37,6 @@ seed_column: "id"
 # Use the unique identifier column for each entity to ensure idempotent masking.
 entity_seed_columns:
   service-user: "id"
+  pins-inspector: "entraId"
+  pins-lpa: "LPAId"
   # Add further entities with their unique identifier columns here
