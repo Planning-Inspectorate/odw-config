@@ -15,6 +15,7 @@ classification_allowlist:
   # Microsoft built-in classifications
   - "MICROSOFT.PERSONAL.EMAIL"
   - "MICROSOFT.PERSONAL.NAME"
+  - "MICROSOFT.PERSONAL.PHYSICALADDRESS"
   # ODW custom classifications (Purview catalog names used on service-user and related assets)
   - "Email Address"
   - "Email Address Column Name"
