@@ -27,6 +27,7 @@ classification_allowlist:
   - "Person's Age"
   - "Annual Salary"
   - "All Full Names"
+  - "All Physical Addresses"
 
 # Default seed column used for deterministic anonymisation.
 # Must be a unique, stable identifier present in the DataFrame.
