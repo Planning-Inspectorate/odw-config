@@ -29,6 +29,7 @@ classification_allowlist:
   - "Annual Salary"
   - "All Full Names"
   - "All Physical Addresses"
+  - "UK Postcode"
 
 # Default seed column used for deterministic anonymisation.
 # Must be a unique, stable identifier present in the DataFrame.
