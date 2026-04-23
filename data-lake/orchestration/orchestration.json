@@ -1663,7 +1663,7 @@
       "Standardised_Path": "",
       "Standardised_Table_Name": "sb_appeal_representation",
       "Harmonised_Table_Name": "sb_appeal_representation",
-      "Harmonised_Incremental_Key": "appealRepresentaionID",
+      "Harmonised_Incremental_Key": "appealRepresentationID",
       "Entity_Primary_Key": "representationId"
     },
     {
