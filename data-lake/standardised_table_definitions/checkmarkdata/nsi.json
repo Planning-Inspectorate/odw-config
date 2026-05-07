@@ -1,0 +1,34 @@
+{
+    "fields": [
+        {
+            "name": "ingested_datetime",
+            "type": "timestamp",
+            "constraints": false
+        },
+        {
+            "name": "expected_from",
+            "type": "timestamp",
+            "constraints": false
+        },
+        {
+            "name": "expected_to",
+            "type": "timestamp",
+            "constraints": false
+        },
+        {
+            "name": "ID",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "email",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "name",
+            "type": "string",
+            "nullable": true
+        }
+    ]
+}

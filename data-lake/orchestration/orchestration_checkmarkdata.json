@@ -1,0 +1,192 @@
+{
+  "definitions": [
+    {
+      "Source_ID": 1,
+      "Source_Folder": "checkmarkdata",
+      "Source_Frequency_Folder": "",
+      "Source_Filename_Format": "Nsi.csv",
+      "Source_Filename_Start": "Nsi",
+      "Expected_Within_Weekdays": 5,
+      "Standardised_Path": "checkmarkdata",
+      "Standardised_Table_Name": "nsi",
+      "Standardised_Table_Definition": "standardised_table_definitions/checkmarkdata/nsi.json"
+    },
+    {
+      "Source_ID": 2,
+      "Source_Folder": "checkmarkdata",
+      "Source_Frequency_Folder": "",
+      "Source_Filename_Format": "CaseComment.csv",
+      "Source_Filename_Start": "CaseComment",
+      "Expected_Within_Weekdays": 5,
+      "Standardised_Path": "checkmarkdata",
+      "Standardised_Table_Name": "casecomment",
+      "Standardised_Table_Definition": "standardised_table_definitions/checkmarkdata/casecomment.json"
+    },
+    {
+      "Source_ID": 3,
+      "Source_Folder": "checkmarkdata",
+      "Source_Frequency_Folder": "",
+      "Source_Filename_Format": "CaseMarking.csv",
+      "Source_Filename_Start": "CaseMarking",
+      "Expected_Within_Weekdays": 5,
+      "Standardised_Path": "checkmarkdata",
+      "Standardised_Table_Name": "casemarking",
+      "Standardised_Table_Definition": "standardised_table_definitions/checkmarkdata/casemarking.json"
+    },
+    {
+      "Source_ID": 4,
+      "Source_Folder": "checkmarkdata",
+      "Source_Frequency_Folder": "",
+      "Source_Filename_Format": "CommentStateReference.csv",
+      "Source_Filename_Start": "CommentStateReference",
+      "Expected_Within_Weekdays": 5,
+      "Standardised_Path": "checkmarkdata",
+      "Standardised_Table_Name": "commentstatereference",
+      "Standardised_Table_Definition": "standardised_table_definitions/checkmarkdata/commentstatereference.json"
+    },
+
+    {
+      "Source_ID": 5,
+      "Source_Folder": "checkmarkdata",
+      "Source_Frequency_Folder": "",
+      "Source_Filename_Format": "CommentTypeReference.csv",
+      "Source_Filename_Start": "CommentTypeReference",
+      "Expected_Within_Weekdays": 5,
+      "Standardised_Path": "checkmarkdata",
+      "Standardised_Table_Name": "commenttypereference",
+      "Standardised_Table_Definition": "standardised_table_definitions/checkmarkdata/commenttypereference.json"
+    },
+
+    {
+      "Source_ID": 6,
+      "Source_Folder": "checkmarkdata",
+      "Source_Frequency_Folder": "",
+      "Source_Filename_Format": "ConditionsReference.csv",
+      "Source_Filename_Start": "ConditionsReference",
+      "Expected_Within_Weekdays": 5,
+      "Standardised_Path": "checkmarkdata",
+      "Standardised_Table_Name": "conditionreference",
+      "Standardised_Table_Definition": "standardised_table_definitions/checkmarkdata/conditionreference.json"
+    },
+
+    {
+      "Source_ID": 7,
+      "Source_Folder": "checkmarkdata",
+      "Source_Frequency_Folder": "",
+      "Source_Filename_Format": "CoverageReference.csv",
+      "Source_Filename_Start": "CoverageReference",
+      "Expected_Within_Weekdays": 5,
+      "Standardised_Path": "checkmarkdata",
+      "Standardised_Table_Name": "coveragereference",
+      "Standardised_Table_Definition": "standardised_table_definitions/checkmarkdata/coveragereference.json"
+    },
+
+    {
+      "Source_ID": 8,
+      "Source_Folder": "checkmarkdata",
+      "Source_Frequency_Folder": "",
+      "Source_Filename_Format": "LevelReference.csv",
+      "Source_Filename_Start": "LevelReference",
+      "Expected_Within_Weekdays": 5,
+      "Standardised_Path": "checkmarkdata",
+      "Standardised_Table_Name": "levelreference",
+      "Standardised_Table_Definition": "standardised_table_definitions/checkmarkdata/levelreference.json"
+    },
+
+    {
+      "Source_ID": 9,
+      "Source_Folder": "checkmarkdata",
+      "Source_Frequency_Folder": "",
+      "Source_Filename_Format": "OutcomeReference.csv",
+      "Source_Filename_Start": "OutcomeReference",
+      "Expected_Within_Weekdays": 5,
+      "Standardised_Path": "checkmarkdata",
+      "Standardised_Table_Name": "outcomereference",
+      "Standardised_Table_Definition": "standardised_table_definitions/checkmarkdata/outcomereference.json"
+    },
+
+    {
+      "Source_ID": 10,
+      "Source_Folder": "checkmarkdata",
+      "Source_Frequency_Folder": "",
+      "Source_Filename_Format": "PresentationAccuracyDetailReference.csv",
+      "Source_Filename_Start": "PresentationAccuracyDetailReference",
+      "Expected_Within_Weekdays": 5,
+      "Standardised_Path": "checkmarkdata",
+      "Standardised_Table_Name": "presentationaccuracydetailreference",
+      "Standardised_Table_Definition": "standardised_table_definitions/checkmarkdata/presentationaccuracydetailreference.json"
+    },
+
+    {
+      "Source_ID": 11,
+      "Source_Folder": "checkmarkdata",
+      "Source_Frequency_Folder": "",
+      "Source_Filename_Format": "ProcedureReference.csv",
+      "Source_Filename_Start": "ProcedureReference",
+      "Expected_Within_Weekdays": 5,
+      "Standardised_Path": "checkmarkdata",
+      "Standardised_Table_Name": "procedurereference",
+      "Standardised_Table_Definition": "standardised_table_definitions/checkmarkdata/procedurereference.json"
+    },
+
+    {
+      "Source_ID": 12,
+      "Source_Folder": "checkmarkdata",
+      "Source_Frequency_Folder": "",
+      "Source_Filename_Format": "ReadingStatusReference.csv",
+      "Source_Filename_Start": "ReadingStatusReference",
+      "Expected_Within_Weekdays": 5,
+      "Standardised_Path": "checkmarkdata",
+      "Standardised_Table_Name": "readingstatusreference",
+      "Standardised_Table_Definition": "standardised_table_definitions/checkmarkdata/readingstatusreference.json"
+    },
+
+    {
+      "Source_ID": 13,
+      "Source_Folder": "checkmarkdata",
+      "Source_Frequency_Folder": "",
+      "Source_Filename_Format": "ReadingTypeReference.csv",
+      "Source_Filename_Start": "ReadingTypeReference",
+      "Expected_Within_Weekdays": 5,
+      "Standardised_Path": "checkmarkdata",
+      "Standardised_Table_Name": "readingtypereference",
+      "Standardised_Table_Definition": "standardised_table_definitions/checkmarkdata/readingtypereference.json"
+    },
+
+    {
+      "Source_ID": 13,
+      "Source_Folder": "checkmarkdata",
+      "Source_Frequency_Folder": "",
+      "Source_Filename_Format": "SourceReference.csv",
+      "Source_Filename_Start": "SourceReference",
+      "Expected_Within_Weekdays": 5,
+      "Standardised_Path": "checkmarkdata",
+      "Standardised_Table_Name": "sourcereference",
+      "Standardised_Table_Definition": "standardised_table_definitions/checkmarkdata/sourcereference.json"
+    },
+
+    {
+      "Source_ID": 14,
+      "Source_Folder": "checkmarkdata",
+      "Source_Frequency_Folder": "",
+      "Source_Filename_Format": "StructureReasoningDetailReference.csv",
+      "Source_Filename_Start": "StructureReasoningDetailReference",
+      "Expected_Within_Weekdays": 5,
+      "Standardised_Path": "checkmarkdata",
+      "Standardised_Table_Name": "structurereasoningdetailreference",
+      "Standardised_Table_Definition": "standardised_table_definitions/checkmarkdata/structurereasoningdetailreference.json"
+    },
+    {
+      "Source_ID": 15,
+      "Source_Folder": "checkmarkdata",
+      "Source_Frequency_Folder": "",
+      "Source_Filename_Format": "ReadingCase.csv",
+      "Source_Filename_Start": "ReadingCase",
+      "Expected_Within_Weekdays": 5,
+      "Standardised_Path": "checkmarkdata",
+      "Standardised_Table_Name": "readingcase",
+      "Standardised_Table_Definition": "standardised_table_definitions/checkmarkdata/readingcase.json"
+    }
+
+  ]
+}
