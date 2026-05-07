@@ -1,0 +1,45 @@
+{
+  "fields": [
+    {
+      "name": "ingested_datetime",
+      "type": "timestamp",
+      "constraints": false
+    },
+    {
+      "name": "expected_from",
+      "type": "timestamp",
+      "constraints": false
+    },
+    {
+      "name": "expected_to",
+      "type": "timestamp",
+      "constraints": false
+    },
+    { "name": "ID", "type": "string", "constraints": false },
+    { "name": "case_reference", "type": "string", "constraints": false },
+    { "name": "overall_mark", "type": "string", "constraints": false },
+    { "name": "amendments_timeliness_mark", "type": "string", "constraints": false },
+    { "name": "complexity", "type": "string", "constraints": false },
+    { "name": "conditions_mark", "type": "string", "constraints": false },
+    { "name": "conditions_detail", "type": "string", "constraints": false },
+    { "name": "coverage_mark", "type": "string", "constraints": false },
+    { "name": "coverage_detail", "type": "string", "constraints": false },
+    { "name": "ground_a_mark", "type": "string", "constraints": false },
+    { "name": "ground_a_iit_level", "type": "string", "constraints": false },
+    { "name": "invalid_nullity", "type": "string", "constraints": false },
+    { "name": "invalid_nullity_mark", "type": "string", "constraints": false },
+    { "name": "legal_grounds_mark", "type": "string", "constraints": false },
+    { "name": "legal_grounds_considered", "type": "string", "constraints": false },
+    { "name": "non_legal_grounds_mark", "type": "string", "constraints": false },
+    { "name": "non_legal_grounds_considered", "type": "string", "constraints": false },
+    { "name": "other_grounds_affecting_complexity", "type": "string", "constraints": false },
+    { "name": "outcome", "type": "string", "constraints": false },
+    { "name": "overall_case_level_for_iit_progression", "type": "string", "constraints": false },
+    { "name": "presentation_accuracy_mark", "type": "string", "constraints": false },
+    { "name": "presentation_accuracy_detail", "type": "string", "constraints": false },
+    { "name": "structure_reasoning_mark", "type": "string", "constraints": false },
+    { "name": "structure_reasoning_detail", "type": "string", "constraints": false },
+    { "name": "timeliness_mark", "type": "string", "constraints": false },
+    { "name": "reading_complete_notification_needed", "type": "string", "constraints": false }
+  ]
+}
