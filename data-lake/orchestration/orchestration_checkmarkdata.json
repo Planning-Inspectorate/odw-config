@@ -154,7 +154,7 @@
     },
 
     {
-      "Source_ID": 13,
+      "Source_ID": 14,
       "Source_Folder": "checkmarkdata",
       "Source_Frequency_Folder": "",
       "Source_Filename_Format": "SourceReference.csv",
@@ -166,7 +166,7 @@
     },
 
     {
-      "Source_ID": 14,
+      "Source_ID": 15,
       "Source_Folder": "checkmarkdata",
       "Source_Frequency_Folder": "",
       "Source_Filename_Format": "StructureReasoningDetailReference.csv",
@@ -177,7 +177,7 @@
       "Standardised_Table_Definition": "standardised_table_definitions/checkmarkdata/structurereasoningdetailreference.json"
     },
     {
-      "Source_ID": 15,
+      "Source_ID": 16,
       "Source_Folder": "checkmarkdata",
       "Source_Frequency_Folder": "",
       "Source_Filename_Format": "ReadingCase.csv",
