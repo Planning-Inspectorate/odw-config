@@ -1,0 +1,8 @@
+{
+  "fields": [
+    { "name": "ID", "type": "INTEGER", "constraints": "NOT NULL" },
+    { "name": "value", "type": "INTEGER", "constraints": "NULL" },
+    { "name": "IngestionDate", "type": "timestamp", "constraints": false },
+    { "name": "RowID", "type": "string", "constraints": false }
+  ]
+}
