@@ -1,0 +1,13 @@
+{
+  "fields": [
+    { "name": "ID", "type": "INTEGER", "constraints": "NULL" },
+    { "name": "case_reference", "type": "INTEGER", "constraints": "NULL" },
+    { "name": "type", "type": "INTEGER", "constraints": "NULL" },
+    { "name": "state", "type": "INTEGER", "constraints": "NULL" },
+    { "name": "author", "type": "STRING", "constraints": "NULL" },
+    { "name": "timestamp", "type": "timestamp", "constraints": "NULL" },
+    { "name": "comment", "type": "STRING", "constraints": "NULL" },
+    { "name": "IngestionDate", "type": "timestamp", "constraints": false },
+    { "name": "RowID", "type": "string", "constraints": false }
+  ]
+}

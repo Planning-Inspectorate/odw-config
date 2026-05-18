@@ -1,0 +1,32 @@
+{
+  "fields": [
+    { "name": "ID", "type": "INTEGER", "constraints": "NOT NULL" },
+    { "name": "case_reference", "type": "INTEGER", "constraints": "NULL" },
+    { "name": "overall_mark", "type": "BOOLEAN", "constraints": "NULL" },
+    { "name": "amendments_timeliness_mark", "type": "BOOLEAN", "constraints": "NULL" },
+    { "name": "complexity", "type": "INTEGER", "constraints": "NULL" },
+    { "name": "conditions_mark", "type": "BOOLEAN", "constraints": "NULL" },
+    { "name": "conditions_detail", "type": "INTEGER", "constraints": "NULL" },
+    { "name": "coverage_mark", "type": "BOOLEAN", "constraints": "NULL" },
+    { "name": "coverage_detail", "type": "INTEGER", "constraints": "NULL" },
+    { "name": "ground_a_mark", "type": "BOOLEAN", "constraints": "NULL" },
+    { "name": "ground_a_iit_level", "type": "INTEGER", "constraints": "NULL" },
+    { "name": "invalid_nullity", "type": "INTEGER", "constraints": "NULL" },
+    { "name": "invalid_nullity_mark", "type": "BOOLEAN", "constraints": "NULL" },
+    { "name": "legal_grounds_mark", "type": "BOOLEAN", "constraints": "NULL" },
+    { "name": "legal_grounds_considered", "type": "STRING", "constraints": "NULL" },
+    { "name": "non_legal_grounds_mark", "type": "BOOLEAN", "constraints": "NULL" },
+    { "name": "non_legal_grounds_considered", "type": "STRING", "constraints": "NULL" },
+    { "name": "other_grounds_affecting_complexity", "type": "STRING", "constraints": "NULL" },
+    { "name": "outcome", "type": "INTEGER", "constraints": "NULL" },
+    { "name": "overall_case_level_for_iit_progression", "type": "INTEGER", "constraints": "NULL" },
+    { "name": "presentation_accuracy_mark", "type": "BOOLEAN", "constraints": "NULL" },
+    { "name": "presentation_accuracy_detail", "type": "INTEGER", "constraints": "NULL" },
+    { "name": "structure_reasoning_mark", "type": "BOOLEAN", "constraints": "NULL" },
+    { "name": "structure_reasoning_detail", "type": "INTEGER", "constraints": "NULL" },
+    { "name": "timeliness_mark", "type": "BOOLEAN", "constraints": "NULL" },
+    { "name": "reading_complete_notification_needed", "type": "BOOLEAN", "constraints": "NULL" },
+    { "name": "IngestionDate", "type": "timestamp", "constraints": false },
+    { "name": "RowID", "type": "string", "constraints": false }
+  ]
+}
