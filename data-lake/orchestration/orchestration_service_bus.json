@@ -1,0 +1,174 @@
+{
+  "entities": [
+    {
+      "entity_name": "service_user",
+      "raw_entity_path": "ServiceBus/service-user/",
+      "standardised_table": "sb_service_user",
+      "harmonised_table": "sb_service_user",
+      "incremental_watermark_column": "ServiceUserID",
+      "primary_key": "id",
+      "harmonised_notebook_name": "py_sb_horizon_harmonised_service_user",
+      "processing_enabled": true
+    },
+    {
+      "entity_name": "nsip_project",
+      "raw_entity_path": "ServiceBus/nsip-project/",
+      "standardised_table": "sb_nsip_project",
+      "harmonised_table": "sb_nsip_project",
+      "incremental_watermark_column": "NSIPProjectInfoInternalID",
+      "primary_key": "caseId",
+      "harmonised_notebook_name": "py_sb_horizon_harmonised_nsip_project",
+      "processing_enabled": true
+    },
+    {
+      "entity_name": "nsip_exam_timetable",
+      "raw_entity_path": "ServiceBus/nsip-exam-timetable/",
+      "standardised_table": "sb_nsip_exam_timetable",
+      "harmonised_table": "sb_nsip_exam_timetable",
+      "incremental_watermark_column": "NSIPExaminationTimetableID",
+      "primary_key": "caseReference",
+      "harmonised_notebook_name": "py_sb_horizon_harmonised_nsip_exam_timetable",
+      "processing_enabled": true
+    },
+    {
+      "entity_name": "s51_advice",
+      "raw_entity_path": "ServiceBus/s51-advice/",
+      "standardised_table": "sb_s51_advice",
+      "harmonised_table": "sb_s51_advice",
+      "incremental_watermark_column": "NSIPAdviceID",
+      "primary_key": "adviceId",
+      "harmonised_notebook_name": "py_sb_horizon_harmonised_nsip_s51_advice",
+      "processing_enabled": true
+    },
+    {
+      "entity_name": "folder",
+      "raw_entity_path": "",
+      "standardised_table": "sb_folder",
+      "harmonised_table": "sb_folder",
+      "incremental_watermark_column": "HorizonFolderID",
+      "primary_key": "id",
+      "harmonised_notebook_name": "",
+      "processing_enabled": true
+    },
+    {
+      "entity_name": "nsip_project_update",
+      "raw_entity_path": "ServiceBus/nsip-project-update/",
+      "standardised_table": "sb_nsip_project_update",
+      "harmonised_table": "sb_nsip_project_update",
+      "incremental_watermark_column": "NSIPProjectUpdateID",
+      "primary_key": "id",
+      "harmonised_notebook_name": "",
+      "processing_enabled": true
+    },
+    {
+      "entity_name": "nsip_subscription",
+      "raw_entity_path": "ServiceBus/nsip-subscription/",
+      "standardised_table": "sb_nsip_subscription",
+      "harmonised_table": "sb_nsip_subscription",
+      "incremental_watermark_column": "NSIPSubscriptionID",
+      "primary_key": "subscriptionId",
+      "harmonised_notebook_name": "",
+      "processing_enabled": true
+    },
+    {
+      "entity_name": "nsip_document",
+      "raw_entity_path": "ServiceBus/nsip-document/",
+      "standardised_table": "sb_nsip_document",
+      "harmonised_table": "sb_nsip_document",
+      "incremental_watermark_column": "NSIPDocumentID",
+      "primary_key": "documentId",
+      "harmonised_notebook_name": "py_sb_horizon_harmonised_nsip_document",
+      "processing_enabled": true
+    },
+    {
+      "entity_name": "nsip_representation",
+      "raw_entity_path": "ServiceBus/nsip-representation/",
+      "standardised_table": "sb_nsip_representation",
+      "harmonised_table": "sb_nsip_representation",
+      "incremental_watermark_column": "NSIPRepresentaionID",
+      "primary_key": "representationId",
+      "harmonised_notebook_name": "py_sb_horizon_harmonised_nsip_representation",
+      "processing_enabled": true
+    },
+    {
+      "entity_name": "appeal_document",
+      "raw_entity_path": "ServiceBus/appeal-document/",
+      "standardised_table": "sb_appeal_document",
+      "harmonised_table": "sb_appeal_document",
+      "incremental_watermark_column": "AppealsDocumentMetadataID",
+      "primary_key": "documentId",
+      "harmonised_notebook_name": "py_sb_horizon_harmonised_appeal_document",
+      "processing_enabled": true
+    },
+    {
+      "entity_name": "appeal_event",
+      "raw_entity_path": "ServiceBus/appeal-event/",
+      "standardised_table": "sb_appeal_event",
+      "harmonised_table": "sb_appeal_event",
+      "incremental_watermark_column": "AppealsEventId",
+      "primary_key": "eventId",
+      "harmonised_notebook_name": "py_sb_horizon_harmonised_appeal_event",
+      "processing_enabled": true
+    },
+    {
+      "entity_name": "appeal_has",
+      "raw_entity_path": "ServiceBus/appeal-has/",
+      "standardised_table": "sb_appeal_has",
+      "harmonised_table": "sb_appeal_has",
+      "incremental_watermark_column": "AppealsHasID",
+      "primary_key": "caseReference",
+      "harmonised_notebook_name": "py_sb_horizon_harmonised_appeal_has",
+      "processing_enabled": true
+    },
+    {
+      "entity_name": "appeal_s78",
+      "raw_entity_path": "ServiceBus/appeal-s78/",
+      "standardised_table": "sb_appeal_s78",
+      "harmonised_table": "sb_appeal_s78",
+      "incremental_watermark_column": "AppealS78ID",
+      "primary_key": "caseReference",
+      "harmonised_notebook_name": "py_sb_horizon_harmonised_appeal_s78",
+      "processing_enabled": true
+    },
+    {
+      "entity_name": "appeal_representation",
+      "raw_entity_path": "ServiceBus/appeal-representation/",
+      "standardised_table": "sb_appeal_representation",
+      "harmonised_table": "sb_appeal_representation",
+      "incremental_watermark_column": "appealRepresentaionID",
+      "primary_key": "representationId",
+      "harmonised_notebook_name": "",
+      "processing_enabled": true
+    },
+    {
+      "entity_name": "appeal_event_estimate",
+      "raw_entity_path": "ServiceBus/appeal-event-estimate/",
+      "standardised_table": "sb_appeal_event_estimate",
+      "harmonised_table": "sb_appeal_event_estimate",
+      "incremental_watermark_column": "AppealsEstimateEventID",
+      "primary_key": "id",
+      "harmonised_notebook_name": "",
+      "processing_enabled": true
+    },
+    {
+      "entity_name": "nsip_invoice",
+      "raw_entity_path": "",
+      "standardised_table": "sb_nsip_project",
+      "harmonised_table": "sb_nsip_invoice",
+      "incremental_watermark_column": "NSIPInvoiceID",
+      "primary_key": "invoiceNumber",
+      "harmonised_notebook_name": "py_sb_harmonised_nsip_invoice",
+      "processing_enabled": true
+    },
+    {
+      "entity_name": "nsip_meeting",
+      "raw_entity_path": "",
+      "standardised_table": "sb_nsip_project",
+      "harmonised_table": "sb_nsip_meeting",
+      "incremental_watermark_column": "NSIPmeetingID",
+      "primary_key": "meetingID",
+      "harmonised_notebook_name": "py_sb_harmonised_nsip_meeting",
+      "processing_enabled": true
+    }
+  ]
+}
