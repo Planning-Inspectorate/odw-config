@@ -1,0 +1,35 @@
+entities:
+  nsip-project:
+    service_bus_standardised:
+      etl_process: Service Bus Standardisation
+      kwargs:
+        entity_name: nsip-project
+      depends_on: []
+
+    service_bus_harmonised:
+      etl_process: Service Bus Harmonisation
+      kwargs:
+        entity_name: nsip-project
+      depends_on:
+        - nsip-project.service_bus_standardised
+
+    horizon_standardised:
+      etl_process: Horizon Standardisation
+      kwargs:
+        entity_name: NSIPData
+      depends_on: []
+
+    harmonised:
+      etl_process: NSIP Project Harmonisation
+      kwargs:
+        entity_name: nsip-project
+      depends_on:
+        - nsip-project.horizon_standardised
+        - nsip-project.service_bus_harmonised
+
+    curated:
+      etl_process: nsip_project_curated_process
+      kwargs:
+        entity_name: nsip-project
+      depends_on:
+        - nsip-project.harmonised
