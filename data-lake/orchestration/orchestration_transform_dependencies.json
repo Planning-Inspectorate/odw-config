@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "description": "pln_transform_and_load dependency configuration. Defines which ETL stages must succeed before downstream ETL stages can run",
+  "entities": [
+    {
+      "entity_name": "nsip-project",
+      "domain": "nsip",
+      "enabled": true,
+      "stages": [
+        {
+          "stage_id": "horizon.NSIPData.standardised",
+          "stage": "standardised",
+          "source": "horizon",
+          "entity_name": "NSIPData",
+          "process_name": "Horizon Standardisation",
+          "process_class": "HorizonStandardisationProcess",
+          "output_table": "odw_standardised_db.horizon_nsip_data",
+          "depends_on": [],
+          "on_dependency_failure": "skip"
+        },
+        {
+          "stage_id": "service_bus.nsip-project.standardised",
+          "stage": "standardised",
+          "source": "service_bus",
+          "entity_name": "nsip-project",
+          "process_name": "Service Bus Standardisation",
+          "process_class": "ServiceBusStandardisationProcess",
+          "output_table": "odw_standardised_db.sb_nsip_project",
+          "depends_on": [],
+          "on_dependency_failure": "skip"
+        },
+        {
+          "stage_id": "service_bus.nsip-project.harmonised",
+          "stage": "harmonised",
+          "source": "service_bus",
+          "entity_name": "nsip-project",
+          "process_name": "Service Bus Harmonisation",
+          "process_class": "ServiceBusHarmonisationProcess",
+          "output_table": "odw_harmonised_db.sb_nsip_project",
+          "depends_on": [
+            {
+              "stage_id": "service_bus.nsip-project.standardised",
+              "required_status": "Succeeded"
+            }
+          ],
+          "on_dependency_failure": "skip"
+        },
+        {
+          "stage_id": "custom_etl.nsip-project.harmonised",
+          "stage": "harmonised",
+          "source": "custom_etl",
+          "entity_name": "nsip-project",
+          "process_name": "NSIP Project Harmonisation",
+          "process_class": "NsipProjectHarmonisationProcess",
+          "output_table": "odw_harmonised_db.nsip_project",
+          "depends_on": [
+            {
+              "stage_id": "horizon.NSIPData.standardised",
+              "required_status": "Succeeded"
+            },
+            {
+              "stage_id": "service_bus.nsip-project.harmonised",
+              "required_status": "Succeeded"
+            }
+          ],
+          "on_dependency_failure": "skip"
+        },
+        {
+          "stage_id": "custom_etl.nsip-project.curated",
+          "stage": "curated",
+          "source": "custom_etl",
+          "entity_name": "nsip-project",
+          "process_name": "nsip_project_curated_process",
+          "process_class": "NsipProjectCuratedProcess",
+          "output_table": "odw_curated_db.nsip_project",
+          "depends_on": [
+            {
+              "stage_id": "custom_etl.nsip-project.harmonised",
+              "required_status": "Succeeded"
+            }
+          ],
+          "on_dependency_failure": "skip"
+        }
+      ]
+    }
+  ]
+}
