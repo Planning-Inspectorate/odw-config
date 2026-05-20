@@ -1,3 +1,9 @@
+# Some entities have multiple standardisation stages because they receive
+# data from different upstream systems (Horizon and SB)
+# These stages are treated as separate ETL executions so orchestration can
+# track their success independently before running downstream harmonisation
+# and curated processes
+
 entities:
   nsip-project:
     service_bus_standardised:
