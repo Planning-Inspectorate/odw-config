@@ -8,6 +8,7 @@
       "entity_primary_key": "documentId",
       "sb_harmonised_table_name": "sb_appeal_document",
       "harmonised_table_name": "appeal_document",
+      "harmonised_incremental_key": "AppealsDocumentMetadataID",
       "custom_harmonised_notebook": "py_sb_horizon_harmonised_appeal_document",
       "is_enabled": true
     },
@@ -19,6 +20,7 @@
       "entity_primary_key": "eventId",
       "sb_harmonised_table_name": "sb_appeal_event",
       "harmonised_table_name": "appeal_event",
+      "harmonised_incremental_key": "AppealsEventId",
       "custom_harmonised_notebook": "py_sb_horizon_harmonised_appeal_event",
       "is_enabled": true
     },
@@ -30,6 +32,7 @@
       "entity_primary_key": "id",
       "sb_harmonised_table_name": "sb_appeal_event_estimate",
       "harmonised_table_name": "sb_appeal_event_estimate",
+      "harmonised_incremental_key": "AppealsEstimateEventID",
       "custom_harmonised_notebook": "",
       "is_enabled": true
     },
@@ -41,6 +44,7 @@
       "entity_primary_key": "caseReference",
       "sb_harmonised_table_name": "sb_appeal_has",
       "harmonised_table_name": "appeal_has",
+      "harmonised_incremental_key": "AppealsHasID",
       "custom_harmonised_notebook": "py_sb_horizon_harmonised_appeal_has",
       "is_enabled": true
     },
@@ -52,6 +56,7 @@
       "entity_primary_key": "representationId",
       "sb_harmonised_table_name": "sb_appeal_representation",
       "harmonised_table_name": "sb_appeal_representation",
+      "harmonised_incremental_key": "appealRepresentationID",
       "custom_harmonised_notebook": "",
       "is_enabled": true
     },
@@ -63,6 +68,7 @@
       "entity_primary_key": "caseReference",
       "sb_harmonised_table_name": "sb_appeal_s78",
       "harmonised_table_name": "appeal_s78",
+      "harmonised_incremental_key": "AppealS78ID",
       "custom_harmonised_notebook": "py_sb_horizon_harmonised_appeal_s78",
       "is_enabled": true
     },
@@ -74,6 +80,7 @@
       "entity_primary_key": "id",
       "sb_harmonised_table_name": "sb_folder",
       "harmonised_table_name": "sb_folder",
+      "harmonised_incremental_key": "HorizonFolderID",
       "custom_harmonised_notebook": "",
       "is_enabled": true
     },
@@ -85,6 +92,7 @@
       "entity_primary_key": "documentId",
       "sb_harmonised_table_name": "sb_nsip_document",
       "harmonised_table_name": "nsip_document",
+      "harmonised_incremental_key": "NSIPDocumentID",
       "custom_harmonised_notebook": "py_sb_horizon_harmonised_nsip_document",
       "is_enabled": true
     },
@@ -96,6 +104,7 @@
       "entity_primary_key": "caseReference",
       "sb_harmonised_table_name": "sb_nsip_exam_timetable",
       "harmonised_table_name": "nsip_exam_timetable",
+      "harmonised_incremental_key": "NSIPExaminationTimetableID",
       "custom_harmonised_notebook": "py_sb_horizon_harmonised_nsip_exam_timetable",
       "is_enabled": true
     },
@@ -107,6 +116,7 @@
       "entity_primary_key": "caseId",
       "sb_harmonised_table_name": "sb_nsip_project",
       "harmonised_table_name": "nsip_project",
+      "harmonised_incremental_key": "NSIPProjectInfoInternalID",
       "custom_harmonised_notebook": "py_sb_horizon_harmonised_nsip_project",
       "is_enabled": true
     },
@@ -118,6 +128,7 @@
       "entity_primary_key": "id",
       "sb_harmonised_table_name": "sb_nsip_project_update",
       "harmonised_table_name": "sb_nsip_project_update",
+      "harmonised_incremental_key": "NSIPProjectUpdateID",
       "custom_harmonised_notebook": "",
       "is_enabled": true
     },
@@ -129,6 +140,7 @@
       "entity_primary_key": "representationId",
       "sb_harmonised_table_name": "sb_nsip_representation",
       "harmonised_table_name": "nsip_representation",
+      "harmonised_incremental_key": "NSIPRepresentaionID",
       "custom_harmonised_notebook": "py_sb_horizon_harmonised_nsip_representation",
       "is_enabled": true
     },
@@ -140,6 +152,7 @@
       "entity_primary_key": "subscriptionId",
       "sb_harmonised_table_name": "sb_nsip_subscription",
       "harmonised_table_name": "sb_nsip_subscription",
+      "harmonised_incremental_key": "NSIPSubscriptionID",
       "custom_harmonised_notebook": "",
       "is_enabled": true
     },
@@ -151,6 +164,7 @@
       "entity_primary_key": "adviceId",
       "sb_harmonised_table_name": "sb_s51_advice",
       "harmonised_table_name": "nsip_s51_advice",
+      "harmonised_incremental_key": "NSIPAdviceID",
       "custom_harmonised_notebook": "py_sb_horizon_harmonised_nsip_s51_advice",
       "is_enabled": true
     },
@@ -162,6 +176,7 @@
       "entity_primary_key": "id",
       "sb_harmonised_table_name": "sb_service_user",
       "harmonised_table_name": "service_user",
+      "harmonised_incremental_key": "ServiceUserID",
       "custom_harmonised_notebook": "py_sb_horizon_harmonised_service_user",
       "is_enabled": true
     }
