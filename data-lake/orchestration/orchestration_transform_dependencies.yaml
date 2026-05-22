@@ -1,145 +1,52 @@
-# Upstream source stages are defined separately because they can be reused by
-# multiple downstream entities. For example, NSIPData from Horizon is needed by
-# nsip-project and nsip-exam-timetable, so it should not sit under one entity only.
-#
-# Entity stages should depend on the upstream source stage that produces the data
-# they read, rather than depending on another entity only because they share a source.
+# This file defines ETL stage dependencies only
+# It is used by orchestration to decide whether a stage can continue or should be skipped
+# based on the success of its upstream dependencies
+# Shared upstream stages are defined separately when they are reused by multiple entities
+# Entity-specific Horizon/SB stages sit under the entity they belong to
 
 entities:
-  horizon.NSIPData:
+  nsip-data:
     standardised:
       etl_process: Horizon Standardisation Process
       kwargs:
         entity_name: NSIPData
       depends_on: []
 
-  horizon.ExaminationTimetable:
-    standardised:
-      etl_process: Horizon Standardisation Process
-      kwargs:
-        entity_name: ExaminationTimetable
-      depends_on: []
-
-  horizon.DocumentMetaData:
-    standardised:
-      etl_process: Horizon Standardisation Process
-      kwargs:
-        entity_name: DocumentMetaData
-      depends_on: []
-
-  horizon.NSIPReleventRepresentation:
-    standardised:
-      etl_process: Horizon Standardisation Process
-      kwargs:
-        entity_name: NSIPReleventRepresentation
-      depends_on: []
-
-  horizon.AIEDocumentData:
+  aie-document:
     standardised:
       etl_process: Horizon Standardisation Process
       kwargs:
         entity_name: AIEDocumentData
       depends_on: []
 
-  horizon.NSIPAdvice:
-    standardised:
-      etl_process: Horizon Standardisation Process
-      kwargs:
-        entity_name: NSIPAdvice
-      depends_on: []
-
-  service_bus.nsip-project:
-    standardised:
-      etl_process: Service Bus Standardisation Process
-      kwargs:
-        entity_name: nsip-project
-      depends_on: []
-
     harmonised:
-      etl_process: Service Bus Harmonisation Process
+      etl_process: AIE Document Harmonisation Process
       kwargs:
-        entity_name: nsip-project
+        entity_name: AIEDocumentData
       depends_on:
-        - service_bus.nsip-project.standardised
-
-  service_bus.nsip-document:
-    standardised:
-      etl_process: Service Bus Standardisation Process
-      kwargs:
-        entity_name: nsip-document
-      depends_on: []
-
-    harmonised:
-      etl_process: Service Bus Harmonisation Process
-      kwargs:
-        entity_name: nsip-document
-      depends_on:
-        - service_bus.nsip-document.standardised
-
-  service_bus.nsip-exam-timetable:
-    standardised:
-      etl_process: Service Bus Standardisation Process
-      kwargs:
-        entity_name: nsip-exam-timetable
-      depends_on: []
-
-    harmonised:
-      etl_process: Service Bus Harmonisation Process
-      kwargs:
-        entity_name: nsip-exam-timetable
-      depends_on:
-        - service_bus.nsip-exam-timetable.standardised
-
-  service_bus.nsip-representation:
-    standardised:
-      etl_process: Service Bus Standardisation Process
-      kwargs:
-        entity_name: nsip-representation
-      depends_on: []
-
-    harmonised:
-      etl_process: Service Bus Harmonisation Process
-      kwargs:
-        entity_name: nsip-representation
-      depends_on:
-        - service_bus.nsip-representation.standardised
-
-  service_bus.s51-advice:
-    standardised:
-      etl_process: Service Bus Standardisation Process
-      kwargs:
-        entity_name: s51-advice
-      depends_on: []
-
-    harmonised:
-      etl_process: Service Bus Harmonisation Process
-      kwargs:
-        entity_name: s51-advice
-      depends_on:
-        - service_bus.s51-advice.standardised
-
-  service_bus.nsip-subscription:
-    standardised:
-      etl_process: Service Bus Standardisation Process
-      kwargs:
-        entity_name: nsip-subscription
-      depends_on: []
-
-    harmonised:
-      etl_process: Service Bus Harmonisation Process
-      kwargs:
-        entity_name: nsip-subscription
-      depends_on:
-        - service_bus.nsip-subscription.standardised
+        - aie-document.standardised
 
   nsip-project:
+    service_bus_standardised:
+      etl_process: Service Bus Standardisation Process
+      kwargs:
+        entity_name: nsip-project
+      depends_on: []
+
+    service_bus_harmonised:
+      etl_process: Service Bus Harmonisation Process
+      kwargs:
+        entity_name: nsip-project
+      depends_on:
+        - nsip-project.service_bus_standardised
+
     harmonised:
       etl_process: NSIP Project Harmonisation Process
       kwargs:
         entity_name: nsip-project
       depends_on:
-        - horizon.NSIPData.standardised
-        - service_bus.nsip-project.harmonised
+        - nsip-data.standardised
+        - nsip-project.service_bus_harmonised
 
     curated:
       etl_process: NSIP Project Curated Process
@@ -154,7 +61,7 @@ entities:
       kwargs:
         entity_name: nsip-meeting
       depends_on:
-        - service_bus.nsip-project.harmonised
+        - nsip-project.service_bus_harmonised
 
     curated:
       etl_process: NSIP Meeting Curated Process
@@ -169,7 +76,7 @@ entities:
       kwargs:
         entity_name: nsip-invoice
       depends_on:
-        - service_bus.nsip-project.harmonised
+        - nsip-project.service_bus_harmonised
 
     curated:
       etl_process: NSIP Invoice Curated Process
@@ -179,14 +86,33 @@ entities:
         - nsip-invoice.harmonised
 
   nsip-exam-timetable:
+    service_bus_standardised:
+      etl_process: Service Bus Standardisation Process
+      kwargs:
+        entity_name: nsip-exam-timetable
+      depends_on: []
+
+    service_bus_harmonised:
+      etl_process: Service Bus Harmonisation Process
+      kwargs:
+        entity_name: nsip-exam-timetable
+      depends_on:
+        - nsip-exam-timetable.service_bus_standardised
+
+    horizon_standardised:
+      etl_process: Horizon Standardisation Process
+      kwargs:
+        entity_name: ExaminationTimetable
+      depends_on: []
+
     harmonised:
       etl_process: NSIP Exam Timetable Harmonisation Process
       kwargs:
         entity_name: nsip-exam-timetable
       depends_on:
-        - service_bus.nsip-exam-timetable.harmonised
-        - horizon.ExaminationTimetable.standardised
-        - horizon.NSIPData.standardised
+        - nsip-exam-timetable.service_bus_harmonised
+        - nsip-exam-timetable.horizon_standardised
+        - nsip-data.standardised
 
     curated:
       etl_process: NSIP Exam Timetable Curated Process
@@ -197,13 +123,32 @@ entities:
         - nsip-project.curated
 
   nsip-document:
+    service_bus_standardised:
+      etl_process: Service Bus Standardisation Process
+      kwargs:
+        entity_name: nsip-document
+      depends_on: []
+
+    service_bus_harmonised:
+      etl_process: Service Bus Harmonisation Process
+      kwargs:
+        entity_name: nsip-document
+      depends_on:
+        - nsip-document.service_bus_standardised
+
+    horizon_standardised:
+      etl_process: Horizon Standardisation Process
+      kwargs:
+        entity_name: DocumentMetaData
+      depends_on: []
+
     harmonised:
       etl_process: NSIP Document Harmonisation Process
       kwargs:
         entity_name: nsip-document
       depends_on:
-        - service_bus.nsip-document.harmonised
-        - horizon.DocumentMetaData.standardised
+        - nsip-document.service_bus_harmonised
+        - nsip-document.horizon_standardised
         - aie-document.harmonised
 
     curated:
@@ -216,15 +161,34 @@ entities:
 
   # main_sourcesystem_fact is referenced by nsip-representation but the notebook
   # and pipeline for it are archived and appear to have been used as a one time
-  # setup/load to create a lookup/reference table
+  # setup/load to create a lookup/reference table.
   nsip-representation:
+    service_bus_standardised:
+      etl_process: Service Bus Standardisation Process
+      kwargs:
+        entity_name: nsip-representation
+      depends_on: []
+
+    service_bus_harmonised:
+      etl_process: Service Bus Harmonisation Process
+      kwargs:
+        entity_name: nsip-representation
+      depends_on:
+        - nsip-representation.service_bus_standardised
+
+    horizon_standardised:
+      etl_process: Horizon Standardisation Process
+      kwargs:
+        entity_name: NSIPReleventRepresentation
+      depends_on: []
+
     harmonised:
       etl_process: NSIP Representation Harmonisation Process
       kwargs:
         entity_name: nsip-representation
       depends_on:
-        - service_bus.nsip-representation.harmonised
-        - horizon.NSIPReleventRepresentation.standardised
+        - nsip-representation.service_bus_harmonised
+        - nsip-representation.horizon_standardised
 
     curated:
       etl_process: NSIP Representation Curated Process
@@ -234,13 +198,32 @@ entities:
         - nsip-representation.harmonised
 
   nsip-s51-advice:
+    service_bus_standardised:
+      etl_process: Service Bus Standardisation Process
+      kwargs:
+        entity_name: s51-advice
+      depends_on: []
+
+    service_bus_harmonised:
+      etl_process: Service Bus Harmonisation Process
+      kwargs:
+        entity_name: s51-advice
+      depends_on:
+        - nsip-s51-advice.service_bus_standardised
+
+    horizon_standardised:
+      etl_process: Horizon Standardisation Process
+      kwargs:
+        entity_name: NSIPAdvice
+      depends_on: []
+
     harmonised:
       etl_process: NSIP S51 Advice Harmonisation Process
       kwargs:
         entity_name: nsip-s51-advice
       depends_on:
-        - service_bus.s51-advice.harmonised
-        - horizon.NSIPAdvice.standardised
+        - nsip-s51-advice.service_bus_harmonised
+        - nsip-s51-advice.horizon_standardised
 
     curated:
       etl_process: NSIP S51 Advice Curated Process
@@ -250,18 +233,22 @@ entities:
         - nsip-s51-advice.harmonised
 
   nsip-subscription:
+    service_bus_standardised:
+      etl_process: Service Bus Standardisation Process
+      kwargs:
+        entity_name: nsip-subscription
+      depends_on: []
+
+    service_bus_harmonised:
+      etl_process: Service Bus Harmonisation Process
+      kwargs:
+        entity_name: nsip-subscription
+      depends_on:
+        - nsip-subscription.service_bus_standardised
+
     curated:
       etl_process: NSIP Subscription Curated Process
       kwargs:
         entity_name: nsip-subscription
       depends_on:
-        - service_bus.nsip-subscription.harmonised
-
-# Added AIE as part of the PoC cause nsip-document reads from its HRM table
-  aie-document:
-    harmonised:
-      etl_process: AIE Document Harmonisation Process
-      kwargs:
-        entity_name: AIEDocumentData
-      depends_on:
-        - horizon.AIEDocumentData.standardised
+        - nsip-subscription.service_bus_harmonised
