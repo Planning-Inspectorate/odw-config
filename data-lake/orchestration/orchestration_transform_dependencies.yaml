@@ -138,6 +138,9 @@ entities:
       depends_on:
       - nsip-document.harmonised
       - nsip-project.curated
+  # main_sourcesystem_fact is referenced by nsip-representation but the notebook
+  # and pipeline for it are archived and appear to have been used as a one time
+  # setup/load to create a lookup/reference table.
   nsip-representation:
     service_bus_standardised:
       kwargs:
