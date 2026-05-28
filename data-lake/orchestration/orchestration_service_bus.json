@@ -177,7 +177,7 @@
       "sb_harmonised_table": "sb_nsip_representation",
       "harmonised_table": "nsip_representation",
       "primary_key": "representationId",
-      "harmonised_incremental_key": "NSIPRepresentaionID",
+      "harmonised_incremental_key": "NSIPRepresentationID",
       "watermark_column": "message_enqueued_time_utc",
       "run_raw_to_std": true,
       "run_std_to_hrm": true,
