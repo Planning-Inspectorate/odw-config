@@ -19,7 +19,7 @@ entities:
       depends_on: []
     harmonised:
       kwargs:
-        entity_stage_name: Faky Failed ETL Process
+        entity_stage_name: Fake Failed ETL Process
         entity_name: AIEDocumentData
       depends_on:
       - aie-document.standardised
@@ -31,7 +31,7 @@ entities:
       depends_on: []
     service_bus_harmonised:
       kwargs:
-        entity_stage_name: Faky Failed ETL Process
+        entity_stage_name: Fake Failed ETL Process
         entity_name: nsip-project
       depends_on:
       - nsip-project.service_bus_standardised
