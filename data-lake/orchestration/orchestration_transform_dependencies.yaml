@@ -8,92 +8,92 @@ entities:
   nsip-data:
     standardised:
       kwargs:
-        entity_stage_name: Fake Successful ETL Process
+        etl_process_name: Fake Successful ETL Process
         entity_name: NSIPData
       depends_on: []
   aie-document:
     standardised:
       kwargs:
-        entity_stage_name: Fake Successful ETL Process
+        etl_process_name: Fake Successful ETL Process
         entity_name: AIEDocumentData
       depends_on: []
     harmonised:
       kwargs:
-        entity_stage_name: Fake Failed ETL Process
+        etl_process_name: Fake Failed ETL Process
         entity_name: AIEDocumentData
       depends_on:
       - aie-document.standardised
   nsip-project:
     service_bus_standardised:
       kwargs:
-        entity_stage_name: Fake Successful ETL Process
+        etl_process_name: Fake Successful ETL Process
         entity_name: nsip-project
       depends_on: []
     service_bus_harmonised:
       kwargs:
-        entity_stage_name: Fake Failed ETL Process
+        etl_process_name: Fake Failed ETL Process
         entity_name: nsip-project
       depends_on:
       - nsip-project.service_bus_standardised
     harmonised:
       kwargs:
-        entity_stage_name: Fake Successful ETL Process
+        etl_process_name: Fake Successful ETL Process
         entity_name: nsip-project
       depends_on:
       - nsip-data.standardised
       - nsip-project.service_bus_harmonised
     curated:
       kwargs:
-        entity_stage_name: Fake Successful ETL Process
+        etl_process_name: Fake Successful ETL Process
         entity_name: nsip-project
       depends_on:
       - nsip-project.harmonised
   nsip-meeting:
     harmonised:
       kwargs:
-        entity_stage_name: Fake Successful ETL Process
+        etl_process_name: Fake Successful ETL Process
         entity_name: nsip-meeting
       depends_on:
       - nsip-project.service_bus_harmonised
     curated:
       kwargs:
-        entity_stage_name: Fake Successful ETL Process
+        etl_process_name: Fake Successful ETL Process
         entity_name: nsip-meeting
       depends_on:
       - nsip-meeting.harmonised
   nsip-invoice:
     harmonised:
       kwargs:
-        entity_stage_name: Fake Successful ETL Process
+        etl_process_name: Fake Successful ETL Process
         entity_name: nsip-invoice
       depends_on:
       - nsip-project.service_bus_harmonised
     curated:
       kwargs:
-        entity_stage_name: Fake Successful ETL Process
+        etl_process_name: Fake Successful ETL Process
         entity_name: nsip-invoice
       depends_on:
       - nsip-invoice.harmonised
   nsip-exam-timetable:
     service_bus_standardised:
       kwargs:
-        entity_stage_name: Fake Successful ETL Process
+        etl_process_name: Fake Successful ETL Process
         entity_name: nsip-exam-timetable
       depends_on: []
     service_bus_harmonised:
       kwargs:
-        entity_stage_name: Fake Successful ETL Process
+        etl_process_name: Fake Successful ETL Process
         entity_name: nsip-exam-timetable
       depends_on:
       - nsip-exam-timetable.service_bus_standardised
     horizon_standardised:
       kwargs:
-        entity_stage_name: Fake Successful ETL Process
+        etl_process_name: Fake Successful ETL Process
         entity_name: ExaminationTimetable
       depends_on: []
     harmonised:
       kwargs:
-        entity_stage_name: Fake Successful ETL Process
+        etl_process_name: Fake Successful ETL Process
         entity_name: nsip-exam-timetable
       depends_on:
       - nsip-exam-timetable.service_bus_harmonised
@@ -101,7 +101,7 @@ entities:
       - nsip-data.standardised
     curated:
       kwargs:
-        entity_stage_name: Fake Successful ETL Process
+        etl_process_name: Fake Successful ETL Process
         entity_name: nsip-exam-timetable
       depends_on:
       - nsip-exam-timetable.harmonised
@@ -109,23 +109,23 @@ entities:
   nsip-document:
     service_bus_standardised:
       kwargs:
-        entity_stage_name: Fake Successful ETL Process
+        etl_process_name: Fake Successful ETL Process
         entity_name: nsip-document
       depends_on: []
     service_bus_harmonised:
       kwargs:
-        entity_stage_name: Fake Successful ETL Process
+        etl_process_name: Fake Successful ETL Process
         entity_name: nsip-document
       depends_on:
       - nsip-document.service_bus_standardised
     horizon_standardised:
       kwargs:
-        entity_stage_name: Fake Successful ETL Process
+        etl_process_name: Fake Successful ETL Process
         entity_name: DocumentMetaData
       depends_on: []
     harmonised:
       kwargs:
-        entity_stage_name: Fake Successful ETL Process
+        etl_process_name: Fake Successful ETL Process
         entity_name: nsip-document
       depends_on:
       - nsip-document.service_bus_harmonised
@@ -133,7 +133,7 @@ entities:
       - aie-document.harmonised
     curated:
       kwargs:
-        entity_stage_name: Fake Successful ETL Process
+        etl_process_name: Fake Successful ETL Process
         entity_name: nsip-document
       depends_on:
       - nsip-document.harmonised
@@ -144,78 +144,78 @@ entities:
   nsip-representation:
     service_bus_standardised:
       kwargs:
-        entity_stage_name: Fake Successful ETL Process
+        etl_process_name: Fake Successful ETL Process
         entity_name: nsip-representation
       depends_on: []
     service_bus_harmonised:
       kwargs:
-        entity_stage_name: Fake Successful ETL Process
+        etl_process_name: Fake Successful ETL Process
         entity_name: nsip-representation
       depends_on:
       - nsip-representation.service_bus_standardised
     horizon_standardised:
       kwargs:
-        entity_stage_name: Fake Successful ETL Process
+        etl_process_name: Fake Successful ETL Process
         entity_name: NSIPReleventRepresentation
       depends_on: []
     harmonised:
       kwargs:
-        entity_stage_name: Fake Successful ETL Process
+        etl_process_name: Fake Successful ETL Process
         entity_name: nsip-representation
       depends_on:
       - nsip-representation.service_bus_harmonised
       - nsip-representation.horizon_standardised
     curated:
       kwargs:
-        entity_stage_name: Fake Successful ETL Process
+        etl_process_name: Fake Successful ETL Process
         entity_name: nsip-representation
       depends_on:
       - nsip-representation.harmonised
   nsip-s51-advice:
     service_bus_standardised:
       kwargs:
-        entity_stage_name: Fake Successful ETL Process
+        etl_process_name: Fake Successful ETL Process
         entity_name: s51-advice
       depends_on: []
     service_bus_harmonised:
       kwargs:
-        entity_stage_name: Fake Successful ETL Process
+        etl_process_name: Fake Successful ETL Process
         entity_name: s51-advice
       depends_on:
       - nsip-s51-advice.service_bus_standardised
     horizon_standardised:
       kwargs:
-        entity_stage_name: Fake Successful ETL Process
+        etl_process_name: Fake Successful ETL Process
         entity_name: NSIPAdvice
       depends_on: []
     harmonised:
       kwargs:
-        entity_stage_name: Fake Successful ETL Process
+        etl_process_name: Fake Successful ETL Process
         entity_name: nsip-s51-advice
       depends_on:
       - nsip-s51-advice.service_bus_harmonised
       - nsip-s51-advice.horizon_standardised
     curated:
       kwargs:
-        entity_stage_name: Fake Successful ETL Process
+        etl_process_name: Fake Successful ETL Process
         entity_name: nsip-s51-advice
       depends_on:
       - nsip-s51-advice.harmonised
   nsip-subscription:
     service_bus_standardised:
       kwargs:
-        entity_stage_name: Fake Successful ETL Process
+        etl_process_name: Fake Successful ETL Process
         entity_name: nsip-subscription
       depends_on: []
     service_bus_harmonised:
       kwargs:
-        entity_stage_name: Fake Successful ETL Process
+        etl_process_name: Fake Successful ETL Process
         entity_name: nsip-subscription
       depends_on:
       - nsip-subscription.service_bus_standardised
     curated:
       kwargs:
-        entity_stage_name: Fake Successful ETL Process
+        etl_process_name: Fake Successful ETL Process
         entity_name: nsip-subscription
       depends_on:
       - nsip-subscription.service_bus_harmonised
