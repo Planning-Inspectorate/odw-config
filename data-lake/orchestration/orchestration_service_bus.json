@@ -182,6 +182,21 @@
       "has_horizon_dependency": false
     },
     {
+      "entity_name": "application-update",
+      "raw_entity_path": "ServiceBus/application-update/",
+      "standardised_table": "sb_application_update",
+      "sb_harmonised_table": "sb_application_update",
+      "harmonised_table": "application_update",
+      "primary_key": "id",
+      "harmonised_incremental_key": "ApplicationUpdateID",
+      "watermark_column": "message_enqueued_time_utc",
+      "run_raw_to_std": true,
+      "run_std_to_hrm": true,
+      "custom_harmonised_notebooks": [],
+      "processing_enabled": true,
+      "has_horizon_dependency": false
+    },
+    {
       "entity_name": "nsip-representation",
       "raw_entity_path": "ServiceBus/nsip-representation/",
       "standardised_table": "sb_nsip_representation",
