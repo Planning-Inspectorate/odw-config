@@ -10,24 +10,24 @@ entities:
       kwargs:
         etl_process_name: Fake Successful ETL Process
       depends_on: []
-    harmonised:
-      kwargs:
-        etl_process_name: Fake Successful ETL Process
-      depends_on: [entity-a.standardised]
-    curated:
-      kwargs:
-        etl_process_name: Fake Successful ETL Process
-      depends_on: [entity-a.harmonised]
-  entity-b:
-    standardised:
-      kwargs:
-        etl_process_name: Fake Successful ETL Process
-      depends_on: []
-    harmonised:
-      kwargs:
-        etl_process_name: Fake Failed ETL Process
-      depends_on: [entity-b.standardised]
-    curated:
-      kwargs:
-        etl_process_name: Fake Successful ETL Process
-      depends_on: [entity-b.harmonised]
+  #  harmonised:
+  #    kwargs:
+  #      etl_process_name: Fake Successful ETL Process
+  #    depends_on: [entity-a.standardised]
+  #  curated:
+  #    kwargs:
+  #      etl_process_name: Fake Successful ETL Process
+  #    depends_on: [entity-a.harmonised]
+  #entity-b:
+  #  standardised:
+  #    kwargs:
+  #      etl_process_name: Fake Successful ETL Process
+  #    depends_on: []
+  #  harmonised:
+  #    kwargs:
+  #      etl_process_name: Fake Failed ETL Process
+  #    depends_on: [entity-b.standardised]
+  #  curated:
+  #    kwargs:
+  #      etl_process_name: Fake Successful ETL Process
+  #    depends_on: [entity-b.harmonised]
