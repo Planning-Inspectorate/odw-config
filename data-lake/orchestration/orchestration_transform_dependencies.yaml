@@ -44,7 +44,7 @@ entities:
       - nsip-project.service_bus_harmonised
     curated:
       kwargs:
-        etl_process_name: NSIP Project Curated Process
+        etl_process_name: NSIP Project Curation Process
         entity_name: nsip-project
       depends_on:
       - nsip-project.harmonised
@@ -57,7 +57,7 @@ entities:
       - nsip-project.service_bus_harmonised
     curated:
       kwargs:
-        etl_process_name: NSIP Meeting Curated Process
+        etl_process_name: NSIP Meeting Curation Process
         entity_name: nsip-meeting
       depends_on:
       - nsip-meeting.harmonised
@@ -70,7 +70,7 @@ entities:
       - nsip-project.service_bus_harmonised
     curated:
       kwargs:
-        etl_process_name: NSIP Invoice Curated Process
+        etl_process_name: NSIP Invoice Curation Process
         entity_name: nsip-invoice
       depends_on:
       - nsip-invoice.harmonised
@@ -101,7 +101,7 @@ entities:
       - nsip-data.standardised
     curated:
       kwargs:
-        etl_process_name: NSIP Exam Timetable Curated Process
+        etl_process_name: NSIP Exam Timetable Curation Process
         entity_name: nsip-exam-timetable
       depends_on:
       - nsip-exam-timetable.harmonised
@@ -133,7 +133,7 @@ entities:
       - aie-document.harmonised
     curated:
       kwargs:
-        etl_process_name: NSIP Document Curated Process
+        etl_process_name: NSIP Document Curation Process
         entity_name: nsip-document
       depends_on:
       - nsip-document.harmonised
@@ -167,7 +167,7 @@ entities:
       - nsip-representation.horizon_standardised
     curated:
       kwargs:
-        etl_process_name: NSIP Representation Curated Process
+        etl_process_name: NSIP Representation Curation Process
         entity_name: nsip-representation
       depends_on:
       - nsip-representation.harmonised
@@ -197,7 +197,7 @@ entities:
       - nsip-s51-advice.horizon_standardised
     curated:
       kwargs:
-        etl_process_name: NSIP S51 Advice Curated Process
+        etl_process_name: NSIP S51 Advice Curation Process
         entity_name: nsip-s51-advice
       depends_on:
       - nsip-s51-advice.harmonised
@@ -215,7 +215,7 @@ entities:
       - nsip-subscription.service_bus_standardised
     curated:
       kwargs:
-        etl_process_name: NSIP Subscription Curated Process
+        etl_process_name: NSIP Subscription Curation Process
         entity_name: nsip-subscription
       depends_on:
       - nsip-subscription.service_bus_harmonised
