@@ -1916,8 +1916,7 @@
             "Expected_Within_Weekdays": 1,
             "Standardised_Path": "Horizon",
             "Standardised_Table_Name": "BIS_CaseSiteCategoryAdditionalStr",
-            "Standardised_Table_Definition": "standardised_table_definitions/Horizon/BIS_CaseSiteCategoryAdditionalStr.json",
-            "Purview_Filename_Start": "vw_BIS_CaseSiteCategoryAdditionalStr.csv"
+            "Standardised_Table_Definition": "standardised_table_definitions/Horizon/BIS_CaseSiteCategoryAdditionalStr.json"
         },
         {
             "Source_ID": 154,
