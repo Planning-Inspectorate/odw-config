@@ -1406,7 +1406,7 @@
       "Standardised_Path": "",
       "Standardised_Table_Name": "sb_nsip_representation",
       "Harmonised_Table_Name": "sb_nsip_representation",
-      "Harmonised_Incremental_Key": "NSIPRepresentaionID",
+      "Harmonised_Incremental_Key": "NSIPRepresentationID",
       "Entity_Primary_Key": "representationId"
     },
     {
