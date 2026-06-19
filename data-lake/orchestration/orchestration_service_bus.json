@@ -193,7 +193,7 @@
       "run_raw_to_std": true,
       "run_std_to_hrm": true,
       "custom_harmonised_notebooks": [],
-      "processing_enabled": false,
+      "processing_enabled": true,
       "has_horizon_dependency": false
     },
     {
