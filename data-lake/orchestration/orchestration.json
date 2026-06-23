@@ -2018,6 +2018,19 @@
       "Standardised_Path": "Horizon",
       "Standardised_Table_Name": "horizon_application_made_under_section",
       "Standardised_Table_Definition": "standardised_table_definitions/Horizon/HorizonApplicationMadeUnderSection.json"
+      },
+      {
+      "Source_ID": 161,
+      "Source_Folder": "ServiceBus",
+      "Source_Frequency_Folder": "application-update",
+      "Source_Filename_Format": "application-update.csv",
+      "Source_Filename_Start": "application-update",
+      "Expected_Within_Weekdays": 1,
+      "Standardised_Path": "",
+      "Standardised_Table_Name": "sb_application_update",
+      "Harmonised_Table_Name": "sb_application_update",
+      "Harmonised_Incremental_Key": "ApplicationUpdateID",
+      "Entity_Primary_Key": "id"
       }
       
   ]
