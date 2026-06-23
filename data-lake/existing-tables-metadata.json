@@ -500,6 +500,13 @@
             },
             {
                 "database_name": "odw_standardised_db",
+                "table_name": "sb_application_update",
+                "table_format": "delta",
+                "table_type": "EXTERNAL",
+                "table_location": "abfss://odw-standardised@{DATA_LAKE_NAME}.dfs.core.windows.net/sb_application_update"
+            },
+            {
+                "database_name": "odw_standardised_db",
                 "table_name": "sb_nsip_representation",
                 "table_format": "delta",
                 "table_type": "EXTERNAL",
@@ -1012,6 +1019,13 @@
                 "table_format": "delta",
                 "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-harmonised@{DATA_LAKE_NAME}.dfs.core.windows.net/sb_nsip_project_update"
+            },
+            {
+                "database_name": "odw_harmonised_db",
+                "table_name": "sb_application_update",
+                "table_format": "delta",
+                "table_type": "EXTERNAL",
+                "table_location": "abfss://odw-harmonised@{DATA_LAKE_NAME}.dfs.core.windows.net/sb_application_update"
             },
             {
                 "database_name": "odw_harmonised_db",
