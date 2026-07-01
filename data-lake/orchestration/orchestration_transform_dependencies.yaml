@@ -396,3 +396,52 @@ entities:
       depends_on:
         - appeals-folder.harmonised
         - nsip-project.curated
+  service-user:
+    service_bus_standardised:
+      kwargs:
+        etl_process_name: Service Bus Standardisation Process
+        entity_name: service-user
+      depends_on: []
+    service_bus_harmonised:
+      kwargs:
+        etl_process_name: Service Bus Harmonisation Process
+        entity_name: service-user
+      depends_on:
+        - service-user.service_bus_standardised
+  entraid:
+    standardised:
+      kwargs:
+        etl_process_name: EntraID Standardisation Process
+        entity_name: entraid
+      depends_on: []
+    harmonised:
+      kwargs:
+        etl_process_name: EntraID Harmonisation Process
+        entity_name: entraid
+      depends_on:
+        - entraid.standardised
+    curated:
+      kwargs:
+        etl_process_name: EntraID Curation Process
+        entity_name: entraid
+      depends_on:
+        - entraid.harmonised
+  pins-inspector:
+    harmonised:
+      kwargs:
+        etl_process_name: PINS Inspector Harmonisation Process
+        entity_name: pins-inspector
+      depends_on:
+        - entraid.harmonised
+    curated:
+      kwargs:
+        etl_process_name: PINS Inspector Curation Process
+        entity_name: pins-inspector
+      depends_on:
+        - pins-inspector.harmonised
+  listed-building:
+    curated:
+      kwargs:
+        etl_process_name: Listed Building Curation Process
+        entity_name: listed-building
+      depends_on: []
