@@ -94,6 +94,12 @@ stages:
         python3 pipelines/scripts/process_existing_tables_metadata.py
       displayName: 'Substitute resource references'
 
+    - script: |
+        set -e
+        python3 -m pip install -r pipelines/scripts/requirements.txt
+        python3 pipelines/scripts/validate_transformation_config.py
+      displayName: 'Validate transformation config'
+
     - task: CopyFiles@2
       displayName: 'Copy files to staging directory'
       inputs:
