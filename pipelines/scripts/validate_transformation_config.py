@@ -13,5 +13,9 @@ if __name__ == "__main__":
     ) as f:
         config = yaml.safe_load(f)
     print("Validating the transformation config file")
-    DependencyResolver.validate_config(config)
+    try:
+        DependencyResolver.validate_config(config)
+    except Exception as e:
+        print("Config is invalid. The below validation errors were found")
+        raise e
     print("Config file is valid!")
