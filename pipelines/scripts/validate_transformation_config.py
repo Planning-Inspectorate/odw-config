@@ -12,4 +12,6 @@ if __name__ == "__main__":
         encoding="utf-8",
     ) as f:
         config = yaml.safe_load(f)
+    print("Validating the transformation config file")
     DependencyResolver.validate_config(config)
+    print("Config file is valid!")
