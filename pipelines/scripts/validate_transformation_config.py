@@ -12,4 +12,4 @@ if __name__ == "__main__":
         encoding="utf-8",
     ) as f:
         config = yaml.safe_load(f)
-    DependencyResolver.validate(config)
+    DependencyResolver.validate_config(config)
