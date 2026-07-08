@@ -2030,7 +2030,8 @@
       "Standardised_Table_Name": "sb_application_update",
       "Harmonised_Table_Name": "sb_application_update",
       "Harmonised_Incremental_Key": "ApplicationUpdateID",
-      "Entity_Primary_Key": "id"
+      "Entity_Primary_Key": "id",
+      "odw_curated_table_creation_enabled": false
       }
       
   ]
