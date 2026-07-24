@@ -1,15 +1,15 @@
 # Define owner of the CODEOWNERS file itself
-/.github/CODEOWNERS                                             @beejjacobs @m-juckes-pins @stef-solirius
+/.github/CODEOWNERS                                             @beejjacobs @m-juckes-pins @Medini-Aithal @raamvar @mukundaraogummadi-pins
 
 # Protect important folders
 
 # Configuration files
-/data-lake/**                                                   @roytalari @stef-solirius @HarrisonBoyleThomas @Fred83200 @KranthiRayipudi @RohitShuklaPINS @harriet-stuart-wd @prathapA100 @DanBrown2025
+/data-lake/**                                                   @HarrisonBoyleThomas @KranthiRayipudi @harriet-stuart-wd @prathapA100 @mukundaraogummadi-pins
 
 # Pipeline configuration files
-/pipelines/**                                                   @m-juckes-pins @roytalari @stef-solirius @HarrisonBoyleThomas @Fred83200 @KranthiRayipudi @RohitShuklaPINS @harriet-stuart-wd @prathapA100 @DanBrown2025
+/pipelines/**                                                   @m-juckes-pins @Medini-Aithal @HarrisonBoyleThomas @KranthiRayipudi @harriet-stuart-wd @prathapA100 @mukundaraogummadi-pins
 
 # Add protection for certain file extensions
-*.json                                                          @roytalari @stef-solirius @HarrisonBoyleThomas @Fred83200 @KranthiRayipudi @RohitShuklaPINS @harriet-stuart-wd @prathapA100 @DanBrown2025
-*.yml                                                           @roytalari @stef-solirius @HarrisonBoyleThomas @Fred83200 @KranthiRayipudi @RohitShuklaPINS @harriet-stuart-wd @prathapA100 @DanBrown2025
-*.yaml                                                          @roytalari @stef-solirius @HarrisonBoyleThomas @Fred83200 @KranthiRayipudi @RohitShuklaPINS @harriet-stuart-wd @prathapA100 @DanBrown2025
+*.json                                                          @HarrisonBoyleThomas @KranthiRayipudi @harriet-stuart-wd @prathapA100 @mukundaraogummadi-pins
+*.yml                                                           @HarrisonBoyleThomas @KranthiRayipudi @harriet-stuart-wd @prathapA100 @mukundaraogummadi-pins
+*.yaml                                                          @HarrisonBoyleThomas @KranthiRayipudi @harriet-stuart-wd @prathapA100 @mukundaraogummadi-pins
