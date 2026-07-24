@@ -1,5 +1,5 @@
 # Define owner of the CODEOWNERS file itself
-/.github/CODEOWNERS                                             @beejjacobs @m-juckes-pins @raamvar @mukundaraogummadi-pins
+/.github/CODEOWNERS                                             @beejjacobs @m-juckes-pins @Medini-Aithal @raamvar @mukundaraogummadi-pins
 
 # Protect important folders
 
@@ -7,7 +7,7 @@
 /data-lake/**                                                   @HarrisonBoyleThomas @KranthiRayipudi @harriet-stuart-wd @prathapA100 @mukundaraogummadi-pins
 
 # Pipeline configuration files
-/pipelines/**                                                   @m-juckes-pins @HarrisonBoyleThomas @KranthiRayipudi @harriet-stuart-wd @prathapA100 @mukundaraogummadi-pins
+/pipelines/**                                                   @m-juckes-pins @Medini-Aithal @HarrisonBoyleThomas @KranthiRayipudi @harriet-stuart-wd @prathapA100 @mukundaraogummadi-pins
 
 # Add protection for certain file extensions
 *.json                                                          @HarrisonBoyleThomas @KranthiRayipudi @harriet-stuart-wd @prathapA100 @mukundaraogummadi-pins
