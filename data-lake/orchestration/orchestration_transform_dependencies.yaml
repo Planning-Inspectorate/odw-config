@@ -14,8 +14,8 @@ entities:
   aie-document:
     standardised:
       kwargs:
-        etl_process_name: Horizon Standardisation Process
-        entity_name: AIEDocumentData
+        etl_process_name: API Standardisation Process
+        source_folder: AIEDocumentData
       depends_on: []
     harmonised:
       kwargs:
