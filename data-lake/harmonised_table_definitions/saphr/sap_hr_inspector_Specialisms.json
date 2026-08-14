@@ -5,6 +5,7 @@
         {"name": "Lastname", "type": "STRING", "constraints": "NULL"},
         {"name": "QualificationName", "type": "STRING", "constraints": "NULL"},
         {"name": "Proficien", "type": "STRING", "constraints": "NULL"},
+		{"name": "professionalMemberships", "type": "STRING", "constraints": "NULL"},
         {"name": "Current", "type": "bit", "constraints": "NULL"},
         {"name": "ValidFrom","type": "timestamp","constraints": false},
         {"name": "ValidTo","type": "timestamp","constraints": false},
