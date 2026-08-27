@@ -1439,6 +1439,13 @@
             },
             {
                 "database_name": "odw_curated_db",
+                "table_name": "applications_application_update_fact",
+                "table_format": "parquet",
+                "table_type": "EXTERNAL",
+                "table_location": "abfss://odw-curated@{DATA_LAKE_NAME}.dfs.core.windows.net/applications_application_update_fact"
+            },
+            {
+                "database_name": "odw_curated_db",
                 "table_name": "appeal_service_user_curated_mipins",
                 "table_format": "delta",
                 "table_type": "EXTERNAL",
