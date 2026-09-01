@@ -1043,24 +1043,24 @@
             },
             {
                 "database_name": "odw_harmonised_db",
-                "table_name": "applications_notify_email",
+                "table_name": "sb_applications_notify_email",
                 "table_format": "delta",
                 "table_type": "EXTERNAL",
-                "table_location": "abfss://odw-harmonised@{DATA_LAKE_NAME}.dfs.core.windows.net/applications_notify_email"
+                "table_location": "abfss://odw-harmonised@{DATA_LAKE_NAME}.dfs.core.windows.net/sb_applications_notify_email"
             }
             {
                 "database_name": "odw_harmonised_db",
-                "table_name": "applications_representation_document",
+                "table_name": "sb_applications_representation",
                 "table_format": "delta",
                 "table_type": "EXTERNAL",
-                "table_location": "abfss://odw-harmonised@{DATA_LAKE_NAME}.dfs.core.windows.net/applications_representation_document"
+                "table_location": "abfss://odw-harmonised@{DATA_LAKE_NAME}.dfs.core.windows.net/sb_applications_representation"
             },
             {
                 "database_name": "odw_harmonised_db",
-                "table_name": "applications_representation_document",
+                "table_name": "sb_applications_representation_document",
                 "table_format": "delta",
                 "table_type": "EXTERNAL",
-                "table_location": "abfss://odw-harmonised@{DATA_LAKE_NAME}.dfs.core.windows.net/applications_representation_document"
+                "table_location": "abfss://odw-harmonised@{DATA_LAKE_NAME}.dfs.core.windows.net/sb_applications_representation_document"
             }
             {
                 "database_name": "odw_harmonised_db",
