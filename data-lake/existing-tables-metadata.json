@@ -238,14 +238,14 @@
                 "table_format": "parquet",
                 "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-standardised@{DATA_LAKE_NAME}.dfs.core.windows.net/horizon_notice_dates"
-            },   
-             {
+            },
+            {
                 "database_name": "odw_standardised_db",
                 "table_name": "horizon_application_made_under_section",
                 "table_format": "parquet",
                 "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-standardised@{DATA_LAKE_NAME}.dfs.core.windows.net/horizon_application_made_under_section"
-            },            
+            },
             {
                 "database_name": "odw_standardised_db",
                 "table_name": "horizon_appeal_s78_final",
@@ -504,6 +504,20 @@
                 "table_format": "delta",
                 "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-standardised@{DATA_LAKE_NAME}.dfs.core.windows.net/sb_application_update"
+            },
+            {
+                "database_name": "odw_standardised_db",
+                "table_name": "sb_applications_notify_email",
+                "table_format": "delta",
+                "table_type": "EXTERNAL",
+                "table_location": "abfss://odw-standardised@{DATA_LAKE_NAME}.dfs.core.windows.net/sb_applications_notify_email"
+            },
+            {
+                "database_name": "odw_standardised_db",
+                "table_name": "sb_applications_representation",
+                "table_format": "delta",
+                "table_type": "EXTERNAL",
+                "table_location": "abfss://odw-standardised@{DATA_LAKE_NAME}.dfs.core.windows.net/sb_applications_representation"
             },
             {
                 "database_name": "odw_standardised_db",
@@ -1027,6 +1041,27 @@
                 "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-harmonised@{DATA_LAKE_NAME}.dfs.core.windows.net/sb_application_update"
             },
+            {
+                "database_name": "odw_harmonised_db",
+                "table_name": "applications_notify_email",
+                "table_format": "delta",
+                "table_type": "EXTERNAL",
+                "table_location": "abfss://odw-harmonised@{DATA_LAKE_NAME}.dfs.core.windows.net/applications_notify_email"
+            }
+            {
+                "database_name": "odw_harmonised_db",
+                "table_name": "applications_representation_document",
+                "table_format": "delta",
+                "table_type": "EXTERNAL",
+                "table_location": "abfss://odw-harmonised@{DATA_LAKE_NAME}.dfs.core.windows.net/applications_representation_document"
+            },
+            {
+                "database_name": "odw_harmonised_db",
+                "table_name": "applications_representation_document",
+                "table_format": "delta",
+                "table_type": "EXTERNAL",
+                "table_location": "abfss://odw-harmonised@{DATA_LAKE_NAME}.dfs.core.windows.net/applications_representation_document"
+            }
             {
                 "database_name": "odw_harmonised_db",
                 "table_name": "sb_service_user",
@@ -1605,7 +1640,6 @@
                 "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-curated@{DATA_LAKE_NAME}.dfs.core.windows.net/nsip_meeting"
             },
-
             {
                 "database_name": "odw_curated_db",
                 "table_name": "nsip_invoice",
@@ -1613,13 +1647,33 @@
                 "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-curated@{DATA_LAKE_NAME}.dfs.core.windows.net/nsip_invoice"
             },
-
             {
                 "database_name": "odw_curated_db",
                 "table_name": "folder",
                 "table_format": "parquet",
                 "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-curated@{DATA_LAKE_NAME}.dfs.core.windows.net/folder"
+            },
+            {
+                "database_name": "odw_curated_db",
+                "table_name": "applications_notify_email",
+                "table_format": "parquet",
+                "table_type": "EXTERNAL",
+                "table_location": "abfss://odw-curated@{DATA_LAKE_NAME}.dfs.core.windows.net/applications_notify_email"
+            },
+            {
+                "database_name": "odw_curated_db",
+                "table_name": "applications_representation",
+                "table_format": "parquet",
+                "table_type": "EXTERNAL",
+                "table_location": "abfss://odw-curated@{DATA_LAKE_NAME}.dfs.core.windows.net/applications_representation"
+            },
+            {
+                "database_name": "odw_curated_db",
+                "table_name": "applications_representation_document",
+                "table_format": "parquet",
+                "table_type": "EXTERNAL",
+                "table_location": "abfss://odw-curated@{DATA_LAKE_NAME}.dfs.core.windows.net/applications_representation_document"
             }
         ]
     },
@@ -1752,7 +1806,6 @@
                 "table_type": "EXTERNAL",
                 "table_location": "abfss://logging@{DATA_LAKE_NAME}.dfs.core.windows.net/process_log"
             }
-
         ]
     }
 ]

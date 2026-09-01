@@ -723,7 +723,7 @@
       "Source_ID": 65,
       "Load_Enable_status": "True",
       "Source_Folder": "Horizon",
-      "Horizon_Table_Name":"Horizon_ODW_vw_NSIPProject",
+      "Horizon_Table_Name": "Horizon_ODW_vw_NSIPProject",
       "Incremental": false,
       "Source_Frequency_Folder": "",
       "Source_Filename_Format": "NSIPData.csv",
@@ -873,7 +873,7 @@
       "Source_ID": 78,
       "Load_Enable_status": "True",
       "Source_Folder": "Horizon",
-      "Horizon_Table_Name":"Horizon_ODW_vw_ExamTimetable",
+      "Horizon_Table_Name": "Horizon_ODW_vw_ExamTimetable",
       "Incremental": false,
       "Source_Frequency_Folder": "",
       "Source_Filename_Format": "ExaminationTimetable.csv",
@@ -898,7 +898,7 @@
       "Source_ID": 80,
       "Load_Enable_status": "True",
       "Source_Folder": "Horizon",
-      "Horizon_Table_Name":"Horizon_ODW_vw_RelevantReps",
+      "Horizon_Table_Name": "Horizon_ODW_vw_RelevantReps",
       "Incremental": false,
       "Source_Frequency_Folder": "",
       "Source_Filename_Format": "NSIPReleventRepresentation.csv",
@@ -923,7 +923,7 @@
       "Source_ID": 82,
       "Load_Enable_status": "True",
       "Source_Folder": "Horizon",
-      "Horizon_Table_Name":"Horizon_ODW_vw_NSIPAdvice",
+      "Horizon_Table_Name": "Horizon_ODW_vw_NSIPAdvice",
       "Incremental": false,
       "Source_Frequency_Folder": "",
       "Source_Filename_Format": "NSIPAdvice.csv",
@@ -1047,7 +1047,7 @@
       "Source_ID": 93,
       "Load_Enable_status": "True",
       "Source_Folder": "Horizon",
-      "Horizon_Table_Name":"Horizon_ODW_vw_ServiceUser",
+      "Horizon_Table_Name": "Horizon_ODW_vw_ServiceUser",
       "Incremental": false,
       "Source_Frequency_Folder": "",
       "Source_Filename_Format": "CaseInvolvement.csv",
@@ -1444,7 +1444,7 @@
       "Source_ID": 124,
       "Load_Enable_status": "True",
       "Source_Folder": "Horizon",
-      "Horizon_Table_Name":"Horizon_ODW_vw_FolderEntity",
+      "Horizon_Table_Name": "Horizon_ODW_vw_FolderEntity",
       "Incremental": false,
       "Source_Frequency_Folder": "",
       "Source_Filename_Format": "HorizonAppealsFolder.csv",
@@ -1462,7 +1462,7 @@
       "Source_ID": 125,
       "Load_Enable_status": "True",
       "Source_Folder": "Horizon",
-      "Horizon_Table_Name":"Horizon_ODW_vw_Event",
+      "Horizon_Table_Name": "Horizon_ODW_vw_Event",
       "Incremental": false,
       "Source_Frequency_Folder": "",
       "Source_Filename_Format": "HorizonAppealsEvent.csv",
@@ -1573,7 +1573,7 @@
       "Source_ID": 132,
       "Load_Enable_status": "True",
       "Source_Folder": "Horizon",
-      "Horizon_Table_Name":"S62AViewCaseDates",
+      "Horizon_Table_Name": "S62AViewCaseDates",
       "Incremental": false,
       "Source_Frequency_Folder": "",
       "Source_Filename_Format": "S62AViewCaseDates.csv",
@@ -1634,7 +1634,7 @@
       "Harmonised_Table_Name": "pins_lpa",
       "Harmonised_Incremental_Key": "LPAId",
       "Entity_Primary_Key": "ID",
-      "Harmonised_NoteBook":"pins_lpa"
+      "Harmonised_NoteBook": "pins_lpa"
     },
     {
       "Source_ID": 136,
@@ -1651,7 +1651,7 @@
       "Standardised_Table_Definition": "standardised_table_definitions/Horizon/DaRT_Inspectors.json",
       "Harmonised_Table_Name": "horizon_pins_inspector",
       "Entity_Primary_Key": "horizonId",
-      "Harmonised_NoteBook":"py_horizon_harmonised_pins_inspector"
+      "Harmonised_NoteBook": "py_horizon_harmonised_pins_inspector"
     },
     {
       "Source_ID": 137,
@@ -1962,8 +1962,8 @@
       "Harmonised_Table_Name": "sb_nsip_invoice",
       "Harmonised_Incremental_Key": "NSIPInvoiceID",
       "Entity_Primary_Key": "invoiceNumber"
-      },
-      {
+    },
+    {
       "Source_ID": 157,
       "Source_Folder": "ServiceBus",
       "Source_Frequency_Folder": "nsip-meeting",
@@ -1975,8 +1975,8 @@
       "Harmonised_Table_Name": "sb_nsip_meeting",
       "Harmonised_Incremental_Key": "NSIPmeetingID",
       "Entity_Primary_Key": "meetingID"
-      },
-      {
+    },
+    {
       "Source_ID": 158,
       "Load_Enable_status": "True",
       "Source_Folder": "Horizon",
@@ -1990,8 +1990,8 @@
       "Standardised_Table_Name": "horizon_appeal_grounds",
       "Standardised_Table_Definition": "standardised_table_definitions/Horizon/HorizonAppealGrounds.json",
       "Entity_Primary_Key": "groundsKey"
-      },
-      {
+    },
+    {
       "Source_ID": 159,
       "Load_Enable_status": "True",
       "Source_Folder": "Horizon",
@@ -2004,8 +2004,8 @@
       "Standardised_Path": "Horizon",
       "Standardised_Table_Name": "horizon_notice_dates",
       "Standardised_Table_Definition": "standardised_table_definitions/Horizon/HorizonNoticeDates.json"
-      },
-      {
+    },
+    {
       "Source_ID": 160,
       "Load_Enable_status": "True",
       "Source_Folder": "Horizon",
@@ -2018,8 +2018,8 @@
       "Standardised_Path": "Horizon",
       "Standardised_Table_Name": "horizon_application_made_under_section",
       "Standardised_Table_Definition": "standardised_table_definitions/Horizon/HorizonApplicationMadeUnderSection.json"
-      },
-      {
+    },
+    {
       "Source_ID": 161,
       "Source_Folder": "ServiceBus",
       "Source_Frequency_Folder": "application-update",
@@ -2032,7 +2032,48 @@
       "Harmonised_Incremental_Key": "ApplicationUpdateID",
       "Entity_Primary_Key": "id",
       "odw_curated_table_creation_enabled": false
-      }
-      
+    },
+    {
+      "Source_ID": 162,
+      "Source_Folder": "ServiceBus",
+      "Source_Frequency_Folder": "applications-notify-email",
+      "Source_Filename_Format": "applications-notify-email.csv",
+      "Source_Filename_Start": "applications-notify-email",
+      "Expected_Within_Weekdays": 1,
+      "Standardised_Path": "",
+      "Standardised_Table_Name": "sb_applications_notify_email",
+      "Harmonised_Table_Name": "sb_applications_notify_email",
+      "Harmonised_Incremental_Key": "notify_email_id",
+      "Entity_Primary_Key": "id",
+      "odw_curated_table_creation_enabled": true
+    },
+    {
+      "Source_ID": 163,
+      "Source_Folder": "ServiceBus",
+      "Source_Frequency_Folder": "applications-representation",
+      "Source_Filename_Format": "applications-representation.csv",
+      "Source_Filename_Start": "applications-representation",
+      "Expected_Within_Weekdays": 1,
+      "Standardised_Path": "",
+      "Standardised_Table_Name": "sb_applications_representation",
+      "Harmonised_Table_Name": "sb_applications_representation",
+      "Harmonised_Incremental_Key": "representation_id",
+      "Entity_Primary_Key": "id",
+      "odw_curated_table_creation_enabled": true
+    },
+    {
+      "Source_ID": 164,
+      "Source_Folder": "ServiceBus",
+      "Source_Frequency_Folder": "applications-representation-document",
+      "Source_Filename_Format": "applications-representation-document.csv",
+      "Source_Filename_Start": "applications-representation-document",
+      "Expected_Within_Weekdays": 1,
+      "Standardised_Path": "",
+      "Standardised_Table_Name": "sb_applications_representation_document",
+      "Harmonised_Table_Name": "sb_applications_representation_document",
+      "Harmonised_Incremental_Key": "representation_document_id",
+      "Entity_Primary_Key": "id",
+      "odw_curated_table_creation_enabled": true
+    }
   ]
 }
