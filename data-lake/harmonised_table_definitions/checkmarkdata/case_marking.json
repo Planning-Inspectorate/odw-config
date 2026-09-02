@@ -26,6 +26,7 @@
     { "name": "structure_reasoning_detail", "type": "INTEGER", "constraints": "NULL" },
     { "name": "timeliness_mark", "type": "BOOLEAN", "constraints": "NULL" },
     { "name": "reading_complete_notification_needed", "type": "BOOLEAN", "constraints": "NULL" },
+    { "name": "costs_mark", "type": "BOOLEAN", "constraints": "NULL" },
     { "name": "IngestionDate", "type": "timestamp", "constraints": false },
     { "name": "RowID", "type": "string", "constraints": false }
   ]
