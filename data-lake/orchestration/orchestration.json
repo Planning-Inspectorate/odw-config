@@ -2032,7 +2032,49 @@
       "Harmonised_Incremental_Key": "ApplicationUpdateID",
       "Entity_Primary_Key": "id",
       "odw_curated_table_creation_enabled": false
-      }
+      },
+      {
+      "Source_ID": 162,
+      "Source_Folder": "ServiceBus",
+      "Source_Frequency_Folder": "applications-notify-email",
+      "Source_Filename_Format": "applications-notify-email.csv",
+      "Source_Filename_Start": "applications-notify-email",
+      "Expected_Within_Weekdays": 1,
+      "Standardised_Path": "",
+      "Standardised_Table_Name": "sb_applications_notify_email",
+      "Harmonised_Table_Name": "sb_applications_notify_email",
+      "Harmonised_Incremental_Key": "notify_email_id",
+      "Entity_Primary_Key": "id",
+      "odw_curated_table_creation_enabled": true
+    },
+    {
+      "Source_ID": 163,
+      "Source_Folder": "ServiceBus",
+      "Source_Frequency_Folder": "applications-representation",
+      "Source_Filename_Format": "applications-representation.csv",
+      "Source_Filename_Start": "applications-representation",
+      "Expected_Within_Weekdays": 1,
+      "Standardised_Path": "",
+      "Standardised_Table_Name": "sb_applications_representation",
+      "Harmonised_Table_Name": "sb_applications_representation",
+      "Harmonised_Incremental_Key": "representation_id",
+      "Entity_Primary_Key": "id",
+      "odw_curated_table_creation_enabled": true
+    },
+    {
+      "Source_ID": 164,
+      "Source_Folder": "ServiceBus",
+      "Source_Frequency_Folder": "applications-representation-document",
+      "Source_Filename_Format": "applications-representation-document.csv",
+      "Source_Filename_Start": "applications-representation-document",
+      "Expected_Within_Weekdays": 1,
+      "Standardised_Path": "",
+      "Standardised_Table_Name": "sb_applications_representation_document",
+      "Harmonised_Table_Name": "sb_applications_representation_document",
+      "Harmonised_Incremental_Key": "representation_document_id",
+      "Entity_Primary_Key": "id",
+      "odw_curated_table_creation_enabled": true
+    }
       
   ]
 }

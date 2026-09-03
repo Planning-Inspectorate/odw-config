@@ -261,6 +261,39 @@
       ],
       "processing_enabled": true,
       "has_horizon_dependency": true
+    },
+    {
+      "entity_name": "applications-notify-email",
+      "raw_entity_path": "ServiceBus/applications-notify-email/",
+      "standardised_table": "sb_applications_notify_email",
+      "sb_harmonised_table": "sb_applications_notify_email",
+      "harmonised_table": "applications_notify_email",
+      "primary_key": "id",
+      "harmonised_incremental_key": "notify_email_id",
+      "watermark_column": "message_enqueued_time_utc",
+      "run_raw_to_std": false,
+      "run_std_to_hrm": false,
+      "custom_harmonised_notebooks": ["py_sb_harmonised_applications_notify_email"],
+      "processing_enabled": false,
+      "has_horizon_dependency": false
+    },
+    {
+      "entity_name": "application-representation",
+      "raw_entity_path": "ServiceBus/application-representation/",
+      "standardised_table": "sb_application_representation",
+      "sb_harmonised_table": "sb_application_representation",
+      "harmonised_table": "sb_application_representation",
+      "primary_key": "id",
+      "harmonised_incremental_key": "representation_id",
+      "watermark_column": "message_enqueued_time_utc",
+      "run_raw_to_std": false,
+      "run_std_to_hrm": false,
+      "custom_harmonised_notebooks": [
+      "py_sb_harmonised_applications_representation",
+      "py_sb_harmonised_applications_representation-document"
+    ],
+      "processing_enabled": false,
+      "has_horizon_dependency": false
     }
   ]
 }
