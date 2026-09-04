@@ -40,6 +40,7 @@
     { "name": "structure_reasoning_mark", "type": "string", "constraints": false },
     { "name": "structure_reasoning_detail", "type": "string", "constraints": false },
     { "name": "timeliness_mark", "type": "string", "constraints": false },
-    { "name": "reading_complete_notification_needed", "type": "string", "constraints": false }
+    { "name": "reading_complete_notification_needed", "type": "string", "constraints": false },
+    { "name": "costs_mark", "type": "string", "constraints": false }
   ]
 }
