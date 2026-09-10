@@ -521,6 +521,13 @@
             },
             {
                 "database_name": "odw_standardised_db",
+                "table_name": "sb_applications_crowndev_application",
+                "table_format": "delta",
+                "table_type": "EXTERNAL",
+                "table_location": "abfss://odw-standardised@{DATA_LAKE_NAME}.dfs.core.windows.net/sb_applications_crowndev_application"
+            },
+            {
+                "database_name": "odw_standardised_db",
                 "table_name": "sb_nsip_representation",
                 "table_format": "delta",
                 "table_type": "EXTERNAL",
@@ -1055,6 +1062,13 @@
                 "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-harmonised@{DATA_LAKE_NAME}.dfs.core.windows.net/sb_applications_representation"
             },
+            {
+                "database_name": "odw_harmonised_db",
+                "table_name": "sb_applications_crowndev_application",
+                "table_format": "delta",
+                "table_type": "EXTERNAL",
+                "table_location": "abfss://odw-harmonised@{DATA_LAKE_NAME}.dfs.core.windows.net/sb_applications_crowndev_application"
+            }
             {
                 "database_name": "odw_harmonised_db",
                 "table_name": "sb_service_user",

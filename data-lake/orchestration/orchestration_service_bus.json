@@ -294,6 +294,21 @@
     ],
       "processing_enabled": false,
       "has_horizon_dependency": false
+    },
+    {
+      "entity_name": "applications-crowndev-application",
+      "raw_entity_path": "ServiceBus/applications-crowndev-application/",
+      "standardised_table": "sb_applications_crowndev_application",
+      "sb_harmonised_table": "sb_applications_crowndev_application",
+      "harmonised_table": "sb_applications_crowndev_application",
+      "primary_key": "id",
+      "harmonised_incremental_key": "crowndev_application_id",
+      "watermark_column": "message_enqueued_time_utc",
+      "run_raw_to_std": true,
+      "run_std_to_hrm": true,
+      "custom_harmonised_notebooks": [],
+      "processing_enabled": false,
+      "has_horizon_dependency": false
     }
   ]
 }
