@@ -182,11 +182,11 @@
       "has_horizon_dependency": false
     },
     {
-      "entity_name": "application-update",
-      "raw_entity_path": "ServiceBus/application-update/",
-      "standardised_table": "sb_application_update",
-      "sb_harmonised_table": "sb_application_update",
-      "harmonised_table": "application_update",
+      "entity_name": "applications-application-update",
+      "raw_entity_path": "ServiceBus/applications-application-update/",
+      "standardised_table": "sb_applications_application_update",
+      "sb_harmonised_table": "sb_applications_application_update",
+      "harmonised_table": "applications_application_update",
       "primary_key": "id",
       "harmonised_incremental_key": "ApplicationUpdateID",
       "watermark_column": "message_enqueued_time_utc",
