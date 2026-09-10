@@ -2074,6 +2074,20 @@
       "Harmonised_Incremental_Key": "representation_document_id",
       "Entity_Primary_Key": "id",
       "odw_curated_table_creation_enabled": true
+    },
+    {
+      "Source_ID": 165,
+      "Source_Folder": "ServiceBus",
+      "Source_Frequency_Folder": "applications-crowndev-application",
+      "Source_Filename_Format": "applications-crowndev-application.csv",
+      "Source_Filename_Start": "applications-crowndev-application",
+      "Expected_Within_Weekdays": 1,
+      "Standardised_Path": "",
+      "Standardised_Table_Name": "sb_applications_crowndev_application",
+      "Harmonised_Table_Name": "sb_applications_crowndev_application",
+      "Harmonised_Incremental_Key": "crowndev_application_id",
+      "Entity_Primary_Key": "id",
+      "odw_curated_table_creation_enabled": false
     }
       
   ]
