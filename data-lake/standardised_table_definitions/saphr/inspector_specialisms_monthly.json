@@ -41,6 +41,11 @@
             "nullable": true
         },
         {
+            "name": "professionalMemberships",
+            "type": "string",
+            "nullable": true
+        },
+        {
             "name": "ValidFrom",
             "type": "string",
             "nullable": true
