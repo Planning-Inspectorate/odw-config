@@ -1649,10 +1649,10 @@
             },
             {
                 "database_name": "odw_curated_db",
-                "table_name": "applications_notify_email",
+                "table_name": "applications_notify_email_fact",
                 "table_format": "parquet",
                 "table_type": "EXTERNAL",
-                "table_location": "abfss://odw-curated@{DATA_LAKE_NAME}.dfs.core.windows.net/applications_notify_email"
+                "table_location": "abfss://odw-curated@{DATA_LAKE_NAME}.dfs.core.windows.net/applications_notify_email_fact"
             },
             {
                 "database_name": "odw_curated_db",
