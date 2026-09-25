@@ -271,10 +271,10 @@
       "primary_key": "id",
       "harmonised_incremental_key": "notify_email_id",
       "watermark_column": "message_enqueued_time_utc",
-      "run_raw_to_std": false,
-      "run_std_to_hrm": false,
+      "run_raw_to_std": true,
+      "run_std_to_hrm": true,
       "custom_harmonised_notebooks": ["py_sb_harmonised_applications_notify_email"],
-      "processing_enabled": false,
+      "processing_enabled": true,
       "has_horizon_dependency": false
     },
     {
@@ -286,13 +286,13 @@
       "primary_key": "id",
       "harmonised_incremental_key": "representation_id",
       "watermark_column": "message_enqueued_time_utc",
-      "run_raw_to_std": false,
-      "run_std_to_hrm": false,
+      "run_raw_to_std": true,
+      "run_std_to_hrm": true,
       "custom_harmonised_notebooks": [
       "py_sb_harmonised_applications_representation",
-      "py_sb_harmonised_applications_representation-document"
+      "py_sb_harmonised_applications_representation_document"
     ],
-      "processing_enabled": false,
+      "processing_enabled": true,
       "has_horizon_dependency": false
     }
   ]
