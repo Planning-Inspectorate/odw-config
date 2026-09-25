@@ -2022,13 +2022,13 @@
       {
       "Source_ID": 161,
       "Source_Folder": "ServiceBus",
-      "Source_Frequency_Folder": "application-update",
-      "Source_Filename_Format": "application-update.csv",
-      "Source_Filename_Start": "application-update",
+      "Source_Frequency_Folder": "applications-application-update",
+      "Source_Filename_Format": "applications-application-update.csv",
+      "Source_Filename_Start": "applications-application-update",
       "Expected_Within_Weekdays": 1,
       "Standardised_Path": "",
-      "Standardised_Table_Name": "sb_application_update",
-      "Harmonised_Table_Name": "sb_application_update",
+      "Standardised_Table_Name": "sb_applications_application_update",
+      "Harmonised_Table_Name": "sb_applications_application_update",
       "Harmonised_Incremental_Key": "ApplicationUpdateID",
       "Entity_Primary_Key": "id",
       "odw_curated_table_creation_enabled": true
@@ -2058,20 +2058,6 @@
       "Standardised_Table_Name": "sb_applications_representation",
       "Harmonised_Table_Name": "sb_applications_representation",
       "Harmonised_Incremental_Key": "representation_id",
-      "Entity_Primary_Key": "id",
-      "odw_curated_table_creation_enabled": true
-    },
-    {
-      "Source_ID": 164,
-      "Source_Folder": "ServiceBus",
-      "Source_Frequency_Folder": "applications-representation-document",
-      "Source_Filename_Format": "applications-representation-document.csv",
-      "Source_Filename_Start": "applications-representation-document",
-      "Expected_Within_Weekdays": 1,
-      "Standardised_Path": "",
-      "Standardised_Table_Name": "sb_applications_representation_document",
-      "Harmonised_Table_Name": "sb_applications_representation_document",
-      "Harmonised_Incremental_Key": "representation_document_id",
       "Entity_Primary_Key": "id",
       "odw_curated_table_creation_enabled": true
     }
