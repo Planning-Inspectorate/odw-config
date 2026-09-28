@@ -278,11 +278,11 @@
       "has_horizon_dependency": false
     },
     {
-      "entity_name": "application-representation",
-      "raw_entity_path": "ServiceBus/application-representation/",
-      "standardised_table": "sb_application_representation",
-      "sb_harmonised_table": "sb_application_representation",
-      "harmonised_table": "sb_application_representation",
+      "entity_name": "applications-representation",
+      "raw_entity_path": "ServiceBus/applications-representation/",
+      "standardised_table": "sb_applications_representation",
+      "sb_harmonised_table": "sb_applications_representation",
+      "harmonised_table": "sb_applications_representation",
       "primary_key": "id",
       "harmonised_incremental_key": "representation_id",
       "watermark_column": "message_enqueued_time_utc",
