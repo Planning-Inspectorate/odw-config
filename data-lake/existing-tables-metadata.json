@@ -521,6 +521,13 @@
             },
             {
                 "database_name": "odw_standardised_db",
+                "table_name": "sb_applications_crowndev_application",
+                "table_format": "delta",
+                "table_type": "EXTERNAL",
+                "table_location": "abfss://odw-standardised@{DATA_LAKE_NAME}.dfs.core.windows.net/sb_applications_crowndev_application"
+            },
+            {
+                "database_name": "odw_standardised_db",
                 "table_name": "sb_nsip_representation",
                 "table_format": "delta",
                 "table_type": "EXTERNAL",
@@ -1061,6 +1068,13 @@
                 "table_format": "delta",
                 "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-harmonised@{DATA_LAKE_NAME}.dfs.core.windows.net/applications_representation_document"
+            },
+            {
+                "database_name": "odw_harmonised_db",
+                "table_name": "sb_applications_crowndev_application",
+                "table_format": "delta",
+                "table_type": "EXTERNAL",
+                "table_location": "abfss://odw-harmonised@{DATA_LAKE_NAME}.dfs.core.windows.net/sb_applications_crowndev_application"
             },
             {
                 "database_name": "odw_harmonised_db",
@@ -1674,6 +1688,13 @@
                 "table_format": "parquet",
                 "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-curated@{DATA_LAKE_NAME}.dfs.core.windows.net/applications_representation_document_fact"
+            },
+            {
+                "database_name": "odw_curated_db",
+                "table_name": "applications_crowndev_application_fact",
+                "table_format": "parquet",
+                "table_type": "EXTERNAL",
+                "table_location": "abfss://odw-curated@{DATA_LAKE_NAME}.dfs.core.windows.net/applications_crowndev_application_fact"
             }
         ]
     },
