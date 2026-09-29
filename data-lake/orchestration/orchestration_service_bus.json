@@ -307,7 +307,7 @@
       "run_raw_to_std": true,
       "run_std_to_hrm": true,
       "custom_harmonised_notebooks": ["py_sb_harmonised_applications_crowndev_application"],
-      "processing_enabled": true,
+      "processing_enabled": false,
       "has_horizon_dependency": false
     }
   ]
