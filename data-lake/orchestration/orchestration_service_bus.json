@@ -279,7 +279,7 @@
     },
     {
       "entity_name": "applications-representation",
-      "raw_entity_path": "ServiceBus/applications_representation/",
+      "raw_entity_path": "ServiceBus/applications-representation/",
       "standardised_table": "sb_applications_representation",
       "sb_harmonised_table": "sb_applications_representation",
       "harmonised_table": "sb_applications_representation",
