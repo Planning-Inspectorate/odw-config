@@ -108,6 +108,30 @@ stages:
         TargetFolder: '$(target_folder)'
 
     - script: |
+        set -euo pipefail
+        metadata_file='$(Build.ArtifactStagingDirectory)/existing-tables-metadata.json'
+        expected_account='$(DATA_LAKE_STORAGE)'
+
+        if [ ! -f "$metadata_file" ]; then
+          echo "ERROR: staged metadata file not found: $metadata_file"
+          exit 1
+        fi
+
+        if grep -Fq '{DATA_LAKE_NAME}' "$metadata_file"; then
+          echo 'ERROR: DATA_LAKE_NAME placeholder remains in staged metadata'
+          exit 1
+        fi
+
+        expected_location="abfss://odw-harmonised@${expected_account}.dfs.core.windows.net/sb_nsip_invoice"
+        if ! grep -Fq "$expected_location" "$metadata_file"; then
+          echo "ERROR: expected table location was not found: $expected_location"
+          exit 1
+        fi
+
+        echo "Verified staged metadata location: $expected_location"
+      displayName: 'Verify metadata substitution'
+
+    - script: |
         echo 'Listing files...'
         ls -R '$(Build.ArtifactStagingDirectory)'
 
