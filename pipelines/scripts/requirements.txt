@@ -1,1 +1,2 @@
 git+https://github.com/Planning-Inspectorate/odw-synapse-workspace.git@main
+PyYAML

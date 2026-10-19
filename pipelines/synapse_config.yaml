@@ -95,9 +95,11 @@ stages:
       displayName: 'Substitute resource references'
 
     - script: |
-        set -e
-        python3 -m pip install -r pipelines/scripts/requirements.txt
-        python3 pipelines/scripts/validate_transformation_config.py
+        set -euo pipefail
+        validation_venv='$(Agent.TempDirectory)/odw-config-validation-$(Build.BuildId)'
+        python3 -m venv "$validation_venv"
+        "$validation_venv/bin/python" -m pip install -r pipelines/scripts/requirements.txt
+        "$validation_venv/bin/python" pipelines/scripts/validate_transformation_config.py
       displayName: 'Validate transformation config'
 
     - task: CopyFiles@2
