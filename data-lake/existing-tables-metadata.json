@@ -1717,6 +1717,13 @@
                 "table_format": "parquet",
                 "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-curated@{DATA_LAKE_NAME}.dfs.core.windows.net/address_dim"
+            },
+            {
+                "database_name": "odw_curated_db",
+                "table_name": "live_dim_date",
+                "table_format": "parquet",
+                "table_type": "EXTERNAL",
+                "table_location": "abfss://odw-curated@{DATA_LAKE_NAME}.dfs.core.windows.net/live_dim_date"
             }
         ]
     },
