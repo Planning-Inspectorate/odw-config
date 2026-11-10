@@ -1342,6 +1342,14 @@
                 "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-harmonised@{DATA_LAKE_NAME}.dfs.core.windows.net/sb_nsip_invoice"
             }
+            ,
+            {
+                "database_name": "odw_harmonised_db",
+                "table_name": "address_dim",
+                "table_format": "delta",
+                "table_type": "EXTERNAL",
+                "table_location": "abfss://odw-harmonised@{DATA_LAKE_NAME}.dfs.core.windows.net/address_dim"
+            }
         ]
     },
     {
@@ -1702,6 +1710,13 @@
                 "table_format": "parquet",
                 "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-curated@{DATA_LAKE_NAME}.dfs.core.windows.net/applications_crowndev_application_fact"
+            },
+            {
+                "database_name": "odw_curated_db",
+                "table_name": "address_dim",
+                "table_format": "parquet",
+                "table_type": "EXTERNAL",
+                "table_location": "abfss://odw-curated@{DATA_LAKE_NAME}.dfs.core.windows.net/address_dim"
             }
         ]
     },
