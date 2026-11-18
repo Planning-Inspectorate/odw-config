@@ -291,7 +291,7 @@
       "custom_harmonised_notebooks": [
       "py_sb_harmonised_applications_representation",
       "py_sb_harmonised_applications_representation_document"
-    ],
+      ],
       "processing_enabled": true,
       "has_horizon_dependency": false
     },
