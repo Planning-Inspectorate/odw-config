@@ -2074,6 +2074,19 @@
       "Harmonised_Incremental_Key": "crowndev_application_id",
       "Entity_Primary_Key": "id",
       "odw_curated_table_creation_enabled": false
+    },
+    {
+      "Source_ID": 165,
+      "Source_Folder": "ServiceBus",
+      "Source_Frequency_Folder": "appeal-group-c",
+      "Source_Filename_Format": "appeal-group-c.csv",
+      "Source_Filename_Start": "appeal-group-c",
+      "Expected_Within_Weekdays": 1,
+      "Standardised_Path": "",
+      "Standardised_Table_Name": "sb_appeal_group_c",
+      "Harmonised_Table_Name": "sb_appeal_group_c",
+      "Harmonised_Incremental_Key": "AppealsGroupcID",
+      "Entity_Primary_Key": "caseReference"
     }
       
   ]
