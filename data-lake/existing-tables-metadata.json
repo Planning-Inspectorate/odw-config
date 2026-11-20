@@ -1349,6 +1349,20 @@
                 "table_format": "delta",
                 "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-harmonised@{DATA_LAKE_NAME}.dfs.core.windows.net/address_dim"
+            },
+            {
+                "database_name": "odw_harmonised_db",
+                "table_name": "casework_fact",
+                "table_format": "delta",
+                "table_type": "EXTERNAL",
+                "table_location": "abfss://odw-harmonised@{DATA_LAKE_NAME}.dfs.core.windows.net/casework_fact"
+            },
+            {
+                "database_name": "odw_harmonised_db",
+                "table_name": "crowndev_contact",
+                "table_format": "delta",
+                "table_type": "EXTERNAL",
+                "table_location": "abfss://odw-harmonised@{DATA_LAKE_NAME}.dfs.core.windows.net/crowndev_contact"
             }
         ]
     },
@@ -1724,6 +1738,20 @@
                 "table_format": "parquet",
                 "table_type": "EXTERNAL",
                 "table_location": "abfss://odw-curated@{DATA_LAKE_NAME}.dfs.core.windows.net/live_dim_date"
+            },
+            {
+                "database_name": "odw_curated_db",
+                "table_name": "casework_fact",
+                "table_format": "parquet",
+                "table_type": "EXTERNAL",
+                "table_location": "abfss://odw-curated@{DATA_LAKE_NAME}.dfs.core.windows.net/casework_fact"
+            },
+            {
+                "database_name": "odw_curated_db",
+                "table_name": "crowndev_contact",
+                "table_format": "parquet",
+                "table_type": "EXTERNAL",
+                "table_location": "abfss://odw-curated@{DATA_LAKE_NAME}.dfs.core.windows.net/crowndev_contact"
             }
         ]
     },
