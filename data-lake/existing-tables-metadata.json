@@ -1765,6 +1765,7 @@
                 "table_location": "abfss://odw-curated@{DATA_LAKE_NAME}.dfs.core.windows.net/appeal_group_c_curated_mipins"
             },
             {
+                "database_name": "odw_curated_db",
                 "table_name": "casework_fact",
                 "table_format": "parquet",
                 "table_type": "EXTERNAL",
