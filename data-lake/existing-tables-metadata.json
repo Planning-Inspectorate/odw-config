@@ -1366,6 +1366,13 @@
             },
             {
                 "database_name": "odw_harmonised_db",
+                "table_name": "appeal_group_c",
+                "table_format": "delta",
+                "table_type": "EXTERNAL",
+                "table_location": "abfss://odw-harmonised@{DATA_LAKE_NAME}.dfs.core.windows.net/appeal_group_c"
+            },
+            {
+                "database_name": "odw_harmonised_db",
                 "table_name": "casework_fact",
                 "table_format": "delta",
                 "table_type": "EXTERNAL",
