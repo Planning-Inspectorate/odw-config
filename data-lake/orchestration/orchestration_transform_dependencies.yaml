@@ -219,3 +219,229 @@ entities:
         entity_name: nsip-subscription
       depends_on:
       - nsip-subscription.service_bus_harmonised
+  appeal-document:
+    service_bus_standardised:
+      kwargs:
+        etl_process_name: Service Bus Standardisation Process
+        entity_name: appeal-document
+      depends_on: []
+    service_bus_harmonised:
+      kwargs:
+        etl_process_name: Service Bus Harmonisation Process
+        entity_name: appeal-document
+      depends_on:
+        - appeal-document.service_bus_standardised
+    harmonised:
+      kwargs:
+        etl_process_name: Appeal Document Harmonisation Process
+        entity_name: appeal-document
+      depends_on:
+        - appeal-document.service_bus_harmonised
+    curated:
+      kwargs:
+        etl_process_name: Appeal Document Curation Process
+        entity_name: appeal-document
+      depends_on:
+        - appeal-document.harmonised
+        - nsip-project.curated
+  appeal-event:
+    service_bus_standardised:
+      kwargs:
+        etl_process_name: Service Bus Standardisation Process
+        entity_name: appeal-event
+      depends_on: []
+    service_bus_harmonised:
+      kwargs:
+        etl_process_name: Service Bus Harmonisation Process
+        entity_name: appeal-event
+      depends_on:
+        - appeal-event.service_bus_standardised
+    harmonised:
+      kwargs:
+        etl_process_name: Appeal Event Harmonisation Process
+        entity_name: appeal-event
+      depends_on:
+        - appeal-event.service_bus_harmonised
+    curated:
+      kwargs:
+        etl_process_name: Appeal Event Curation Process
+        entity_name: appeal-event
+      depends_on:
+        - appeal-event.harmonised
+        - nsip-project.curated
+  appeal-event-estimate:
+    service_bus_standardised:
+      kwargs:
+        etl_process_name: Service Bus Standardisation Process
+        entity_name: appeal-event-estimate
+      depends_on: []
+    service_bus_harmonised:
+      kwargs:
+        etl_process_name: Service Bus Harmonisation Process
+        entity_name: appeal-event-estimate
+      depends_on:
+        - appeal-event-estimate.service_bus_standardised
+    curated:
+      kwargs:
+        etl_process_name: Appeal Event Estimate Curation Process
+        entity_name: appeal-event-estimate
+      depends_on:
+        - appeal-event-estimate.service_bus_harmonised
+        - nsip-project.curated
+  appeal-has:
+    standardised:
+      kwargs:
+        etl_process_name: Appeal HAS Standardisation Process
+        entity_name: appeal-has
+      depends_on: []
+    service_bus_standardised:
+      kwargs:
+        etl_process_name: Service Bus Standardisation Process
+        entity_name: appeal-has
+      depends_on: []
+    service_bus_harmonised:
+      kwargs:
+        etl_process_name: Service Bus Harmonisation Process
+        entity_name: appeal-has
+      depends_on:
+        - appeal-has.service_bus_standardised
+    harmonised:
+      kwargs:
+        etl_process_name: Appeal HAS Harmonisation Process
+        entity_name: appeal-has
+      depends_on:
+        - appeal-has.standardised
+        - appeal-has.service_bus_harmonised
+    curated:
+      kwargs:
+        etl_process_name: Appeal HAS Curation Process
+        entity_name: appeal-has
+      depends_on:
+        - appeal-has.harmonised
+        - nsip-project.curated
+  appeal-representation:
+    service_bus_standardised:
+      kwargs:
+        etl_process_name: Service Bus Standardisation Process
+        entity_name: appeal-representation
+      depends_on: []
+    service_bus_harmonised:
+      kwargs:
+        etl_process_name: Service Bus Harmonisation Process
+        entity_name: appeal-representation
+      depends_on:
+        - appeal-representation.service_bus_standardised
+    curated:
+      kwargs:
+        etl_process_name: Appeal Representation Curation Process
+        entity_name: appeal-representation
+      depends_on:
+        - appeal-representation.service_bus_harmonised
+        - nsip-project.curated
+  appeal-s78:
+    standardised:
+      kwargs:
+        etl_process_name: Appeal S78 Standardisation Process
+        entity_name: appeal-s78
+      depends_on: []
+    service_bus_standardised:
+      kwargs:
+        etl_process_name: Service Bus Standardisation Process
+        entity_name: appeal-s78
+      depends_on: []
+    service_bus_harmonised:
+      kwargs:
+        etl_process_name: Service Bus Harmonisation Process
+        entity_name: appeal-s78
+      depends_on:
+        - appeal-s78.service_bus_standardised
+    harmonised:
+      kwargs:
+        etl_process_name: Appeal S78 Harmonisation Process
+        entity_name: appeal-s78
+      depends_on:
+        - appeal-s78.standardised
+        - appeal-s78.service_bus_harmonised
+    curated:
+      kwargs:
+        etl_process_name: Appeal S78 Curation Process
+        entity_name: appeal-s78
+      depends_on:
+        - appeal-s78.harmonised
+  appeal-service-user:
+    harmonised:
+      kwargs:
+        etl_process_name: Appeal Service User Harmonisation Process
+        entity_name: appeal-service-user
+      depends_on:
+        - service-user.service_bus_harmonised
+    curated:
+      kwargs:
+        etl_process_name: Appeal Service User Curation Process
+        entity_name: appeal-service-user
+      depends_on:
+        - appeal-service-user.harmonised
+        - nsip-project.curated
+  appeals-folder:
+    harmonised:
+      kwargs:
+        etl_process_name: Appeals Folder Harmonisation Process
+        entity_name: appeals-folder
+      depends_on:
+        - folder.service_bus_harmonised
+    curated:
+      kwargs:
+        etl_process_name: Appeals Folder Curation Process
+        entity_name: appeals-folder
+      depends_on:
+        - appeals-folder.harmonised
+        - nsip-project.curated
+  service-user:
+    service_bus_standardised:
+      kwargs:
+        etl_process_name: Service Bus Standardisation Process
+        entity_name: service-user
+      depends_on: []
+    service_bus_harmonised:
+      kwargs:
+        etl_process_name: Service Bus Harmonisation Process
+        entity_name: service-user
+      depends_on:
+        - service-user.service_bus_standardised
+  entraid:
+    standardised:
+      kwargs:
+        etl_process_name: EntraID Standardisation Process
+        entity_name: entraid
+      depends_on: []
+    harmonised:
+      kwargs:
+        etl_process_name: EntraID Harmonisation Process
+        entity_name: entraid
+      depends_on:
+        - entraid.standardised
+    curated:
+      kwargs:
+        etl_process_name: EntraID Curation Process
+        entity_name: entraid
+      depends_on:
+        - entraid.harmonised
+  pins-inspector:
+    harmonised:
+      kwargs:
+        etl_process_name: PINS Inspector Harmonisation Process
+        entity_name: pins-inspector
+      depends_on:
+        - entraid.harmonised
+    curated:
+      kwargs:
+        etl_process_name: PINS Inspector Curation Process
+        entity_name: pins-inspector
+      depends_on:
+        - pins-inspector.harmonised
+  listed-building:
+    curated:
+      kwargs:
+        etl_process_name: Listed Building Curation Process
+        entity_name: listed-building
+      depends_on: []
