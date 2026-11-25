@@ -319,13 +319,13 @@
       "raw_entity_path": "ServiceBus/appeal-group-c/",
       "standardised_table": "sb_appeal_group_c",
       "sb_harmonised_table": "sb_appeal_group_c",
-      "harmonised_table": "sb_appeal_group_c",
+      "harmonised_table": "appeal_group_c",
       "primary_key": "caseReference",
       "harmonised_incremental_key": "AppealsGroupcID",
       "watermark_column": "message_enqueued_time_utc",
       "run_raw_to_std": true,
       "run_std_to_hrm": true,
-      "custom_harmonised_notebooks": [],
+      "custom_harmonised_notebooks": ["py_sb_harmonised_appeal_group_c"],
       "processing_enabled": true,
       "has_horizon_dependency": false
 
